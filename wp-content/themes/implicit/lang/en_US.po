@@ -1,0 +1,8327 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Implicit v1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-27 09:34-0500\n"
+"PO-Revision-Date: 2014-09-18 16:46:18+0000\n"
+"Last-Translator: Brian McCulloh <brianmcculloh@gmail.com>\n"
+"Language-Team: Industrial Themes <support@industrialthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:7
+#@ THEME_SLUG
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:16
+#@ THEME_SLUG
+msgid " Comments"
+msgstr ""
+
+#: comments.php:18
+#: functions/admin/core.php:637
+#: functions/theme.php:1051
+#: functions/theme.php:1248
+#@ THEME_SLUG
+msgid "Comments"
+msgstr ""
+
+#: comments.php:31
+#@ THEME_SLUG
+msgid "Leave a response "
+msgstr ""
+
+#: comments.php:63
+#@ THEME_SLUG
+msgid "You must"
+msgstr ""
+
+#: comments.php:63
+#@ THEME_SLUG
+msgid "log in"
+msgstr ""
+
+#: comments.php:63
+#@ THEME_SLUG
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:69
+#@ THEME_SLUG
+msgid "Additional Comments (optional)"
+msgstr ""
+
+#: comments.php:71
+#@ THEME_SLUG
+msgid "Comment"
+msgstr ""
+
+#: comments.php:74
+#: functions/admin/option-generator.php:944
+#: functions/admin/option-generator.php:1034
+#: functions/admin/option-generator.php:1119
+#: functions/admin/option-generator.php:1219
+#: functions/admin/option-generator.php:1380
+#@ THEME_SLUG
+msgid "Name"
+msgstr ""
+
+#: comments.php:75
+#@ THEME_SLUG
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:76
+#@ THEME_SLUG
+msgid "Website (optional)"
+msgstr ""
+
+#: comments.php:78
+#@ THEME_SLUG
+msgid "Leave a Response"
+msgstr ""
+
+#: comments.php:79
+#, php-format
+#@ THEME_SLUG
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:87
+#: functions/theme.php:505
+#@ THEME_SLUG
+msgid "Post"
+msgstr ""
+
+#: footer.php:3
+#: functions/theme.php:33
+#@ THEME_SLUG
+msgid "Footer Column 1"
+msgstr ""
+
+#: footer.php:4
+#: functions/theme.php:37
+#@ THEME_SLUG
+msgid "Footer Column 2"
+msgstr ""
+
+#: footer.php:5
+#: functions/theme.php:41
+#@ THEME_SLUG
+msgid "Footer Column 3"
+msgstr ""
+
+#: footer.php:67
+#@ THEME_SLUG
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:67
+#@ THEME_SLUG
+msgid "All Rights Reserved."
+msgstr ""
+
+#: footer.php:81
+#@ THEME_SLUG
+msgid "Fonts by"
+msgstr ""
+
+#: footer.php:81
+#@ THEME_SLUG
+msgid "Google Fonts"
+msgstr ""
+
+#: footer.php:81
+#@ THEME_SLUG
+msgid "Icons by"
+msgstr ""
+
+#: footer.php:81
+#@ THEME_SLUG
+msgid "Fontello"
+msgstr ""
+
+#: footer.php:81
+#@ THEME_SLUG
+msgid "Full Credits"
+msgstr ""
+
+#: footer.php:81
+#@ THEME_SLUG
+msgid "here &raquo;"
+msgstr ""
+
+#: functions/admin/core.php:684
+#: functions/admin/option-generator.php:2532
+#: functions/ajax.php:77
+#: functions/shortcodes/trending.php:10
+#: functions/shortcodes/trending.php:118
+#: functions/shortcodes/trending.php:237
+#: functions/widgets/widget-trending.php:24
+#: functions/widgets/widget-trending.php:119
+#@ THEME_SLUG
+msgid "Trending"
+msgstr ""
+
+#: functions/ajax.php:89
+#@ THEME_SLUG
+msgid "Sharing"
+msgstr ""
+
+#: functions/ajax.php:137
+#: functions/theme.php:1196
+#@ THEME_SLUG
+msgid " like"
+msgstr ""
+
+#: functions/ajax.php:139
+#: functions/theme.php:1195
+#@ THEME_SLUG
+msgid " likes"
+msgstr ""
+
+#: functions/ajax.php:446
+#: functions/widgets/widget-latest-articles.php:90
+#: functions/widgets/widget-sections.php:88
+#@ THEME_SLUG
+msgid "VIEW ALL"
+msgstr ""
+
+#: functions/core.php:214
+#@ THEME_SLUG
+msgid "Past Week"
+msgstr ""
+
+#: functions/core.php:217
+#@ THEME_SLUG
+msgid "Past Month"
+msgstr ""
+
+#: functions/core.php:220
+#@ THEME_SLUG
+msgid "Past 2 Months"
+msgstr ""
+
+#: functions/core.php:223
+#@ THEME_SLUG
+msgid "Past 3 Months"
+msgstr ""
+
+#: functions/core.php:226
+#@ THEME_SLUG
+msgid "Past 6 Months"
+msgstr ""
+
+#: functions/core.php:229
+#@ THEME_SLUG
+msgid "Past Year"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/core.php:232
+#: functions/widgets/widget-top-reviewed.php:176
+#: functions/widgets/widget-top-ten.php:228
+#: functions/widgets/widget-trending.php:171
+#@ THEME_SLUG
+msgid "All Time"
+msgstr ""
+
+#: functions/core.php:264
+#: functions/widgets/widget-list-paged.php:134
+#@ THEME_SLUG
+msgid "Most Recent"
+msgstr ""
+
+#: functions/core.php:269
+#: functions/shortcodes/topten.php:62
+#: functions/shortcodes/trending.php:62
+#: functions/widgets/widget-top-ten.php:46
+#: functions/widgets/widget-top-ten.php:52
+#@ THEME_SLUG
+msgid "Most Views"
+msgstr ""
+
+#: functions/core.php:274
+#: functions/shortcodes/topten.php:61
+#: functions/shortcodes/trending.php:61
+#: functions/widgets/widget-top-ten.php:56
+#@ THEME_SLUG
+msgid "Most Likes"
+msgstr ""
+
+#: functions/core.php:281
+#: functions/shortcodes/topten.php:63
+#: functions/shortcodes/trending.php:63
+#: functions/theme.php:1136
+#: functions/widgets/widget-top-ten.php:62
+#@ THEME_SLUG
+msgid "Best Reviewed"
+msgstr ""
+
+#: functions/core.php:288
+#: functions/shortcodes/topten.php:64
+#: functions/shortcodes/trending.php:64
+#: functions/theme.php:1145
+#: functions/widgets/widget-top-ten.php:69
+#@ THEME_SLUG
+msgid "Highest Rated"
+msgstr ""
+
+#: functions/core.php:293
+#: functions/widgets/widget-top-ten.php:73
+#@ THEME_SLUG
+msgid "Most Comments"
+msgstr ""
+
+#: functions/core.php:299
+#: functions/theme.php:1163
+#@ THEME_SLUG
+msgid "Recently Awarded"
+msgstr ""
+
+#: functions/core.php:541
+#, php-format
+#@ THEME_SLUG
+msgid "Page %s"
+msgstr ""
+
+#: functions/core.php:549
+#@ THEME_SLUG
+msgid "Section Menu"
+msgstr ""
+
+#: functions/core.php:549
+#@ THEME_SLUG
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions/admin/option-generator.php:2532
+#: functions/core.php:549
+#: functions/shortcodes/menu.php:10
+#: functions/shortcodes/menu.php:133
+#@ THEME_SLUG
+msgid "Utility Menu"
+msgstr ""
+
+#: functions/core.php:663
+#@ THEME_SLUG
+msgid "PAGES"
+msgstr ""
+
+#: functions/core.php:764
+#@ THEME_SLUG
+msgid "Enable SimpleXML and file_get_contents"
+msgstr ""
+
+#: functions/core.php:765
+#@ THEME_SLUG
+msgid "Enable SimpleXML and/or file_get_contents"
+msgstr ""
+
+#: functions/core.php:788
+#@ THEME_SLUG
+msgid "Enable Curl"
+msgstr ""
+
+#: functions/core.php:862
+#@ THEME_SLUG
+msgid "Social Profiles"
+msgstr ""
+
+#: functions/admin/core.php:693
+#: functions/admin/it-options.php:456
+#: functions/core.php:866
+#: functions/widgets/widget-social-tabs.php:38
+#@ THEME_SLUG
+msgid "Twitter"
+msgstr ""
+
+#: functions/core.php:870
+#@ THEME_SLUG
+msgid "Enter your Twitter username."
+msgstr ""
+
+#: functions/admin/core.php:719
+#: functions/admin/it-options.php:457
+#: functions/core.php:874
+#: functions/widgets/widget-social-tabs.php:40
+#@ THEME_SLUG
+msgid "Facebook"
+msgstr ""
+
+#: functions/core.php:878
+#@ THEME_SLUG
+msgid "Enter your Facebook username/alias."
+msgstr ""
+
+#: functions/admin/core.php:694
+#: functions/core.php:882
+#@ THEME_SLUG
+msgid "Google Plus"
+msgstr ""
+
+#: functions/core.php:886
+#@ THEME_SLUG
+msgid "Enter your Google Plus URL."
+msgstr ""
+
+#: functions/admin/core.php:697
+#: functions/core.php:890
+#@ THEME_SLUG
+msgid "LinkedIn"
+msgstr ""
+
+#: functions/core.php:894
+#@ THEME_SLUG
+msgid "Enter your LinkedIn username."
+msgstr ""
+
+#: functions/admin/core.php:695
+#: functions/core.php:898
+#: functions/widgets/widget-social-tabs.php:39
+#@ THEME_SLUG
+msgid "Pinterest"
+msgstr ""
+
+#: functions/core.php:902
+#@ THEME_SLUG
+msgid "Enter your Pinterest username."
+msgstr ""
+
+#: functions/admin/core.php:691
+#: functions/core.php:906
+#: functions/widgets/widget-social-tabs.php:41
+#@ THEME_SLUG
+msgid "Flickr"
+msgstr ""
+
+#: functions/core.php:910
+#@ THEME_SLUG
+msgid "Enter your Flickr username."
+msgstr ""
+
+#: functions/core.php:914
+#: functions/shortcodes/video.php:22
+#@ THEME_SLUG
+msgid "YouTube"
+msgstr ""
+
+#: functions/core.php:918
+#@ THEME_SLUG
+msgid "Enter your YouTube username."
+msgstr ""
+
+#: functions/admin/core.php:701
+#: functions/core.php:922
+#@ THEME_SLUG
+msgid "Instagram"
+msgstr ""
+
+#: functions/core.php:926
+#@ THEME_SLUG
+msgid "Enter your Instagram username."
+msgstr ""
+
+#: functions/admin/core.php:692
+#: functions/core.php:930
+#: functions/shortcodes/video.php:155
+#@ THEME_SLUG
+msgid "Vimeo"
+msgstr ""
+
+#: functions/core.php:934
+#@ THEME_SLUG
+msgid "Enter your Vimeo username."
+msgstr ""
+
+#: functions/admin/core.php:698
+#: functions/core.php:938
+#@ THEME_SLUG
+msgid "StumbleUpon"
+msgstr ""
+
+#: functions/core.php:942
+#@ THEME_SLUG
+msgid "Enter your StumbleUpon username."
+msgstr ""
+
+#: functions/loop.php:181
+#: functions/loop.php:236
+#: functions/loop.php:389
+#: functions/loop.php:522
+#@ THEME_SLUG
+msgid "REVIEW"
+msgstr ""
+
+#: functions/loop.php:411
+#: functions/loop.php:545
+#@ THEME_SLUG
+msgid "READ MORE"
+msgstr ""
+
+#: functions/loop.php:595
+#@ THEME_SLUG
+msgid "CONTINUE READING"
+msgstr ""
+
+#: functions/loop.php:694
+#@ THEME_SLUG
+msgid "Try a different filter"
+msgstr ""
+
+#: functions/reviews.php:166
+#: functions/theme.php:1043
+#: functions/theme.php:1048
+#@ THEME_SLUG
+msgid "Overview"
+msgstr ""
+
+#: functions/admin/meta-badges.php:3
+#: functions/admin/meta-badges.php:11
+#: functions/reviews.php:208
+#@ THEME_SLUG
+msgid "Badges"
+msgstr ""
+
+#: functions/admin/meta-awards.php:3
+#: functions/admin/meta-awards.php:11
+#: functions/reviews.php:214
+#@ THEME_SLUG
+msgid "Awards"
+msgstr ""
+
+#: functions/admin/meta-review.php:23
+#: functions/reviews.php:277
+#: functions/reviews.php:1098
+#: functions/reviews.php:1140
+#@ THEME_SLUG
+msgid "Positives"
+msgstr ""
+
+#: functions/admin/meta-review.php:28
+#: functions/reviews.php:278
+#: functions/reviews.php:1099
+#: functions/reviews.php:1141
+#@ THEME_SLUG
+msgid "Negatives"
+msgstr ""
+
+#: functions/admin/meta-review.php:33
+#: functions/reviews.php:322
+#@ THEME_SLUG
+msgid "Bottom Line"
+msgstr ""
+
+#: functions/reviews.php:397
+#@ THEME_SLUG
+msgid "Editor"
+msgstr ""
+
+#: functions/reviews.php:464
+#@ THEME_SLUG
+msgid "User"
+msgstr ""
+
+#: functions/reviews.php:693
+#: functions/reviews.php:1187
+#: functions/theme.php:1044
+#: functions/theme.php:1049
+#@ THEME_SLUG
+msgid "Rating"
+msgstr ""
+
+#: functions/reviews.php:694
+#@ THEME_SLUG
+msgid "Our Rating"
+msgstr ""
+
+#: functions/reviews.php:695
+#: functions/widgets/widget-top-reviewed.php:188
+#@ THEME_SLUG
+msgid "User Rating"
+msgstr ""
+
+#: functions/reviews.php:782
+#@ THEME_SLUG
+msgid "Rate Here"
+msgstr ""
+
+#: functions/reviews.php:965
+#@ THEME_SLUG
+msgid " ratings"
+msgstr ""
+
+#: functions/reviews.php:966
+#@ THEME_SLUG
+msgid " rating"
+msgstr ""
+
+#: functions/reviews.php:980
+#@ THEME_SLUG
+msgid "You have rated this"
+msgstr ""
+
+#: functions/reviews.php:1119
+#@ THEME_SLUG
+msgid "saved"
+msgstr ""
+
+#: functions/theme.php:13
+#: functions/theme.php:1939
+#: functions/theme.php:1975
+#: inc/page-content.php:3
+#@ THEME_SLUG
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions/theme.php:14
+#@ THEME_SLUG
+msgid "These widgets appear in the sidebar of the page content."
+msgstr ""
+
+#: functions/shortcodes/widgets.php:18
+#: functions/theme.php:17
+#@ THEME_SLUG
+msgid "Widgets Column 1"
+msgstr ""
+
+#: functions/theme.php:18
+#@ THEME_SLUG
+msgid "These widgets appear in the widgets column 1 which is available via the page builder."
+msgstr ""
+
+#: functions/shortcodes/widgets.php:19
+#: functions/theme.php:21
+#@ THEME_SLUG
+msgid "Widgets Column 2"
+msgstr ""
+
+#: functions/theme.php:22
+#@ THEME_SLUG
+msgid "These widgets appear in the widgets column 2 which is available via the page builder."
+msgstr ""
+
+#: functions/shortcodes/widgets.php:20
+#: functions/theme.php:25
+#@ THEME_SLUG
+msgid "Widgets Column 3"
+msgstr ""
+
+#: functions/theme.php:26
+#@ THEME_SLUG
+msgid "These widgets appear in the widgets column 3 which is available via the page builder."
+msgstr ""
+
+#: functions/theme.php:29
+#@ THEME_SLUG
+msgid "Connect Widgets"
+msgstr ""
+
+#: functions/theme.php:30
+#@ THEME_SLUG
+msgid "These widgets appear in the connect bar to the right of the email signup form."
+msgstr ""
+
+#: functions/theme.php:34
+#@ THEME_SLUG
+msgid "These widgets appear in the first footer column."
+msgstr ""
+
+#: functions/theme.php:38
+#@ THEME_SLUG
+msgid "These widgets appear in the second footer column."
+msgstr ""
+
+#: functions/theme.php:42
+#@ THEME_SLUG
+msgid "These widgets appear in the third footer column."
+msgstr ""
+
+#: functions/theme.php:49
+#: functions/theme.php:1940
+#: functions/theme.php:1976
+#: inc/page-content.php:135
+#@ THEME_SLUG
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions/theme.php:50
+#@ THEME_SLUG
+msgid "These widgets appear in the sidebar of the WooCommerce pages (if unique WooCommerce sidebars are turned on in the theme options)."
+msgstr ""
+
+#: functions/theme.php:57
+#: inc/page-content.php:117
+#@ THEME_SLUG
+msgid "BuddyPress Sidebar"
+msgstr ""
+
+#: functions/theme.php:58
+#@ THEME_SLUG
+msgid "These widgets appear in the sidebar of the BuddyPress pages (if unique BuddyPress sidebars are turned on in the theme options)."
+msgstr ""
+
+#: functions/theme.php:82
+#@ THEME_SLUG
+msgid " custom sidebar was created in the Theme Options"
+msgstr ""
+
+#: functions/theme.php:326
+#@ THEME_SLUG
+msgid "Email address"
+msgstr ""
+
+#: functions/theme.php:350
+#@ THEME_SLUG
+msgid "Posts Tagged &#8216;"
+msgstr ""
+
+#: functions/theme.php:352
+#: functions/theme.php:354
+#: functions/theme.php:356
+#@ THEME_SLUG
+msgid "Archive for "
+msgstr ""
+
+#: functions/theme.php:359
+#@ THEME_SLUG
+msgid "All posts by "
+msgstr ""
+
+#: functions/theme.php:361
+#@ THEME_SLUG
+msgid "Blog Archives"
+msgstr ""
+
+#: functions/theme.php:365
+#@ THEME_SLUG
+msgid "Search results for "
+msgstr ""
+
+#: functions/admin/core.php:668
+#: functions/theme.php:469
+#@ THEME_SLUG
+msgid "Previous"
+msgstr ""
+
+#: functions/theme.php:475
+#@ THEME_SLUG
+msgid "RANDOM"
+msgstr ""
+
+#: functions/admin/core.php:667
+#: functions/theme.php:480
+#@ THEME_SLUG
+msgid "Next"
+msgstr ""
+
+#: functions/theme.php:503
+#@ THEME_SLUG
+msgid "Share"
+msgstr ""
+
+#: functions/theme.php:504
+#@ THEME_SLUG
+msgid "Tweet"
+msgstr ""
+
+#: functions/theme.php:747
+#@ THEME_SLUG
+msgid "Click for full view"
+msgstr ""
+
+#: functions/theme.php:865
+#, php-format
+#@ THEME_SLUG
+msgid "View all posts in %s"
+msgstr ""
+
+#: functions/theme.php:987
+#@ THEME_SLUG
+msgid "by"
+msgstr ""
+
+#: functions/theme.php:997
+#@ THEME_SLUG
+msgid "on"
+msgstr ""
+
+#: functions/theme.php:1014
+#@ THEME_SLUG
+msgid "Load More"
+msgstr ""
+
+#: functions/theme.php:1038
+#@ THEME_SLUG
+msgid "Contents"
+msgstr ""
+
+#: functions/theme.php:1046
+#@ THEME_SLUG
+msgid "Full Article"
+msgstr ""
+
+#: functions/admin/meta-directory.php:69
+#: functions/theme.php:1118
+#@ THEME_SLUG
+msgid "Most Viewed"
+msgstr ""
+
+#: functions/admin/meta-directory.php:68
+#: functions/theme.php:1127
+#@ THEME_SLUG
+msgid "Most Liked"
+msgstr ""
+
+#: functions/admin/meta-directory.php:72
+#: functions/theme.php:1154
+#@ THEME_SLUG
+msgid "Most Commented"
+msgstr ""
+
+#: functions/theme.php:1172
+#@ THEME_SLUG
+msgid "Alphabetical By Title"
+msgstr ""
+
+#: functions/theme.php:1200
+#: functions/theme.php:1202
+#@ THEME_SLUG
+msgid "Likes"
+msgstr ""
+
+#: functions/theme.php:1222
+#@ THEME_SLUG
+msgid " views"
+msgstr ""
+
+#: functions/theme.php:1223
+#@ THEME_SLUG
+msgid " view"
+msgstr ""
+
+#: functions/theme.php:1225
+#@ THEME_SLUG
+msgid "Views"
+msgstr ""
+
+#: functions/theme.php:1244
+#@ THEME_SLUG
+msgid " comments"
+msgstr ""
+
+#: functions/theme.php:1245
+#@ THEME_SLUG
+msgid " comment"
+msgstr ""
+
+#: functions/theme.php:1279
+#@ THEME_SLUG
+msgid "Latest Article: "
+msgstr ""
+
+#: functions/theme.php:1319
+#@ THEME_SLUG
+msgid "All articles from this author"
+msgstr ""
+
+#: functions/theme.php:1371
+#@ THEME_SLUG
+msgid "What's your reaction?"
+msgstr ""
+
+#: functions/theme.php:1462
+#: functions/theme.php:1498
+#@ THEME_SLUG
+msgid "See all posts from this author"
+msgstr ""
+
+#: functions/theme.php:1480
+#@ THEME_SLUG
+msgid "Posted In"
+msgstr ""
+
+#: functions/theme.php:1484
+#@ THEME_SLUG
+msgid "Tags"
+msgstr ""
+
+#: functions/theme.php:1519
+#@ THEME_SLUG
+msgid "You Might Also Like"
+msgstr ""
+
+#: functions/theme.php:1545
+#: functions/theme.php:1581
+#@ THEME_SLUG
+msgid "More articles tagged: "
+msgstr ""
+
+#: functions/theme.php:1562
+#: functions/theme.php:1599
+#@ THEME_SLUG
+msgid "More articles filed under: "
+msgstr ""
+
+#: functions/theme.php:1649
+#: inc/sticky.php:150
+#@ THEME_SLUG
+msgid "LOGIN"
+msgstr ""
+
+#: functions/theme.php:1667
+#: inc/sticky.php:152
+#@ THEME_SLUG
+msgid "REGISTER"
+msgstr ""
+
+#: functions/theme.php:1680
+#@ THEME_SLUG
+msgid "ENTER YOUR E-MAIL"
+msgstr ""
+
+#: functions/theme.php:1684
+#@ THEME_SLUG
+msgid "Press enter to submit"
+msgstr ""
+
+#: functions/theme.php:1719
+#@ THEME_SLUG
+msgid "Twitter Followers"
+msgstr ""
+
+#: functions/theme.php:1733
+#@ THEME_SLUG
+msgid "Facebook Fans"
+msgstr ""
+
+#: functions/theme.php:1747
+#@ THEME_SLUG
+msgid "Google+ Followers"
+msgstr ""
+
+#: functions/theme.php:1762
+#@ THEME_SLUG
+msgid "Youtube Subscribers"
+msgstr ""
+
+#: functions/theme.php:1776
+#@ THEME_SLUG
+msgid "Pinterest Followers"
+msgstr ""
+
+#: functions/theme.php:1830
+#, php-format
+#@ THEME_SLUG
+msgid "%s"
+msgstr ""
+
+#: functions/theme.php:1832
+#, php-format
+#@ THEME_SLUG
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions/theme.php:1843
+#@ THEME_SLUG
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/theme.php:1860
+#@ THEME_SLUG
+msgid "Reply to this comment"
+msgstr ""
+
+#: functions/theme.php:1908
+#@ THEME_SLUG
+msgid "Find me on Twitter"
+msgstr ""
+
+#: functions/theme.php:1910
+#@ THEME_SLUG
+msgid "Find me on Facebook"
+msgstr ""
+
+#: functions/theme.php:1912
+#@ THEME_SLUG
+msgid "Find me on Google+"
+msgstr ""
+
+#: functions/theme.php:1914
+#@ THEME_SLUG
+msgid "Find me on LinkedIn"
+msgstr ""
+
+#: functions/theme.php:1916
+#@ THEME_SLUG
+msgid "Find me on Pinterest"
+msgstr ""
+
+#: functions/theme.php:1918
+#@ THEME_SLUG
+msgid "Find me on Flickr"
+msgstr ""
+
+#: functions/theme.php:1920
+#@ THEME_SLUG
+msgid "Find me on YouTube"
+msgstr ""
+
+#: functions/theme.php:1922
+#@ THEME_SLUG
+msgid "Find me on Instagram"
+msgstr ""
+
+#: functions/theme.php:1924
+#@ THEME_SLUG
+msgid "Find me on Vimeo"
+msgstr ""
+
+#: functions/theme.php:1926
+#@ THEME_SLUG
+msgid "Find me on StumbleUpon"
+msgstr ""
+
+#: functions/theme.php:1928
+#@ THEME_SLUG
+msgid "E-mail Me"
+msgstr ""
+
+#: functions/theme.php:1930
+#@ THEME_SLUG
+msgid "My Website"
+msgstr ""
+
+#: functions/admin/admin.php:145
+#@ THEME_SLUG
+msgid "OK got it! &raquo;"
+msgstr ""
+
+#: functions/admin/admin.php:152
+#, php-format
+#@ THEME_SLUG
+msgid "Your PHP version is too old, please upgrade to a newer version. Your version is %s, %s requires %s"
+msgstr ""
+
+#: functions/admin/admin.php:158
+#, php-format
+#@ THEME_SLUG
+msgid "%s is required to install %s. Please enable this function on your web server. "
+msgstr ""
+
+#: functions/admin/admin.php:191
+#, php-format
+#@ THEME_SLUG
+msgid "%1$s Error Messages"
+msgstr ""
+
+#: functions/admin/core.php:64
+#, php-format
+#@ THEME_SLUG
+msgid "Error: Sidebar &quot;%1$s&quot; not deleted, please try again."
+msgstr ""
+
+#: functions/admin/core.php:69
+#, php-format
+#@ THEME_SLUG
+msgid "Sidebar &quot;%1$s&quot; Deleted."
+msgstr ""
+
+#: functions/admin/core.php:89
+#, php-format
+#@ THEME_SLUG
+msgid "Error: Sidebar &quot;%1$s&quot; not saved, please try again."
+msgstr ""
+
+#: functions/admin/core.php:95
+#: functions/admin/core.php:107
+#, php-format
+#@ THEME_SLUG
+msgid "Sidebar &quot;%1$s&quot; Added."
+msgstr ""
+
+#: functions/admin/core.php:100
+#, php-format
+#@ THEME_SLUG
+msgid "Sidebar &quot;%1$s&quot; Already Exists."
+msgstr ""
+
+#: functions/admin/core.php:132
+#@ THEME_SLUG
+msgid "Error: Options not saved, please try again."
+msgstr ""
+
+#: functions/admin/core.php:137
+#: functions/admin/core.php:140
+#@ THEME_SLUG
+msgid " Total Options Saved."
+msgstr ""
+
+#: functions/admin/core.php:215
+#@ THEME_SLUG
+msgid "Choose One..."
+msgstr ""
+
+#: functions/admin/core.php:216
+#@ THEME_SLUG
+msgid "Happy"
+msgstr ""
+
+#: functions/admin/core.php:217
+#@ THEME_SLUG
+msgid "Glad"
+msgstr ""
+
+#: functions/admin/core.php:218
+#@ THEME_SLUG
+msgid "Elated"
+msgstr ""
+
+#: functions/admin/core.php:219
+#@ THEME_SLUG
+msgid "Wink"
+msgstr ""
+
+#: functions/admin/core.php:220
+#@ THEME_SLUG
+msgid "Wink 2"
+msgstr ""
+
+#: functions/admin/core.php:221
+#: functions/admin/core.php:631
+#@ THEME_SLUG
+msgid "Thumbs Up"
+msgstr ""
+
+#: functions/admin/core.php:222
+#@ THEME_SLUG
+msgid "Laugh"
+msgstr ""
+
+#: functions/admin/core.php:223
+#@ THEME_SLUG
+msgid "Cool"
+msgstr ""
+
+#: functions/admin/core.php:224
+#@ THEME_SLUG
+msgid "Cheers!"
+msgstr ""
+
+#: functions/admin/core.php:225
+#: functions/admin/core.php:609
+#@ THEME_SLUG
+msgid "Coffee"
+msgstr ""
+
+#: functions/admin/core.php:226
+#@ THEME_SLUG
+msgid "Tongue Out"
+msgstr ""
+
+#: functions/admin/core.php:227
+#@ THEME_SLUG
+msgid "Halo"
+msgstr ""
+
+#: functions/admin/core.php:228
+#@ THEME_SLUG
+msgid "Sleep"
+msgstr ""
+
+#: functions/admin/core.php:229
+#@ THEME_SLUG
+msgid "Unsure"
+msgstr ""
+
+#: functions/admin/core.php:230
+#@ THEME_SLUG
+msgid "Surprised"
+msgstr ""
+
+#: functions/admin/core.php:231
+#@ THEME_SLUG
+msgid "Sad"
+msgstr ""
+
+#: functions/admin/core.php:232
+#@ THEME_SLUG
+msgid "Cry"
+msgstr ""
+
+#: functions/admin/core.php:233
+#@ THEME_SLUG
+msgid "Angry"
+msgstr ""
+
+#: functions/admin/core.php:234
+#@ THEME_SLUG
+msgid "Gun"
+msgstr ""
+
+#: functions/admin/core.php:235
+#@ THEME_SLUG
+msgid "Devil"
+msgstr ""
+
+#: functions/admin/core.php:556
+#@ THEME_SLUG
+msgid "Smily Happy"
+msgstr ""
+
+#: functions/admin/core.php:557
+#@ THEME_SLUG
+msgid "Picture"
+msgstr ""
+
+#: functions/admin/core.php:558
+#@ THEME_SLUG
+msgid "Smily Wink"
+msgstr ""
+
+#: functions/admin/core.php:559
+#@ THEME_SLUG
+msgid "Smily Unhappy"
+msgstr ""
+
+#: functions/admin/core.php:560
+#@ THEME_SLUG
+msgid "Smily Sleep"
+msgstr ""
+
+#: functions/admin/core.php:561
+#@ THEME_SLUG
+msgid "Smily Thumbs Up"
+msgstr ""
+
+#: functions/admin/core.php:562
+#@ THEME_SLUG
+msgid "Smily Devil"
+msgstr ""
+
+#: functions/admin/core.php:563
+#@ THEME_SLUG
+msgid "Smily Surprised"
+msgstr ""
+
+#: functions/admin/core.php:564
+#@ THEME_SLUG
+msgid "Smily Tongue"
+msgstr ""
+
+#: functions/admin/core.php:565
+#@ THEME_SLUG
+msgid "Smily Coffee"
+msgstr ""
+
+#: functions/admin/core.php:566
+#@ THEME_SLUG
+msgid "Smily Sunglasses"
+msgstr ""
+
+#: functions/admin/core.php:567
+#@ THEME_SLUG
+msgid "Smily Displeased"
+msgstr ""
+
+#: functions/admin/core.php:568
+#@ THEME_SLUG
+msgid "Smily Beer"
+msgstr ""
+
+#: functions/admin/core.php:569
+#@ THEME_SLUG
+msgid "Smily Grin"
+msgstr ""
+
+#: functions/admin/core.php:570
+#@ THEME_SLUG
+msgid "Smily Angry"
+msgstr ""
+
+#: functions/admin/core.php:571
+#@ THEME_SLUG
+msgid "Smily Saint"
+msgstr ""
+
+#: functions/admin/core.php:572
+#@ THEME_SLUG
+msgid "Smily Cry"
+msgstr ""
+
+#: functions/admin/core.php:573
+#@ THEME_SLUG
+msgid "Smily Shoot"
+msgstr ""
+
+#: functions/admin/core.php:574
+#@ THEME_SLUG
+msgid "Smily Squint"
+msgstr ""
+
+#: functions/admin/core.php:575
+#@ THEME_SLUG
+msgid "Smily Laugh"
+msgstr ""
+
+#: functions/admin/core.php:576
+#@ THEME_SLUG
+msgid "Spinner"
+msgstr ""
+
+#: functions/admin/core.php:577
+#@ THEME_SLUG
+msgid "Firefox"
+msgstr ""
+
+#: functions/admin/core.php:578
+#@ THEME_SLUG
+msgid "Chrome"
+msgstr ""
+
+#: functions/admin/core.php:579
+#@ THEME_SLUG
+msgid "Opera"
+msgstr ""
+
+#: functions/admin/core.php:580
+#@ THEME_SLUG
+msgid "IE"
+msgstr ""
+
+#: functions/admin/core.php:581
+#@ THEME_SLUG
+msgid "Star Full"
+msgstr ""
+
+#: functions/admin/core.php:582
+#@ THEME_SLUG
+msgid "Star"
+msgstr ""
+
+#: functions/admin/core.php:583
+#@ THEME_SLUG
+msgid "Star Half Empty"
+msgstr ""
+
+#: functions/admin/core.php:584
+#@ THEME_SLUG
+msgid "Star Half"
+msgstr ""
+
+#: functions/admin/core.php:585
+#@ THEME_SLUG
+msgid "Check"
+msgstr ""
+
+#: functions/admin/core.php:586
+#@ THEME_SLUG
+msgid "Plus"
+msgstr ""
+
+#: functions/admin/core.php:587
+#@ THEME_SLUG
+msgid "Minus"
+msgstr ""
+
+#: functions/admin/core.php:588
+#@ THEME_SLUG
+msgid "Password"
+msgstr ""
+
+#: functions/admin/core.php:589
+#@ THEME_SLUG
+msgid "Pin"
+msgstr ""
+
+#: functions/admin/core.php:590
+#@ THEME_SLUG
+msgid "Document"
+msgstr ""
+
+#: functions/admin/core.php:591
+#@ THEME_SLUG
+msgid "Documents"
+msgstr ""
+
+#: functions/admin/core.php:592
+#@ THEME_SLUG
+msgid "Folder Open"
+msgstr ""
+
+#: functions/admin/core.php:593
+#@ THEME_SLUG
+msgid "Gears"
+msgstr ""
+
+#: functions/admin/core.php:594
+#@ THEME_SLUG
+msgid "Wrench"
+msgstr ""
+
+#: functions/admin/core.php:595
+#@ THEME_SLUG
+msgid "Basket"
+msgstr ""
+
+#: functions/admin/core.php:596
+#@ THEME_SLUG
+msgid "Right Hand"
+msgstr ""
+
+#: functions/admin/core.php:597
+#@ THEME_SLUG
+msgid "Left Hand"
+msgstr ""
+
+#: functions/admin/core.php:598
+#@ THEME_SLUG
+msgid "Signal"
+msgstr ""
+
+#: functions/admin/core.php:599
+#@ THEME_SLUG
+msgid "Laptop"
+msgstr ""
+
+#: functions/admin/core.php:600
+#@ THEME_SLUG
+msgid "Tablet"
+msgstr ""
+
+#: functions/admin/core.php:601
+#@ THEME_SLUG
+msgid "Globe"
+msgstr ""
+
+#: functions/admin/core.php:602
+#@ THEME_SLUG
+msgid "Scissors"
+msgstr ""
+
+#: functions/admin/core.php:603
+#@ THEME_SLUG
+msgid "Fire"
+msgstr ""
+
+#: functions/admin/core.php:604
+#@ THEME_SLUG
+msgid "Credit Card"
+msgstr ""
+
+#: functions/admin/core.php:605
+#@ THEME_SLUG
+msgid "Beaker"
+msgstr ""
+
+#: functions/admin/core.php:606
+#@ THEME_SLUG
+msgid "Truck"
+msgstr ""
+
+#: functions/admin/core.php:607
+#@ THEME_SLUG
+msgid "Dollar"
+msgstr ""
+
+#: functions/admin/core.php:608
+#@ THEME_SLUG
+msgid "Sort"
+msgstr ""
+
+#: functions/admin/core.php:610
+#@ THEME_SLUG
+msgid "Food"
+msgstr ""
+
+#: functions/admin/core.php:611
+#: functions/shortcodes/video.php:86
+#@ THEME_SLUG
+msgid "Search"
+msgstr ""
+
+#: functions/admin/core.php:612
+#: functions/admin/option-generator.php:2526
+#@ THEME_SLUG
+msgid "Email"
+msgstr ""
+
+#: functions/admin/core.php:613
+#: functions/shortcodes/loops.php:67
+#: functions/shortcodes/loops.php:325
+#: functions/widgets/widget-top-ten.php:202
+#@ THEME_SLUG
+msgid "Liked"
+msgstr ""
+
+#: functions/admin/core.php:614
+#@ THEME_SLUG
+msgid "Username"
+msgstr ""
+
+#: functions/admin/core.php:615
+#@ THEME_SLUG
+msgid "Users"
+msgstr ""
+
+#: functions/admin/core.php:616
+#@ THEME_SLUG
+msgid "Register"
+msgstr ""
+
+#: functions/admin/core.php:617
+#@ THEME_SLUG
+msgid "Camera"
+msgstr ""
+
+#: functions/admin/core.php:618
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/loops.php:10
+#@ THEME_SLUG
+msgid "Grid"
+msgstr ""
+
+#: functions/admin/core.php:619
+#: functions/shortcodes/lists.php:13
+#@ THEME_SLUG
+msgid "List"
+msgstr ""
+
+#: functions/admin/core.php:620
+#@ THEME_SLUG
+msgid "X"
+msgstr ""
+
+#: functions/admin/core.php:621
+#@ THEME_SLUG
+msgid "Plus Squared"
+msgstr ""
+
+#: functions/admin/core.php:622
+#@ THEME_SLUG
+msgid "Minus Squared"
+msgstr ""
+
+#: functions/admin/core.php:623
+#@ THEME_SLUG
+msgid "Help Circled"
+msgstr ""
+
+#: functions/admin/core.php:624
+#@ THEME_SLUG
+msgid "Info Circled"
+msgstr ""
+
+#: functions/admin/core.php:625
+#: inc/sticky.php:102
+#: inc/sticky.php:109
+#@ THEME_SLUG
+msgid "Home"
+msgstr ""
+
+#: functions/admin/core.php:626
+#: functions/shortcodes/buttons.php:30
+#@ THEME_SLUG
+msgid "Link"
+msgstr ""
+
+#: functions/admin/core.php:627
+#@ THEME_SLUG
+msgid "Attach"
+msgstr ""
+
+#: functions/admin/core.php:628
+#@ THEME_SLUG
+msgid "Tag"
+msgstr ""
+
+#: functions/admin/core.php:629
+#@ THEME_SLUG
+msgid "Bookmark"
+msgstr ""
+
+#: functions/admin/core.php:630
+#@ THEME_SLUG
+msgid "Flag"
+msgstr ""
+
+#: functions/admin/core.php:632
+#@ THEME_SLUG
+msgid "Thumbs Down"
+msgstr ""
+
+#: functions/admin/core.php:633
+#@ THEME_SLUG
+msgid "Forward"
+msgstr ""
+
+#: functions/admin/core.php:634
+#@ THEME_SLUG
+msgid "Pencil"
+msgstr ""
+
+#: functions/admin/core.php:635
+#: functions/shortcodes/signoffs.php:13
+#@ THEME_SLUG
+msgid "Signoff"
+msgstr ""
+
+#: functions/admin/core.php:636
+#: functions/shortcodes/loops.php:71
+#: functions/shortcodes/loops.php:329
+#: functions/widgets/widget-top-ten.php:214
+#@ THEME_SLUG
+msgid "Commented"
+msgstr ""
+
+#: functions/admin/core.php:638
+#@ THEME_SLUG
+msgid "Attention"
+msgstr ""
+
+#: functions/admin/core.php:639
+#: functions/shortcodes/alerts.php:13
+#: functions/shortcodes/alerts.php:30
+#@ THEME_SLUG
+msgid "Alert"
+msgstr ""
+
+#: functions/admin/core.php:640
+#@ THEME_SLUG
+msgid "Book"
+msgstr ""
+
+#: functions/admin/core.php:641
+#: functions/admin/option-generator.php:1526
+#@ THEME_SLUG
+msgid "Category"
+msgstr ""
+
+#: functions/admin/core.php:642
+#@ THEME_SLUG
+msgid "RSS"
+msgstr ""
+
+#: functions/admin/core.php:643
+#@ THEME_SLUG
+msgid "Gear"
+msgstr ""
+
+#: functions/admin/core.php:644
+#@ THEME_SLUG
+msgid "Smily Wink 2"
+msgstr ""
+
+#: functions/admin/core.php:645
+#@ THEME_SLUG
+msgid "Login"
+msgstr ""
+
+#: functions/admin/core.php:646
+#@ THEME_SLUG
+msgid "Logout"
+msgstr ""
+
+#: functions/admin/core.php:647
+#: functions/admin/meta-directory.php:66
+#@ THEME_SLUG
+msgid "Recent"
+msgstr ""
+
+#: functions/admin/core.php:648
+#@ THEME_SLUG
+msgid "Window"
+msgstr ""
+
+#: functions/admin/core.php:649
+#@ THEME_SLUG
+msgid "Arrow Down Open"
+msgstr ""
+
+#: functions/admin/core.php:650
+#@ THEME_SLUG
+msgid "Arrow Left Open"
+msgstr ""
+
+#: functions/admin/core.php:651
+#@ THEME_SLUG
+msgid "Arrow Right Open"
+msgstr ""
+
+#: functions/admin/core.php:652
+#@ THEME_SLUG
+msgid "Arrow Up Open"
+msgstr ""
+
+#: functions/admin/core.php:653
+#@ THEME_SLUG
+msgid "Arrow Down"
+msgstr ""
+
+#: functions/admin/core.php:654
+#@ THEME_SLUG
+msgid "Arrow Left"
+msgstr ""
+
+#: functions/admin/core.php:655
+#@ THEME_SLUG
+msgid "Arrow Right"
+msgstr ""
+
+#: functions/admin/core.php:656
+#@ THEME_SLUG
+msgid "Arrow Up"
+msgstr ""
+
+#: functions/admin/core.php:657
+#@ THEME_SLUG
+msgid "Arrow Down Bold"
+msgstr ""
+
+#: functions/admin/core.php:658
+#@ THEME_SLUG
+msgid "Arrow Up Bold"
+msgstr ""
+
+#: functions/admin/core.php:659
+#@ THEME_SLUG
+msgid "Arrow Right Thin"
+msgstr ""
+
+#: functions/admin/core.php:660
+#@ THEME_SLUG
+msgid "Random"
+msgstr ""
+
+#: functions/admin/core.php:661
+#: functions/shortcodes/video.php:74
+#: functions/shortcodes/video.php:190
+#@ THEME_SLUG
+msgid "Loop"
+msgstr ""
+
+#: functions/admin/core.php:662
+#@ THEME_SLUG
+msgid "Play"
+msgstr ""
+
+#: functions/admin/core.php:663
+#@ THEME_SLUG
+msgid "Stop"
+msgstr ""
+
+#: functions/admin/core.php:664
+#@ THEME_SLUG
+msgid "Pause"
+msgstr ""
+
+#: functions/admin/core.php:665
+#@ THEME_SLUG
+msgid "Last"
+msgstr ""
+
+#: functions/admin/core.php:666
+#@ THEME_SLUG
+msgid "First"
+msgstr ""
+
+#: functions/admin/core.php:669
+#: functions/shortcodes/buttons.php:80
+#@ THEME_SLUG
+msgid "Target"
+msgstr ""
+
+#: functions/admin/core.php:670
+#: functions/admin/it-options.php:5
+#: functions/shortcodes/miscellaneous.php:108
+#: functions/shortcodes/miscellaneous.php:152
+#: functions/shortcodes/table.php:24
+#: functions/shortcodes/tabs.php:19
+#@ THEME_SLUG
+msgid "Style"
+msgstr ""
+
+#: functions/admin/core.php:671
+#@ THEME_SLUG
+msgid "Sidebar"
+msgstr ""
+
+#: functions/admin/core.php:672
+#@ THEME_SLUG
+msgid "Wifi"
+msgstr ""
+
+#: functions/admin/core.php:673
+#: functions/admin/meta-directory.php:73
+#: functions/shortcodes/loops.php:72
+#: functions/shortcodes/loops.php:330
+#@ THEME_SLUG
+msgid "Awarded"
+msgstr ""
+
+#: functions/admin/core.php:674
+#@ THEME_SLUG
+msgid "Battery"
+msgstr ""
+
+#: functions/admin/core.php:675
+#@ THEME_SLUG
+msgid "Monitor"
+msgstr ""
+
+#: functions/admin/core.php:676
+#@ THEME_SLUG
+msgid "Mobile"
+msgstr ""
+
+#: functions/admin/core.php:677
+#@ THEME_SLUG
+msgid "Cloud"
+msgstr ""
+
+#: functions/admin/core.php:678
+#@ THEME_SLUG
+msgid "Moon"
+msgstr ""
+
+#: functions/admin/core.php:679
+#@ THEME_SLUG
+msgid "Leaf"
+msgstr ""
+
+#: functions/admin/core.php:680
+#@ THEME_SLUG
+msgid "Suitcase"
+msgstr ""
+
+#: functions/admin/core.php:681
+#@ THEME_SLUG
+msgid "Brush"
+msgstr ""
+
+#: functions/admin/core.php:682
+#@ THEME_SLUG
+msgid "Magnet"
+msgstr ""
+
+#: functions/admin/core.php:683
+#@ THEME_SLUG
+msgid "Pie Chart"
+msgstr ""
+
+#: functions/admin/core.php:685
+#: functions/shortcodes/loops.php:69
+#: functions/shortcodes/loops.php:327
+#: functions/widgets/widget-top-ten.php:208
+#@ THEME_SLUG
+msgid "Reviewed"
+msgstr ""
+
+#: functions/admin/core.php:686
+#@ THEME_SLUG
+msgid "Water"
+msgstr ""
+
+#: functions/admin/core.php:687
+#@ THEME_SLUG
+msgid "Disk"
+msgstr ""
+
+#: functions/admin/core.php:688
+#@ THEME_SLUG
+msgid "Key"
+msgstr ""
+
+#: functions/admin/core.php:689
+#@ THEME_SLUG
+msgid "Gauge"
+msgstr ""
+
+#: functions/admin/core.php:690
+#@ THEME_SLUG
+msgid "License"
+msgstr ""
+
+#: functions/admin/core.php:696
+#@ THEME_SLUG
+msgid "Tumblr"
+msgstr ""
+
+#: functions/admin/core.php:699
+#@ THEME_SLUG
+msgid "LastFM"
+msgstr ""
+
+#: functions/admin/core.php:700
+#@ THEME_SLUG
+msgid "Spotify"
+msgstr ""
+
+#: functions/admin/core.php:702
+#@ THEME_SLUG
+msgid "Dropbox"
+msgstr ""
+
+#: functions/admin/core.php:703
+#@ THEME_SLUG
+msgid "Skype"
+msgstr ""
+
+#: functions/admin/core.php:704
+#@ THEME_SLUG
+msgid "Paypal"
+msgstr ""
+
+#: functions/admin/core.php:705
+#@ THEME_SLUG
+msgid "Picasa"
+msgstr ""
+
+#: functions/admin/core.php:706
+#: functions/admin/it-options.php:15
+#: functions/admin/it-options.php:1688
+#: functions/shortcodes/modal.php:32
+#@ THEME_SLUG
+msgid "Footer"
+msgstr ""
+
+#: functions/admin/core.php:707
+#@ THEME_SLUG
+msgid "Pages"
+msgstr ""
+
+#: functions/admin/core.php:708
+#@ THEME_SLUG
+msgid "Settings"
+msgstr ""
+
+#: functions/admin/core.php:709
+#@ THEME_SLUG
+msgid "Builder"
+msgstr ""
+
+#: functions/admin/core.php:710
+#: functions/shortcodes/loops.php:68
+#: functions/shortcodes/loops.php:326
+#: functions/widgets/widget-top-ten.php:205
+#@ THEME_SLUG
+msgid "Viewed"
+msgstr ""
+
+#: functions/admin/core.php:711
+#@ THEME_SLUG
+msgid "Zoom In"
+msgstr ""
+
+#: functions/admin/core.php:712
+#@ THEME_SLUG
+msgid "Zoom Out"
+msgstr ""
+
+#: functions/admin/core.php:713
+#@ THEME_SLUG
+msgid "Lock"
+msgstr ""
+
+#: functions/admin/core.php:714
+#@ THEME_SLUG
+msgid "Lock Open"
+msgstr ""
+
+#: functions/admin/core.php:715
+#@ THEME_SLUG
+msgid "Arrow Down Fat"
+msgstr ""
+
+#: functions/admin/core.php:716
+#@ THEME_SLUG
+msgid "Arrow Left Fat"
+msgstr ""
+
+#: functions/admin/core.php:717
+#@ THEME_SLUG
+msgid "Arrow Right Fat"
+msgstr ""
+
+#: functions/admin/core.php:718
+#@ THEME_SLUG
+msgid "Arrow Up Fat"
+msgstr ""
+
+#: functions/admin/core.php:720
+#@ THEME_SLUG
+msgid "Wikipedia"
+msgstr ""
+
+#: functions/admin/core.php:721
+#@ THEME_SLUG
+msgid "HTML5"
+msgstr ""
+
+#: functions/admin/core.php:722
+#@ THEME_SLUG
+msgid "Reddit"
+msgstr ""
+
+#: functions/admin/core.php:723
+#@ THEME_SLUG
+msgid "Appstore"
+msgstr ""
+
+#: functions/admin/core.php:724
+#: functions/admin/it-options.php:459
+#@ THEME_SLUG
+msgid "Youtube"
+msgstr ""
+
+#: functions/admin/core.php:725
+#@ THEME_SLUG
+msgid "Windows"
+msgstr ""
+
+#: functions/admin/core.php:726
+#@ THEME_SLUG
+msgid "Yahoo"
+msgstr ""
+
+#: functions/admin/core.php:727
+#@ THEME_SLUG
+msgid "Gmail"
+msgstr ""
+
+#: functions/admin/core.php:728
+#@ THEME_SLUG
+msgid "WordPress"
+msgstr ""
+
+#: functions/admin/core.php:729
+#@ THEME_SLUG
+msgid "Acrobat"
+msgstr ""
+
+#: functions/admin/core.php:730
+#@ THEME_SLUG
+msgid "Quote Circled"
+msgstr ""
+
+#: functions/admin/core.php:731
+#: functions/loop.php:453
+#: functions/shortcodes/video.php:255
+#@ THEME_SLUG
+msgid "Video"
+msgstr ""
+
+#: functions/admin/core.php:732
+#@ THEME_SLUG
+msgid "Tools"
+msgstr ""
+
+#: functions/admin/core.php:733
+#@ THEME_SLUG
+msgid "Flame"
+msgstr ""
+
+#: functions/admin/core.php:734
+#@ THEME_SLUG
+msgid "Backward"
+msgstr ""
+
+#: functions/admin/core.php:735
+#@ THEME_SLUG
+msgid "Magazine"
+msgstr ""
+
+#: functions/admin/it-options.php:3
+#@ THEME_SLUG
+msgid "General Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:4
+#@ THEME_SLUG
+msgid "Sticky Nav"
+msgstr ""
+
+#: functions/admin/it-options.php:6
+#: functions/admin/it-options.php:1696
+#@ THEME_SLUG
+msgid "Page Builders"
+msgstr ""
+
+#: functions/admin/it-options.php:1987
+#@ THEME_SLUG
+msgid "Post Loops"
+msgstr ""
+
+#: functions/admin/it-options.php:7
+#@ THEME_SLUG
+msgid "Template Setup"
+msgstr ""
+
+#: functions/admin/it-options.php:8
+#@ THEME_SLUG
+msgid "Reviews"
+msgstr ""
+
+#: functions/admin/it-options.php:9
+#@ THEME_SLUG
+msgid "Categories"
+msgstr ""
+
+#: functions/admin/it-options.php:10
+#@ THEME_SLUG
+msgid "Awards and Badges"
+msgstr ""
+
+#: functions/admin/it-options.php:11
+#@ THEME_SLUG
+msgid "Reactions"
+msgstr ""
+
+#: functions/admin/it-options.php:12
+#@ THEME_SLUG
+msgid "Custom Sidebars"
+msgstr ""
+
+#: functions/admin/it-options.php:13
+#: functions/shortcodes/signoffs.php:88
+#@ THEME_SLUG
+msgid "Signoffs"
+msgstr ""
+
+#: functions/admin/it-options.php:14
+#@ THEME_SLUG
+msgid "Advertising"
+msgstr ""
+
+#: functions/admin/it-options.php:16
+#@ THEME_SLUG
+msgid "Social"
+msgstr ""
+
+#: functions/admin/it-options.php:17
+#@ THEME_SLUG
+msgid "Advanced"
+msgstr ""
+
+#: functions/admin/it-options.php:22
+#@ THEME_SLUG
+msgid "WooCommerce"
+msgstr ""
+
+#: functions/admin/it-options.php:27
+#@ THEME_SLUG
+msgid "BuddyPress/bbPress"
+msgstr ""
+
+#: functions/admin/it-options.php:49
+#@ THEME_SLUG
+msgid "Logos & Branding"
+msgstr ""
+
+#: functions/admin/it-options.php:50
+#@ THEME_SLUG
+msgid "General settings for logos and branding of your site."
+msgstr ""
+
+#: functions/admin/it-options.php:55
+#@ THEME_SLUG
+msgid "Logo Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:56
+#@ THEME_SLUG
+msgid "You can choose whether you wish to display a custom logo or your site title."
+msgstr ""
+
+#: functions/admin/it-options.php:59
+#@ THEME_SLUG
+msgid "Custom Image Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:60
+#@ THEME_SLUG
+msgid "Display Site Title"
+msgstr ""
+
+#: functions/admin/it-options.php:65
+#: functions/admin/option-generator.php:1638
+#@ THEME_SLUG
+msgid "Hide Tagline"
+msgstr ""
+
+#: functions/admin/it-options.php:66
+#@ THEME_SLUG
+msgid "This disables the tagline (site description) from displaying without requiring you to actually delete the Tagline from Settings >> General (good for SEO purposes)."
+msgstr ""
+
+#: functions/admin/it-options.php:68
+#@ THEME_SLUG
+msgid "Hide the site Tagline from the sticky bar"
+msgstr ""
+
+#: functions/admin/option-generator.php:1582
+#@ THEME_SLUG
+msgid "Custom Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:73
+#@ THEME_SLUG
+msgid "Upload an image to use as your logo. If you are displaying your logo in the sticky bar, max height is 60px."
+msgstr ""
+
+#: functions/admin/it-options.php:78
+#@ THEME_SLUG
+msgid "Logo Width (optional)"
+msgstr ""
+
+#: functions/admin/it-options.php:79
+#: functions/admin/it-options.php:107
+#@ THEME_SLUG
+msgid "This adds a width attribute to your logo image tag for page performance purposes. Do not include the \"px\" part, just the number itself."
+msgstr ""
+
+#: functions/admin/it-options.php:86
+#: functions/admin/it-options.php:114
+#@ THEME_SLUG
+msgid "Logo Height (optional)"
+msgstr ""
+
+#: functions/admin/it-options.php:87
+#: functions/admin/it-options.php:115
+#@ THEME_SLUG
+msgid "This adds a height attribute to your logo image tag for page performance purposes. Do not include the \"px\" part, just the number itself."
+msgstr ""
+
+#: functions/admin/option-generator.php:1603
+#@ THEME_SLUG
+msgid "Custom HD Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:95
+#: functions/admin/it-options.php:123
+#@ THEME_SLUG
+msgid "Upload an image to use as your logo for retina displays. If you are displaying your logo in the sticky bar, max height is 120px."
+msgstr ""
+
+#: functions/admin/it-options.php:128
+#@ THEME_SLUG
+msgid "Login Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:129
+#@ THEME_SLUG
+msgid "Upload an image to use as your logo for login page."
+msgstr ""
+
+#: functions/admin/it-options.php:134
+#@ THEME_SLUG
+msgid "Custom Favicon"
+msgstr ""
+
+#: functions/admin/it-options.php:135
+#@ THEME_SLUG
+msgid "Upload an image to use as your favicon."
+msgstr ""
+
+#: functions/admin/it-options.php:141
+#@ THEME_SLUG
+msgid "Sticky Bar"
+msgstr ""
+
+#: functions/admin/it-options.php:142
+#@ THEME_SLUG
+msgid "The fixed bar containing the logo at the top of the site."
+msgstr ""
+
+#: functions/admin/it-options.php:146
+#: functions/admin/it-options.php:281
+#: functions/admin/it-options.php:298
+#: functions/admin/it-options.php:345
+#: functions/admin/it-options.php:415
+#: functions/admin/it-options.php:1193
+#: functions/admin/it-options.php:1231
+#@ THEME_SLUG
+msgid "Disable"
+msgstr ""
+
+#: functions/admin/it-options.php:148
+#@ THEME_SLUG
+msgid "Hide the entire sticky bar"
+msgstr ""
+
+#: functions/admin/it-options.php:152
+#@ THEME_SLUG
+msgid "Disable Search"
+msgstr ""
+
+#: functions/admin/it-options.php:154
+#@ THEME_SLUG
+msgid "Disable the search box in the sticky bar"
+msgstr ""
+
+#: functions/admin/it-options.php:158
+#@ THEME_SLUG
+msgid "Disable Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:160
+#@ THEME_SLUG
+msgid "Do not display the logo in the sticky bar."
+msgstr ""
+
+#: functions/admin/it-options.php:164
+#@ THEME_SLUG
+msgid "Disable Account Controls"
+msgstr ""
+
+#: functions/admin/it-options.php:166
+#@ THEME_SLUG
+msgid "Disable the account controls (login/register) from the sticky bar"
+msgstr ""
+
+#: functions/admin/it-options.php:170
+#@ THEME_SLUG
+msgid "Use WP Login Screen"
+msgstr ""
+
+#: functions/admin/it-options.php:172
+#@ THEME_SLUG
+msgid "Clicking the login button should take the user to the standard WordPress login page"
+msgstr ""
+
+#: functions/admin/it-options.php:176
+#: functions/admin/it-options.php:948
+#@ THEME_SLUG
+msgid "Disable Social Badges"
+msgstr ""
+
+#: functions/admin/it-options.php:178
+#@ THEME_SLUG
+msgid "Disable the social badges in the sticky bar."
+msgstr ""
+
+#: functions/admin/it-options.php:182
+#@ THEME_SLUG
+msgid "Disable Back To Top"
+msgstr ""
+
+#: functions/admin/it-options.php:184
+#@ THEME_SLUG
+msgid "Disable the back to top arrow that appears when the user scrolls down."
+msgstr ""
+
+#: functions/admin/it-options.php:188
+#@ THEME_SLUG
+msgid "Un-stick"
+msgstr ""
+
+#: functions/admin/it-options.php:190
+#@ THEME_SLUG
+msgid "Do not fix the sticky bar to the top of the site (let it scroll away)."
+msgstr ""
+
+#: functions/admin/it-options.php:196
+#: functions/admin/it-options.php:392
+#@ THEME_SLUG
+msgid "More Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:197
+#@ THEME_SLUG
+msgid "These settings pertain to elements that are available/visible across your entire site."
+msgstr ""
+
+#: functions/admin/it-options.php:201
+#@ THEME_SLUG
+msgid "Disable Comments Globally"
+msgstr ""
+
+#: functions/admin/it-options.php:202
+#@ THEME_SLUG
+msgid "This globally disables comments from displaying, even if you have it turned on in other areas of the theme."
+msgstr ""
+
+#: functions/admin/it-options.php:204
+#@ THEME_SLUG
+msgid "Completely disable the comments for the entire site"
+msgstr ""
+
+#: functions/admin/it-options.php:208
+#@ THEME_SLUG
+msgid "Disable User E-mail Links"
+msgstr ""
+
+#: functions/admin/it-options.php:209
+#@ THEME_SLUG
+msgid "The author info at the bottom of posts as well as the author archive listing pages list social profile links for the user, including a link showing email address of the user. Use this setting to disable the user email addresses from displaying in this list of links."
+msgstr ""
+
+#: functions/admin/it-options.php:211
+#@ THEME_SLUG
+msgid "Disable users' email address link from list of social links"
+msgstr ""
+
+#: functions/admin/it-options.php:215
+#@ THEME_SLUG
+msgid "Google Analytics Code"
+msgstr ""
+
+#: functions/admin/it-options.php:216
+#@ THEME_SLUG
+msgid "After signing up with Google Analytics paste the code that it gives you here."
+msgstr ""
+
+#: functions/admin/it-options.php:221
+#@ THEME_SLUG
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/admin/it-options.php:222
+#@ THEME_SLUG
+msgid "This is a great place for doing quick custom styles.  For example if you wanted to change the site title color then you would paste this:"
+msgstr ""
+
+#: functions/admin/it-options.php:227
+#@ THEME_SLUG
+msgid "Custom CSS Large"
+msgstr ""
+
+#: functions/admin/it-options.php:228
+#@ THEME_SLUG
+msgid "Style entered into this box will only be applied to large viewports (1200px +)"
+msgstr ""
+
+#: functions/admin/it-options.php:233
+#@ THEME_SLUG
+msgid "Custom CSS Medium"
+msgstr ""
+
+#: functions/admin/it-options.php:234
+#@ THEME_SLUG
+msgid "Style entered into this box will only be applied to medium viewports (992px to 1199px)"
+msgstr ""
+
+#: functions/admin/it-options.php:239
+#@ THEME_SLUG
+msgid "Custom CSS Small"
+msgstr ""
+
+#: functions/admin/it-options.php:240
+#@ THEME_SLUG
+msgid "Style entered into this box will only be applied to small viewports (768px to 991px)"
+msgstr ""
+
+#: functions/admin/it-options.php:245
+#@ THEME_SLUG
+msgid "Custom CSS Tiny"
+msgstr ""
+
+#: functions/admin/it-options.php:246
+#@ THEME_SLUG
+msgid "Style entered into this box will only be applied to tiny viewports (767px -)"
+msgstr ""
+
+#: functions/admin/it-options.php:251
+#@ THEME_SLUG
+msgid "Custom CSS Medium And Down"
+msgstr ""
+
+#: functions/admin/it-options.php:252
+#@ THEME_SLUG
+msgid "Style entered into this box will be applied to medium, small, and tiny viewports (1199px -)"
+msgstr ""
+
+#: functions/admin/it-options.php:257
+#@ THEME_SLUG
+msgid "Custom CSS Small And Down"
+msgstr ""
+
+#: functions/admin/it-options.php:258
+#@ THEME_SLUG
+msgid "Style entered into this box will be applied to small and tiny viewports (991px -)"
+msgstr ""
+
+#: functions/admin/it-options.php:263
+#@ THEME_SLUG
+msgid "Custom JavaScript"
+msgstr ""
+
+#: functions/admin/it-options.php:264
+#@ THEME_SLUG
+msgid "In case you need to add some custom javascript you may insert it here."
+msgstr ""
+
+#: functions/admin/it-options.php:283
+#@ THEME_SLUG
+msgid "Disable the sticky nav panel completely."
+msgstr ""
+
+#: functions/admin/it-options.php:287
+#: functions/shortcodes/miscellaneous.php:187
+#@ THEME_SLUG
+msgid "Hidden"
+msgstr ""
+
+#: functions/admin/it-options.php:289
+#@ THEME_SLUG
+msgid "Require toggle click to display."
+msgstr ""
+
+#: functions/admin/it-options.php:293
+#@ THEME_SLUG
+msgid "New Articles"
+msgstr ""
+
+#: functions/admin/it-options.php:294
+#@ THEME_SLUG
+msgid "These settings pertain to the New button at the top of the sticky nav that displays new articles."
+msgstr ""
+
+#: functions/admin/it-options.php:300
+#@ THEME_SLUG
+msgid "Disable the new articles panel from displaying on the front page."
+msgstr ""
+
+#: functions/admin/it-options.php:304
+#@ THEME_SLUG
+msgid "Prefix"
+msgstr ""
+
+#: functions/admin/it-options.php:305
+#@ THEME_SLUG
+msgid "The prefix to display before the time period in the tooltip. Leave blank to only display the time period."
+msgstr ""
+
+#: functions/admin/it-options.php:311
+#@ THEME_SLUG
+msgid "Label Override"
+msgstr ""
+
+#: functions/admin/it-options.php:312
+#@ THEME_SLUG
+msgid "Roll your own label instead of letting the system generate one - displays in the hover tooltip."
+msgstr ""
+
+#: functions/admin/it-options.php:318
+#: functions/admin/option-generator.php:2006
+#: functions/shortcodes/topten.php:70
+#: functions/shortcodes/trending.php:77
+#@ THEME_SLUG
+msgid "Time Period"
+msgstr ""
+
+#: functions/admin/it-options.php:319
+#@ THEME_SLUG
+msgid "Show count and posts for only this time period."
+msgstr ""
+
+#: functions/admin/it-options.php:326
+#: functions/admin/it-options.php:384
+#@ THEME_SLUG
+msgid "Max Number of Posts"
+msgstr ""
+
+#: functions/admin/it-options.php:327
+#@ THEME_SLUG
+msgid "Limits the total number of new articles displayed."
+msgstr ""
+
+#: functions/admin/it-options.php:334
+#: functions/widgets/widget-sections.php:136
+#@ THEME_SLUG
+msgid "Sections"
+msgstr ""
+
+#: functions/admin/it-options.php:335
+#@ THEME_SLUG
+msgid "These settings pertain to the \"Our Sections\" menu with mega menu capabilities."
+msgstr ""
+
+#: functions/admin/it-options.php:339
+#@ THEME_SLUG
+msgid "Menu Type"
+msgstr ""
+
+#: functions/admin/it-options.php:341
+#@ THEME_SLUG
+msgid "Choosing Mega menu style will enable latest posts from each category or tag to display directly in the menu on mouse hover."
+msgstr ""
+
+#: functions/admin/it-options.php:343
+#@ THEME_SLUG
+msgid "Standard menu"
+msgstr ""
+
+#: functions/admin/it-options.php:344
+#@ THEME_SLUG
+msgid "Mega menu"
+msgstr ""
+
+#: functions/admin/it-options.php:351
+#@ THEME_SLUG
+msgid "Pre-load Mega Menus"
+msgstr ""
+
+#: functions/admin/it-options.php:353
+#@ THEME_SLUG
+msgid "Adds a small amount of initial overhead so users do not have to wait to see posts when hovering over mega menu items. The expense is negligible in most cases."
+msgstr ""
+
+#: functions/admin/it-options.php:354
+#@ THEME_SLUG
+msgid "Mega menu drop downs should populate on page load"
+msgstr ""
+
+#: functions/admin/it-options.php:358
+#@ THEME_SLUG
+msgid "Disable Icons"
+msgstr ""
+
+#: functions/admin/it-options.php:360
+#@ THEME_SLUG
+msgid "Do not display icons in the section menu"
+msgstr ""
+
+#: functions/admin/it-options.php:364
+#@ THEME_SLUG
+msgid "Use White Icons"
+msgstr ""
+
+#: functions/admin/it-options.php:366
+#@ THEME_SLUG
+msgid "Use the white version of the category icons if available"
+msgstr ""
+
+#: functions/admin/it-options.php:370
+#: functions/shortcodes/labels.php:13
+#: functions/shortcodes/section.php:18
+#@ THEME_SLUG
+msgid "Label"
+msgstr ""
+
+#: functions/admin/it-options.php:371
+#@ THEME_SLUG
+msgid "The label that displays above the section menu. Defaults to \"Our Sections\"."
+msgstr ""
+
+#: functions/admin/it-options.php:378
+#@ THEME_SLUG
+msgid "Disable Label"
+msgstr ""
+
+#: functions/admin/it-options.php:380
+#@ THEME_SLUG
+msgid "Do not display the label above the section menu."
+msgstr ""
+
+#: functions/admin/it-options.php:385
+#@ THEME_SLUG
+msgid "Limits the total number of articles displayed within the mega menus."
+msgstr ""
+
+#: functions/admin/it-options.php:396
+#@ THEME_SLUG
+msgid "Secondary Menu Label"
+msgstr ""
+
+#: functions/admin/it-options.php:397
+#@ THEME_SLUG
+msgid "The label that displays above the secondary menu. Defaults to \"Navigation\"."
+msgstr ""
+
+#: functions/admin/it-options.php:404
+#@ THEME_SLUG
+msgid "Disable Secondary Menu Label"
+msgstr ""
+
+#: functions/admin/it-options.php:406
+#@ THEME_SLUG
+msgid "Do not display the label above the secondary menu."
+msgstr ""
+
+#: functions/admin/it-options.php:410
+#@ THEME_SLUG
+msgid "Secondary Menu Position"
+msgstr ""
+
+#: functions/admin/it-options.php:413
+#@ THEME_SLUG
+msgid "Below the Section menu"
+msgstr ""
+
+#: functions/admin/it-options.php:414
+#@ THEME_SLUG
+msgid "Above the Section menu"
+msgstr ""
+
+#: functions/admin/it-options.php:421
+#@ THEME_SLUG
+msgid "Disable Get In Touch"
+msgstr ""
+
+#: functions/admin/it-options.php:423
+#@ THEME_SLUG
+msgid "Do not display the Get In Touch section."
+msgstr ""
+
+#: functions/admin/it-options.php:427
+#@ THEME_SLUG
+msgid "Get In Touch Label"
+msgstr ""
+
+#: functions/admin/it-options.php:428
+#@ THEME_SLUG
+msgid "The label that displays above the \"Get In Touch\" section. Defaults to \"Get In Touch\"."
+msgstr ""
+
+#: functions/admin/it-options.php:435
+#@ THEME_SLUG
+msgid "Disable Get In Touch Label"
+msgstr ""
+
+#: functions/admin/it-options.php:437
+#@ THEME_SLUG
+msgid "Do not display the label above the Get In Touch section."
+msgstr ""
+
+#: functions/admin/it-options.php:441
+#@ THEME_SLUG
+msgid "Disable Get In Touch Email"
+msgstr ""
+
+#: functions/admin/it-options.php:443
+#@ THEME_SLUG
+msgid "Do not display the email subscribe form in the Get In Touch section."
+msgstr ""
+
+#: functions/admin/it-options.php:447
+#: functions/admin/it-options.php:942
+#@ THEME_SLUG
+msgid "Disable Social Counts"
+msgstr ""
+
+#: functions/admin/it-options.php:449
+#@ THEME_SLUG
+msgid "Do not display the Social Counts at all."
+msgstr ""
+
+#: functions/admin/it-options.php:453
+#@ THEME_SLUG
+msgid "Disable Social Count"
+msgstr ""
+
+#: functions/admin/it-options.php:458
+#@ THEME_SLUG
+msgid "Google+"
+msgstr ""
+
+#: functions/admin/it-options.php:478
+#@ THEME_SLUG
+msgid "Accents"
+msgstr ""
+
+#: functions/admin/it-options.php:479
+#@ THEME_SLUG
+msgid "Used for links, titles, buttons, and other accent colors."
+msgstr ""
+
+#: functions/admin/it-options.php:485
+#@ THEME_SLUG
+msgid "Sticky Bar Background"
+msgstr ""
+
+#: functions/admin/it-options.php:491
+#@ THEME_SLUG
+msgid "Sticky Bar Border"
+msgstr ""
+
+#: functions/admin/it-options.php:497
+#@ THEME_SLUG
+msgid "Sticky Bar Icons"
+msgstr ""
+
+#: functions/admin/it-options.php:503
+#@ THEME_SLUG
+msgid "Sticky Bar Text"
+msgstr ""
+
+#: functions/admin/it-options.php:509
+#@ THEME_SLUG
+msgid "Sticky Nav Background"
+msgstr ""
+
+#: functions/admin/it-options.php:515
+#@ THEME_SLUG
+msgid "Sticky Nav Border"
+msgstr ""
+
+#: functions/admin/it-options.php:521
+#@ THEME_SLUG
+msgid "Sticky Nav Icons"
+msgstr ""
+
+#: functions/admin/it-options.php:527
+#@ THEME_SLUG
+msgid "Sticky Nav Text"
+msgstr ""
+
+#: functions/admin/it-options.php:533
+#@ THEME_SLUG
+msgid "Secondary Backgrounds"
+msgstr ""
+
+#: functions/admin/it-options.php:534
+#@ THEME_SLUG
+msgid "Content areas that are set apart from the main site background, such as post navigation, author info box, comment rating criteria panel, etc. The main site navigation is administered in the Appearance >> Background screen."
+msgstr ""
+
+#: functions/admin/it-options.php:540
+#@ THEME_SLUG
+msgid "Borders"
+msgstr ""
+
+#: functions/admin/it-options.php:541
+#@ THEME_SLUG
+msgid "Various divider lines and content area borders."
+msgstr ""
+
+#: functions/admin/it-options.php:547
+#@ THEME_SLUG
+msgid "Heading Text"
+msgstr ""
+
+#: functions/admin/it-options.php:548
+#@ THEME_SLUG
+msgid "Applies to all headings that appear on top of standard or secondary backgrounds (for instance, does not apply to billboard heading or any post image overlay text)."
+msgstr ""
+
+#: functions/admin/it-options.php:554
+#@ THEME_SLUG
+msgid "Content Text (Light)"
+msgstr ""
+
+#: functions/admin/it-options.php:555
+#@ THEME_SLUG
+msgid "Used whenever lighter text is required, such as labels, subtitles, authors/dates, tags, etc."
+msgstr ""
+
+#: functions/admin/it-options.php:561
+#@ THEME_SLUG
+msgid "Content Text (Dark)"
+msgstr ""
+
+#: functions/admin/it-options.php:562
+#@ THEME_SLUG
+msgid "Used for the main post and page content text, as well as other areas that require a darker text color, such as widget content, links, rating numbers, etc."
+msgstr ""
+
+#: functions/admin/it-options.php:568
+#: functions/shortcodes/icons.php:13
+#: functions/shortcodes/icons.php:17
+#: functions/shortcodes/icons.php:74
+#@ THEME_SLUG
+msgid "Icons"
+msgstr ""
+
+#: functions/admin/it-options.php:569
+#@ THEME_SLUG
+msgid "Icons used in labels, headers, and sort filters."
+msgstr ""
+
+#: functions/admin/it-options.php:583
+#@ THEME_SLUG
+msgid "Main Background Color"
+msgstr ""
+
+#: functions/admin/it-options.php:584
+#@ THEME_SLUG
+msgid "Set this in Appearance >> Background. Please note: because this theme is full-width there will never be a time when a background image can be used."
+msgstr ""
+
+#: functions/admin/it-options.php:588
+#@ THEME_SLUG
+msgid "Category Colors"
+msgstr ""
+
+#: functions/admin/it-options.php:589
+#@ THEME_SLUG
+msgid "Setup unique colors for each of your categories in the Categories tab on the left."
+msgstr ""
+
+#: functions/admin/it-options.php:593
+#@ THEME_SLUG
+msgid "Fonts"
+msgstr ""
+
+#: functions/admin/it-options.php:594
+#@ THEME_SLUG
+msgid "You can override the default fonts for several parts of the theme by selecting them below. Leave the font unselected to use the default font, or if you have already made a selection and want to set it back to the default, select \"Choose One...\" For performance reasons only selected fonts will be imported from Google, which means we cannot display all the actual font faces in this list. To preview what each font looks like without having to activate each one, go to Google Fonts and take a look: http://www.google.com/fonts/"
+msgstr ""
+
+#: functions/admin/it-options.php:598
+#@ THEME_SLUG
+msgid "Label Style A"
+msgstr ""
+
+#: functions/admin/it-options.php:599
+#@ THEME_SLUG
+msgid "Labels and headers that use the \"Lato\" font face by default, such as menu headers and rating criteria labels."
+msgstr ""
+
+#: functions/admin/it-options.php:605
+#@ THEME_SLUG
+msgid "Label Style B"
+msgstr ""
+
+#: functions/admin/it-options.php:606
+#@ THEME_SLUG
+msgid "Labels and headers that use the \"Playfair Display\" font face by default, such as page builder titles and widget headers."
+msgstr ""
+
+#: functions/admin/it-options.php:626
+#: functions/admin/it-options.php:695
+#@ THEME_SLUG
+msgid "Menus"
+msgstr ""
+
+#: functions/admin/it-options.php:627
+#@ THEME_SLUG
+msgid "Sticky nav, utility menu, contents menu, and recommended sorting links."
+msgstr ""
+
+#: functions/admin/it-options.php:633
+#: functions/admin/it-options.php:701
+#@ THEME_SLUG
+msgid "Main Content A"
+msgstr ""
+
+#: functions/admin/it-options.php:634
+#@ THEME_SLUG
+msgid "Used for most of the content that appears on single posts and pages, including the main post body for classic and billboard style posts."
+msgstr ""
+
+#: functions/admin/it-options.php:640
+#: functions/admin/it-options.php:708
+#@ THEME_SLUG
+msgid "Main Content B"
+msgstr ""
+
+#: functions/admin/it-options.php:641
+#@ THEME_SLUG
+msgid "Used for the body of longform style posts as well as excerpts in blog page builders."
+msgstr ""
+
+#: functions/admin/it-options.php:647
+#@ THEME_SLUG
+msgid "Classic Title"
+msgstr ""
+
+#: functions/admin/it-options.php:648
+#@ THEME_SLUG
+msgid "The post title used in classic style posts."
+msgstr ""
+
+#: functions/admin/it-options.php:654
+#@ THEME_SLUG
+msgid "Longform Title"
+msgstr ""
+
+#: functions/admin/it-options.php:655
+#@ THEME_SLUG
+msgid "The post title used in longform style posts."
+msgstr ""
+
+#: functions/admin/it-options.php:661
+#@ THEME_SLUG
+msgid "Content Headings A"
+msgstr ""
+
+#: functions/admin/it-options.php:662
+#@ THEME_SLUG
+msgid "Used for h1, h2, and h3 heading sizes within single post and page content."
+msgstr ""
+
+#: functions/admin/it-options.php:668
+#@ THEME_SLUG
+msgid "Content Headings B"
+msgstr ""
+
+#: functions/admin/it-options.php:669
+#@ THEME_SLUG
+msgid "Used for h4, h5, and h6 heading sizes within single post and page content."
+msgstr ""
+
+#: functions/admin/it-options.php:675
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/widgets.php:83
+#@ THEME_SLUG
+msgid "Widgets"
+msgstr ""
+
+#: functions/admin/it-options.php:676
+#@ THEME_SLUG
+msgid "Used for a majority of widget content, except when specific fonts take priority, like post overlay titles and authorship information."
+msgstr ""
+
+#: functions/admin/it-options.php:682
+#: functions/admin/it-options.php:1399
+#: functions/admin/meta-review.php:43
+#@ THEME_SLUG
+msgid "Numbers"
+msgstr ""
+
+#: functions/admin/it-options.php:683
+#@ THEME_SLUG
+msgid "Ratings, reactions, large social counts (widget panels), and large meta counts (longform posts)."
+msgstr ""
+
+#: functions/admin/it-options.php:690
+#@ THEME_SLUG
+msgid "Font Sizes and Subsets"
+msgstr ""
+
+#: functions/admin/it-options.php:702
+#@ THEME_SLUG
+msgid "Classic and billboard style post content."
+msgstr ""
+
+#: functions/admin/it-options.php:709
+#@ THEME_SLUG
+msgid "Longform style post content."
+msgstr ""
+
+#: functions/admin/it-options.php:716
+#@ THEME_SLUG
+msgid "Add Subsets"
+msgstr ""
+
+#: functions/admin/it-options.php:717
+#@ THEME_SLUG
+msgid "Leave this unselected unless you specifically want to add subsets beyond Latin. This will only work for fonts that actually have the specific subset (refer to Google Fonts to see which ones have subsets). This also adds the character sets to the default theme fonts. Be careful! Adding subsets will impact page load times."
+msgstr ""
+
+#: functions/admin/it-options.php:744
+#@ THEME_SLUG
+msgid "Front Page Layout"
+msgstr ""
+
+#: functions/admin/it-options.php:745
+#@ THEME_SLUG
+msgid "Used for your front page if Settings >> Reading >> \"Front page displays\" is set to \"Your latest posts\"."
+msgstr ""
+
+#: functions/admin/it-options.php:749
+#: functions/admin/it-options.php:760
+#: functions/admin/it-options.php:771
+#: functions/admin/it-options.php:782
+#: functions/admin/it-options.php:793
+#: functions/admin/it-options.php:804
+#: functions/admin/it-options.php:2466
+#@ THEME_SLUG
+msgid "Page Builder"
+msgstr ""
+
+#: functions/admin/it-options.php:755
+#@ THEME_SLUG
+msgid "Archive Layout"
+msgstr ""
+
+#: functions/admin/it-options.php:756
+#@ THEME_SLUG
+msgid "All category, tag, author, and date listing archive pages."
+msgstr ""
+
+#: functions/admin/it-options.php:766
+#@ THEME_SLUG
+msgid "Search Results Layout"
+msgstr ""
+
+#: functions/admin/it-options.php:767
+#@ THEME_SLUG
+msgid "All pages that list search results."
+msgstr ""
+
+#: functions/admin/it-options.php:777
+#@ THEME_SLUG
+msgid "Standard Page Layout"
+msgstr ""
+
+#: functions/admin/it-options.php:778
+#@ THEME_SLUG
+msgid "All standard pages created in the WordPress >> Pages area (also includes 404s). You should choose \"Page/Post Content\" at the very minimum. You can selectively override these settings in the Layout Options for each specific page."
+msgstr ""
+
+#: functions/admin/it-options.php:788
+#@ THEME_SLUG
+msgid "Single Post Layout"
+msgstr ""
+
+#: functions/admin/it-options.php:789
+#@ THEME_SLUG
+msgid "All individual posts. You should choose \"Page/Post Content\" at the very minimum. You can selectively override these settings in the Layout Options for each specific post."
+msgstr ""
+
+#: functions/admin/it-options.php:799
+#@ THEME_SLUG
+msgid "Author Listing Page Layout"
+msgstr ""
+
+#: functions/admin/it-options.php:800
+#@ THEME_SLUG
+msgid "Pages with the \"Author Listing\" page template assigned."
+msgstr ""
+
+#: functions/admin/meta-page.php:54
+#@ THEME_SLUG
+msgid "Disable Title"
+msgstr ""
+
+#: functions/admin/meta-directory.php:48
+#@ THEME_SLUG
+msgid "Disable Filters"
+msgstr ""
+
+#: functions/admin/option-generator.php:1852
+#: functions/shortcodes/connect.php:14
+#: functions/shortcodes/headliner.php:38
+#: functions/shortcodes/loops.php:50
+#: functions/shortcodes/loops.php:308
+#: functions/shortcodes/menu.php:14
+#: functions/shortcodes/scroller.php:38
+#: functions/shortcodes/topten.php:38
+#: functions/shortcodes/trending.php:38
+#: functions/shortcodes/video.php:166
+#@ THEME_SLUG
+msgid "Title"
+msgstr ""
+
+#: functions/admin/option-generator.php:1861
+#: functions/shortcodes/connect.php:20
+#: functions/shortcodes/headliner.php:44
+#: functions/shortcodes/loops.php:56
+#: functions/shortcodes/loops.php:314
+#: functions/shortcodes/menu.php:20
+#: functions/shortcodes/scroller.php:44
+#: functions/shortcodes/signoffs.php:32
+#: functions/shortcodes/topten.php:44
+#: functions/shortcodes/trending.php:44
+#@ THEME_SLUG
+msgid "Icon"
+msgstr ""
+
+#: functions/admin/option-generator.php:1954
+#: functions/shortcodes/loops.php:100
+#: functions/shortcodes/loops.php:343
+#@ THEME_SLUG
+msgid "Disable Ads"
+msgstr ""
+
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/headliner.php:10
+#: functions/shortcodes/headliner.php:164
+#@ THEME_SLUG
+msgid "Headliner"
+msgstr ""
+
+#: functions/admin/option-generator.php:1993
+#: functions/shortcodes/headliner.php:51
+#: functions/shortcodes/scroller.php:58
+#: functions/shortcodes/topten.php:78
+#: functions/shortcodes/trending.php:85
+#@ THEME_SLUG
+msgid "Targeted"
+msgstr ""
+
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/connect.php:10
+#: functions/shortcodes/connect.php:122
+#@ THEME_SLUG
+msgid "Connect"
+msgstr ""
+
+#: functions/admin/it-options.php:925
+#@ THEME_SLUG
+msgid "The bar that displays the email signup, social counts, and social badges"
+msgstr ""
+
+#: functions/admin/it-options.php:929
+#@ THEME_SLUG
+msgid "Disable Email Signup"
+msgstr ""
+
+#: functions/admin/it-options.php:931
+#@ THEME_SLUG
+msgid "Disable the email signup form right of the main label"
+msgstr ""
+
+#: functions/admin/it-options.php:935
+#@ THEME_SLUG
+msgid "Email label"
+msgstr ""
+
+#: functions/admin/it-options.php:936
+#@ THEME_SLUG
+msgid "This is the placeholder text that displays in the email singup textbox."
+msgstr ""
+
+#: functions/admin/it-options.php:944
+#@ THEME_SLUG
+msgid "Disable the social counts right of the email singup"
+msgstr ""
+
+#: functions/admin/it-options.php:950
+#@ THEME_SLUG
+msgid "Disable the social badges at the very right of the connect bar"
+msgstr ""
+
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/scroller.php:10
+#: functions/shortcodes/scroller.php:165
+#@ THEME_SLUG
+msgid "Horizontal Scroller"
+msgstr ""
+
+#: functions/shortcodes/scroller.php:51
+#: functions/shortcodes/trending.php:70
+#@ THEME_SLUG
+msgid "Number of Posts"
+msgstr ""
+
+#: functions/admin/it-options.php:843
+#@ THEME_SLUG
+msgid "Disable Rating"
+msgstr ""
+
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/topten.php:10
+#: functions/shortcodes/topten.php:111
+#: functions/shortcodes/topten.php:232
+#@ THEME_SLUG
+msgid "Top Ten"
+msgstr ""
+
+#: functions/admin/option-generator.php:1871
+#: functions/shortcodes/topten.php:51
+#: functions/shortcodes/trending.php:51
+#@ THEME_SLUG
+msgid "Sub-Title"
+msgstr ""
+
+#: functions/admin/option-generator.php:950
+#: functions/shortcodes/html.php:14
+#: functions/shortcodes/jumbotron.php:32
+#: functions/shortcodes/miscellaneous.php:115
+#: functions/shortcodes/miscellaneous.php:159
+#: functions/shortcodes/miscellaneous.php:191
+#@ THEME_SLUG
+msgid "Content"
+msgstr ""
+
+#: functions/admin/it-options.php:815
+#: functions/shortcodes/loops.php:63
+#: functions/shortcodes/loops.php:321
+#: functions/shortcodes/topten.php:57
+#: functions/shortcodes/trending.php:57
+#@ THEME_SLUG
+msgid "Disable Filter Buttons"
+msgstr ""
+
+#: functions/admin/it-options.php:816
+#: functions/shortcodes/loops.php:64
+#: functions/shortcodes/loops.php:322
+#: functions/shortcodes/topten.php:58
+#: functions/shortcodes/trending.php:58
+#@ THEME_SLUG
+msgid "You can disable individual filter buttons."
+msgstr ""
+
+#: functions/admin/it-options.php:830
+#@ THEME_SLUG
+msgid "Disable Filter Tooltips"
+msgstr ""
+
+#: functions/admin/it-options.php:832
+#@ THEME_SLUG
+msgid "Disable the filter button tooltips"
+msgstr ""
+
+#: functions/admin/it-options.php:833
+#@ THEME_SLUG
+msgid "This will disable the tooltips that display when you hover over the filter buttons"
+msgstr ""
+
+#: functions/admin/it-options.php:849
+#@ THEME_SLUG
+msgid "Disable Likes"
+msgstr ""
+
+#: functions/admin/it-options.php:851
+#@ THEME_SLUG
+msgid "Likes will only display on single post pages"
+msgstr ""
+
+#: functions/admin/it-options.php:855
+#@ THEME_SLUG
+msgid "Disable Views"
+msgstr ""
+
+#: functions/admin/it-options.php:857
+#@ THEME_SLUG
+msgid "Views will only display on single post pages"
+msgstr ""
+
+#: functions/admin/it-options.php:861
+#: functions/admin/it-options.php:1319
+#@ THEME_SLUG
+msgid "Disable Comments"
+msgstr ""
+
+#: functions/admin/it-options.php:863
+#@ THEME_SLUG
+msgid "Comments will only display on single post pages"
+msgstr ""
+
+#: functions/admin/it-options.php:864
+#@ THEME_SLUG
+msgid "The number of comments will not display in the main loop. Keep in mind the comments will automatically be hidden if there are no comments for the post even if this option is unselected."
+msgstr ""
+
+#: functions/admin/it-options.php:868
+#@ THEME_SLUG
+msgid "Show Featured Videos"
+msgstr ""
+
+#: functions/admin/it-options.php:870
+#@ THEME_SLUG
+msgid "Show play button when a featured video is detected"
+msgstr ""
+
+#: functions/admin/it-options.php:871
+#@ THEME_SLUG
+msgid "When the post has a featured video assigned, display the play button in the image overlay which opens the featured video in a colorbox overlay panel."
+msgstr ""
+
+#: functions/admin/it-options.php:875
+#@ THEME_SLUG
+msgid "Show Video Controls"
+msgstr ""
+
+#: functions/admin/it-options.php:877
+#@ THEME_SLUG
+msgid "Show video controls for featured videos (youtube only)"
+msgstr ""
+
+#: functions/admin/it-options.php:878
+#@ THEME_SLUG
+msgid "When a featured video is shown in the colorbox overlay panel, display the controls at the bottom of the video (only applies to Youtube videos)."
+msgstr ""
+
+#: functions/shortcodes/loops.php:78
+#@ THEME_SLUG
+msgid "Number of Rows"
+msgstr ""
+
+#: functions/shortcodes/loops.php:79
+#@ THEME_SLUG
+msgid "The number of total rows of posts to display before pagination or the load more button is displayed. This is also the number of rows that will load when the load more button is clicked. Note about mobile responsive layout: since posts do not float in columns the number of rows displayed for mobile view will always be larger than the number of rows selected here."
+msgstr ""
+
+#: functions/admin/option-generator.php:1944
+#: functions/shortcodes/loops.php:85
+#@ THEME_SLUG
+msgid "Wide Post Frequency"
+msgstr ""
+
+#: functions/shortcodes/loops.php:86
+#@ THEME_SLUG
+msgid "How often there should be a wide post after the first occurrance. Leave unselected to disable wide post formats."
+msgstr ""
+
+#: functions/admin/option-generator.php:1934
+#: functions/shortcodes/loops.php:92
+#@ THEME_SLUG
+msgid "Wide Post Start Position"
+msgstr ""
+
+#: functions/shortcodes/loops.php:93
+#@ THEME_SLUG
+msgid "At what row should wide posts start occurring. Only used if Wide Post Frequency is set."
+msgstr ""
+
+#: functions/admin/it-options.php:845
+#: functions/admin/meta-directory.php:44
+#@ THEME_SLUG
+msgid "Ratings will only display on single post pages"
+msgstr ""
+
+#: functions/admin/option-generator.php:1980
+#: functions/shortcodes/loops.php:355
+#@ THEME_SLUG
+msgid "Disable Authorship"
+msgstr ""
+
+#: functions/admin/it-options.php:882
+#@ THEME_SLUG
+msgid "Excerpt Length"
+msgstr ""
+
+#: functions/admin/option-generator.php:1967
+#: functions/shortcodes/loops.php:349
+#@ THEME_SLUG
+msgid "Disable Excerpt"
+msgstr ""
+
+#: functions/admin/it-options.php:888
+#@ THEME_SLUG
+msgid "Pagination"
+msgstr ""
+
+#: functions/admin/it-options.php:889
+#@ THEME_SLUG
+msgid "The page number buttons and navigation that appear below the post loop."
+msgstr ""
+
+#: functions/admin/it-options.php:893
+#@ THEME_SLUG
+msgid "Range"
+msgstr ""
+
+#: functions/admin/it-options.php:894
+#@ THEME_SLUG
+msgid "The number of pages to display to the right and left of the current page. Setting this to 3 for example will result in 7 total possible page number buttons generated (3 on the left, 3 on the right, plus the current page) in addition to the arrow navigation (if enabled)."
+msgstr ""
+
+#: functions/admin/it-options.php:901
+#@ THEME_SLUG
+msgid "Range (Mobile)"
+msgstr ""
+
+#: functions/admin/it-options.php:902
+#@ THEME_SLUG
+msgid "You can set a different range for mobile views so that the pagination fits into one row. If you want the pagination to fit into one row set this to 2."
+msgstr ""
+
+#: functions/admin/it-options.php:909
+#@ THEME_SLUG
+msgid "Disable Prev/Next Navigation"
+msgstr ""
+
+#: functions/admin/it-options.php:911
+#@ THEME_SLUG
+msgid "Hide the next and previous navigation arrows."
+msgstr ""
+
+#: functions/admin/it-options.php:912
+#@ THEME_SLUG
+msgid "These arrows display on the right and left of the pagination. They do not navigate to the next and previous pages, but rather the next and previous blocks of page numbers. For instance, if the range is set to 6 the next arrow will increase the current page 8 slots (range + current page + 1)."
+msgstr ""
+
+#: functions/admin/it-options.php:916
+#@ THEME_SLUG
+msgid "Disable First/Last Navigation"
+msgstr ""
+
+#: functions/admin/it-options.php:918
+#@ THEME_SLUG
+msgid "Hide the first and last navigation arrows."
+msgstr ""
+
+#: functions/admin/it-options.php:919
+#@ THEME_SLUG
+msgid "These arrows display on the right and left of the pagination and they are used for quickly navigating to the first or last page."
+msgstr ""
+
+#: functions/admin/it-options.php:967
+#@ THEME_SLUG
+msgid "Archives"
+msgstr ""
+
+#: functions/admin/it-options.php:968
+#@ THEME_SLUG
+msgid "Adjustment options for category/tag/date/search listing pages."
+msgstr ""
+
+#: functions/admin/it-options.php:972
+#@ THEME_SLUG
+msgid "Ignore Excludes/Limits"
+msgstr ""
+
+#: functions/admin/it-options.php:973
+#@ THEME_SLUG
+msgid "This applies to the Paged Grid, Infinite Grid, Paged Blog, and Infinite Blog builder panels. If you have selected any categories or tags in any of the excluded or limited drop downs and you do not want those settings to apply to your archive listing pages, turn on this option."
+msgstr ""
+
+#: functions/admin/it-options.php:975
+#@ THEME_SLUG
+msgid "Disregard any category or tag exclusions or limits for Grid/Blog panels."
+msgstr ""
+
+#: functions/admin/it-options.php:980
+#@ THEME_SLUG
+msgid "Standard Pages"
+msgstr ""
+
+#: functions/admin/it-options.php:981
+#@ THEME_SLUG
+msgid "Show/hide various components for standard pages."
+msgstr ""
+
+#: functions/admin/it-options.php:985
+#: functions/admin/it-options.php:1076
+#: functions/admin/it-options.php:2432
+#: functions/admin/it-options.php:2471
+#: functions/admin/meta-page.php:11
+#: functions/admin/meta-post.php:23
+#@ THEME_SLUG
+msgid "Disable Sidebar"
+msgstr ""
+
+#: functions/admin/it-options.php:987
+#@ THEME_SLUG
+msgid "Can be overridden per page"
+msgstr ""
+
+#: functions/admin/it-options.php:988
+#@ THEME_SLUG
+msgid "Do not display a sidebar for standard pages."
+msgstr ""
+
+#: functions/admin/it-options.php:992
+#: functions/admin/it-options.php:1094
+#@ THEME_SLUG
+msgid "Disable Control Bar"
+msgstr ""
+
+#: functions/admin/it-options.php:994
+#@ THEME_SLUG
+msgid "Disable the entire control bar above the page title"
+msgstr ""
+
+#: functions/admin/it-options.php:998
+#@ THEME_SLUG
+msgid "Disable Page Navigation"
+msgstr ""
+
+#: functions/admin/it-options.php:1000
+#@ THEME_SLUG
+msgid "Disable the page navigation in the control bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1004
+#: functions/admin/it-options.php:1106
+#: functions/admin/meta-page.php:24
+#: functions/admin/meta-post.php:36
+#@ THEME_SLUG
+msgid "Disable View Count"
+msgstr ""
+
+#: functions/admin/it-options.php:1006
+#: functions/admin/it-options.php:1108
+#@ THEME_SLUG
+msgid "Disable the view count in the control bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1010
+#: functions/admin/it-options.php:1112
+#@ THEME_SLUG
+msgid "Disable Like Button"
+msgstr ""
+
+#: functions/admin/it-options.php:1012
+#: functions/admin/it-options.php:1114
+#@ THEME_SLUG
+msgid "Disable the like button in the control bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1016
+#: functions/admin/it-options.php:1118
+#@ THEME_SLUG
+msgid "Disable Comment Count"
+msgstr ""
+
+#: functions/admin/it-options.php:1018
+#: functions/admin/it-options.php:1120
+#@ THEME_SLUG
+msgid "Disable the comment count in the control bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1022
+#: functions/admin/it-options.php:1124
+#: functions/admin/meta-page.php:36
+#: functions/admin/meta-post.php:48
+#@ THEME_SLUG
+msgid "Disable Sharing"
+msgstr ""
+
+#: functions/admin/it-options.php:1024
+#: functions/admin/it-options.php:1126
+#@ THEME_SLUG
+msgid "Disable the social sharing in the control bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1028
+#: functions/admin/it-options.php:1130
+#@ THEME_SLUG
+msgid "Disable Date/Author"
+msgstr ""
+
+#: functions/admin/it-options.php:1030
+#@ THEME_SLUG
+msgid "Disable the page date and author below the page title"
+msgstr ""
+
+#: functions/admin/it-options.php:1034
+#: functions/admin/it-options.php:1142
+#: functions/admin/meta-page.php:42
+#: functions/admin/meta-post.php:54
+#@ THEME_SLUG
+msgid "Featured Image Size"
+msgstr ""
+
+#: functions/admin/it-options.php:1035
+#@ THEME_SLUG
+msgid "The default featured image size for all standard pages only"
+msgstr ""
+
+#: functions/admin/it-options.php:1047
+#: functions/admin/it-options.php:1180
+#@ THEME_SLUG
+msgid "Disable Video"
+msgstr ""
+
+#: functions/admin/it-options.php:1049
+#@ THEME_SLUG
+msgid "When a page has a featured video assigned do not display it."
+msgstr ""
+
+#: functions/admin/it-options.php:1053
+#@ THEME_SLUG
+msgid "Enable Comments"
+msgstr ""
+
+#: functions/admin/it-options.php:1055
+#@ THEME_SLUG
+msgid "Enable comments on regular pages"
+msgstr ""
+
+#: functions/admin/it-options.php:1060
+#@ THEME_SLUG
+msgid "Single Posts"
+msgstr ""
+
+#: functions/admin/it-options.php:1061
+#@ THEME_SLUG
+msgid "Show/hide various components for single post views."
+msgstr ""
+
+#: functions/admin/it-options.php:1065
+#: functions/admin/it-options.php:1482
+#: functions/admin/meta-directory.php:29
+#@ THEME_SLUG
+msgid "Layout"
+msgstr ""
+
+#: functions/admin/it-options.php:1078
+#@ THEME_SLUG
+msgid "Can be overridden per post"
+msgstr ""
+
+#: functions/admin/it-options.php:1079
+#@ THEME_SLUG
+msgid "Do not display a sidebar for single posts."
+msgstr ""
+
+#: functions/admin/it-options.php:1083
+#@ THEME_SLUG
+msgid "Default Post Type"
+msgstr ""
+
+#: functions/admin/it-options.php:1085
+#@ THEME_SLUG
+msgid "You can select whether a post is an Article or a Review on a post-by-post basis in the Review Options panel when editing the post. Use this option to select whether the default option should be Article or Review."
+msgstr ""
+
+#: functions/admin/it-options.php:1087
+#: functions/admin/meta-review.php:16
+#@ THEME_SLUG
+msgid "Article"
+msgstr ""
+
+#: functions/admin/it-options.php:1088
+#: functions/admin/meta-review.php:17
+#@ THEME_SLUG
+msgid "Review"
+msgstr ""
+
+#: functions/admin/it-options.php:1096
+#@ THEME_SLUG
+msgid "Disable the entire control bar above the post title"
+msgstr ""
+
+#: functions/admin/it-options.php:1100
+#@ THEME_SLUG
+msgid "Disable Post Navigation"
+msgstr ""
+
+#: functions/admin/it-options.php:1102
+#@ THEME_SLUG
+msgid "Disable the post navigation in the control bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1132
+#@ THEME_SLUG
+msgid "Disable the post date and author below the post title"
+msgstr ""
+
+#: functions/admin/it-options.php:1136
+#@ THEME_SLUG
+msgid "Disable Author Avatar"
+msgstr ""
+
+#: functions/admin/it-options.php:1138
+#@ THEME_SLUG
+msgid "Disable the author avatar at the top of the post"
+msgstr ""
+
+#: functions/admin/it-options.php:1143
+#@ THEME_SLUG
+msgid "The default featured image size for all standard posts only"
+msgstr ""
+
+#: functions/admin/it-options.php:1155
+#@ THEME_SLUG
+msgid "Disable Clickable Image"
+msgstr ""
+
+#: functions/admin/it-options.php:1156
+#@ THEME_SLUG
+msgid "Turn this off to disable clicking on the featured image, which opens the largest size of the image in a lightbox (if the lightbox effect is not disabled) or as a new page in the browser."
+msgstr ""
+
+#: functions/admin/it-options.php:1158
+#@ THEME_SLUG
+msgid "Featured image should not be clickable."
+msgstr ""
+
+#: functions/admin/it-options.php:1162
+#@ THEME_SLUG
+msgid "Featured Image Captions"
+msgstr ""
+
+#: functions/admin/it-options.php:1164
+#@ THEME_SLUG
+msgid "Display caption text under featured image if any exists."
+msgstr ""
+
+#: functions/admin/it-options.php:1168
+#@ THEME_SLUG
+msgid "Disable Lightbox Effect"
+msgstr ""
+
+#: functions/admin/it-options.php:1170
+#@ THEME_SLUG
+msgid "Disable the lightbox when clicking on featured image/galleries"
+msgstr ""
+
+#: functions/admin/it-options.php:1174
+#@ THEME_SLUG
+msgid "Lightbox Slideshow"
+msgstr ""
+
+#: functions/admin/it-options.php:1176
+#@ THEME_SLUG
+msgid "Gallery lightboxes should behave as a slideshow"
+msgstr ""
+
+#: functions/admin/it-options.php:1182
+#@ THEME_SLUG
+msgid "When a post has a featured video assigned do not display it."
+msgstr ""
+
+#: functions/admin/it-options.php:1186
+#@ THEME_SLUG
+msgid "Contents Menu Behavior"
+msgstr ""
+
+#: functions/admin/it-options.php:1187
+#@ THEME_SLUG
+msgid "This is the fixed, post-specific navigation menu that links to different parts of the post. If you choose opt-in you can selectively enable this menu for specific posts (otherwise it will be disabled). If you choose one of the first two options you can selectively disable it for specific posts (otherwise it will be enabled)."
+msgstr ""
+
+#: functions/admin/it-options.php:1190
+#@ THEME_SLUG
+msgid "Show on Articles and Reviews"
+msgstr ""
+
+#: functions/admin/it-options.php:1191
+#@ THEME_SLUG
+msgid "Show only on Reviews"
+msgstr ""
+
+#: functions/admin/it-options.php:1192
+#@ THEME_SLUG
+msgid "Opt-in"
+msgstr ""
+
+#: functions/admin/it-options.php:1199
+#: functions/admin/meta-post.php:149
+#@ THEME_SLUG
+msgid "Content Title"
+msgstr ""
+
+#: functions/admin/it-options.php:1200
+#: functions/admin/meta-post.php:150
+#@ THEME_SLUG
+msgid "Useful if you are using reviews and you want to display a header above the review content."
+msgstr ""
+
+#: functions/admin/it-options.php:1205
+#@ THEME_SLUG
+msgid "Posts Content Title Disable"
+msgstr ""
+
+#: functions/admin/it-options.php:1206
+#@ THEME_SLUG
+msgid "By default the content title displays on both Review and Article post types. Use this option if you want the content title to be disabled on posts with the Article post type."
+msgstr ""
+
+#: functions/admin/it-options.php:1208
+#@ THEME_SLUG
+msgid "Disable the content title on standard article posts (non-review)"
+msgstr ""
+
+#: functions/admin/it-options.php:1212
+#@ THEME_SLUG
+msgid "Reactions Position"
+msgstr ""
+
+#: functions/admin/it-options.php:1215
+#: functions/admin/it-options.php:1243
+#: functions/admin/it-options.php:1490
+#: functions/admin/it-options.php:1501
+#@ THEME_SLUG
+msgid "Above the post content"
+msgstr ""
+
+#: functions/admin/it-options.php:1216
+#: functions/admin/it-options.php:1244
+#: functions/admin/it-options.php:1491
+#: functions/admin/it-options.php:1502
+#@ THEME_SLUG
+msgid "Below the post content"
+msgstr ""
+
+#: functions/admin/it-options.php:1217
+#@ THEME_SLUG
+msgid "Disable reactions"
+msgstr ""
+
+#: functions/admin/it-options.php:1223
+#@ THEME_SLUG
+msgid "Big Like Button Position"
+msgstr ""
+
+#: functions/admin/it-options.php:1224
+#@ THEME_SLUG
+msgid "Users can always click the like count at the top of the post to like it. However, you can add another big noticeable like button to catch the user's eye if you prefer. *For longform style posts the like button will display in the right column at the top regardless of which of these settings you use."
+msgstr ""
+
+#: functions/admin/it-options.php:1227
+#@ THEME_SLUG
+msgid "Inside the top \"meta\" bar*"
+msgstr ""
+
+#: functions/admin/it-options.php:1228
+#@ THEME_SLUG
+msgid "Above the post content*"
+msgstr ""
+
+#: functions/admin/it-options.php:1229
+#@ THEME_SLUG
+msgid "Below the post content*"
+msgstr ""
+
+#: functions/admin/it-options.php:1230
+#@ THEME_SLUG
+msgid "Within the \"Reactions\" buttons"
+msgstr ""
+
+#: functions/admin/it-options.php:1237
+#@ THEME_SLUG
+msgid "Affiliate Link Position"
+msgstr ""
+
+#: functions/admin/it-options.php:1240
+#@ THEME_SLUG
+msgid "At the top of the Overview section"
+msgstr ""
+
+#: functions/admin/it-options.php:1241
+#@ THEME_SLUG
+msgid "At the bottom of the Overview section"
+msgstr ""
+
+#: functions/admin/it-options.php:1242
+#@ THEME_SLUG
+msgid "After the Rating"
+msgstr ""
+
+#: functions/admin/it-options.php:1250
+#@ THEME_SLUG
+msgid "Recommended Title"
+msgstr ""
+
+#: functions/admin/it-options.php:1251
+#@ THEME_SLUG
+msgid "The title text to display above the reactions buttons"
+msgstr ""
+
+#: functions/admin/it-options.php:1257
+#@ THEME_SLUG
+msgid "Reactions Style"
+msgstr ""
+
+#: functions/admin/it-options.php:1260
+#@ THEME_SLUG
+msgid "Icon only"
+msgstr ""
+
+#: functions/admin/it-options.php:1261
+#@ THEME_SLUG
+msgid "Name only"
+msgstr ""
+
+#: functions/admin/it-options.php:1262
+#@ THEME_SLUG
+msgid "Icon + Name"
+msgstr ""
+
+#: functions/admin/it-options.php:1268
+#@ THEME_SLUG
+msgid "Disable Author Info"
+msgstr ""
+
+#: functions/admin/it-options.php:1270
+#@ THEME_SLUG
+msgid "Disable the author information below the post"
+msgstr ""
+
+#: functions/admin/it-options.php:1274
+#@ THEME_SLUG
+msgid "Disable Recommended"
+msgstr ""
+
+#: functions/admin/it-options.php:1276
+#@ THEME_SLUG
+msgid "Disable the recommended posts section"
+msgstr ""
+
+#: functions/admin/it-options.php:1280
+#@ THEME_SLUG
+msgid "Recommended Method"
+msgstr ""
+
+#: functions/admin/it-options.php:1282
+#@ THEME_SLUG
+msgid "For the \"Same tags OR same categories\" method, use the \"Number of Recommended Filters\" option below to set how many of EACH will display, rather than how many TOTAL as is applied to the rest of the methods. So setting this to \"2\" will cause the first two tags and the first two categories to display, resulting in four total filters."
+msgstr ""
+
+#: functions/admin/it-options.php:1284
+#@ THEME_SLUG
+msgid "Same tags"
+msgstr ""
+
+#: functions/admin/it-options.php:1285
+#@ THEME_SLUG
+msgid "Same categories"
+msgstr ""
+
+#: functions/admin/it-options.php:1286
+#@ THEME_SLUG
+msgid "Same tags OR same categories (tags will appear first in order)"
+msgstr ""
+
+#: functions/admin/it-options.php:1292
+#@ THEME_SLUG
+msgid "Recommended Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1293
+#@ THEME_SLUG
+msgid "The title text to display in the title of the recommended section"
+msgstr ""
+
+#: functions/admin/it-options.php:1299
+#@ THEME_SLUG
+msgid "Number of Recommended Filters"
+msgstr ""
+
+#: functions/admin/it-options.php:1300
+#@ THEME_SLUG
+msgid "The number of filter buttons to display in the recommended filter bar."
+msgstr ""
+
+#: functions/admin/it-options.php:1306
+#@ THEME_SLUG
+msgid "Disable Recommended Filters"
+msgstr ""
+
+#: functions/admin/it-options.php:1308
+#@ THEME_SLUG
+msgid "Disable the filter buttons from the recommended section"
+msgstr ""
+
+#: functions/admin/it-options.php:1312
+#@ THEME_SLUG
+msgid "Number of Recommended Posts"
+msgstr ""
+
+#: functions/admin/it-options.php:1313
+#@ THEME_SLUG
+msgid "The number of total posts to display in the recommended section."
+msgstr ""
+
+#: functions/admin/it-options.php:1321
+#@ THEME_SLUG
+msgid "Disable the comments (useful for Facebook comment plugins)"
+msgstr ""
+
+#: functions/admin/it-options.php:1326
+#@ THEME_SLUG
+msgid "Author Listing"
+msgstr ""
+
+#: functions/admin/it-options.php:1327
+#@ THEME_SLUG
+msgid "Adjustment options for pages with the \"Author Listing\" page template assigned."
+msgstr ""
+
+#: functions/admin/it-options.php:1331
+#@ THEME_SLUG
+msgid "Enable Admins"
+msgstr ""
+
+#: functions/admin/it-options.php:1333
+#@ THEME_SLUG
+msgid "Allow the admin user role to display in the list"
+msgstr ""
+
+#: functions/admin/it-options.php:1337
+#@ THEME_SLUG
+msgid "Hide Empty"
+msgstr ""
+
+#: functions/admin/it-options.php:1339
+#@ THEME_SLUG
+msgid "Hide authors with zero posts"
+msgstr ""
+
+#: functions/admin/it-options.php:1343
+#@ THEME_SLUG
+msgid "Manual Exclude"
+msgstr ""
+
+#: functions/admin/it-options.php:1344
+#@ THEME_SLUG
+msgid "Enter a comma-separated list of usernames to exclude"
+msgstr ""
+
+#: functions/admin/it-options.php:1350
+#@ THEME_SLUG
+msgid "User Role"
+msgstr ""
+
+#: functions/admin/it-options.php:1351
+#@ THEME_SLUG
+msgid "Select a user role to display"
+msgstr ""
+
+#: functions/admin/it-options.php:1357
+#@ THEME_SLUG
+msgid "Order"
+msgstr ""
+
+#: functions/admin/it-options.php:1358
+#@ THEME_SLUG
+msgid "Select how to order the list"
+msgstr ""
+
+#: functions/admin/it-options.php:1377
+#: functions/admin/meta-details.php:3
+#@ THEME_SLUG
+msgid "Details"
+msgstr ""
+
+#: functions/admin/it-options.php:1378
+#@ THEME_SLUG
+msgid "Details are additional descriptive data about the article that you want to list in the overview area. They are different than categories because they are not so much classification data as they are describing data. For instance, if you were writing an article on a movie, a category might be Director and a detail might be Plot Synopsis, because a director can be assigned to multiple movies but a plot synopsis is descriptive only for a single movie. You can of course choose how to use categories and Details however you want for your articles, these are just suggestions to help you understand the difference between them. It is completely up to you."
+msgstr ""
+
+#: functions/admin/it-options.php:1389
+#@ THEME_SLUG
+msgid "Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1390
+#@ THEME_SLUG
+msgid "These settings dictate how you want to rate the articles, if at all."
+msgstr ""
+
+#: functions/admin/it-options.php:1394
+#: functions/admin/meta-review.php:38
+#@ THEME_SLUG
+msgid "Rating Metric"
+msgstr ""
+
+#: functions/admin/it-options.php:1395
+#@ THEME_SLUG
+msgid "The type of rating metric to use"
+msgstr ""
+
+#: functions/admin/it-options.php:1398
+#: functions/admin/meta-review.php:42
+#@ THEME_SLUG
+msgid "Stars"
+msgstr ""
+
+#: functions/admin/it-options.php:1400
+#: functions/admin/meta-review.php:44
+#@ THEME_SLUG
+msgid "Percentages"
+msgstr ""
+
+#: functions/admin/it-options.php:1401
+#: functions/admin/meta-review.php:45
+#@ THEME_SLUG
+msgid "Letter Grades"
+msgstr ""
+
+#: functions/admin/it-options.php:1407
+#@ THEME_SLUG
+msgid "Rating Criteria (automatically averaged into the total score)"
+msgstr ""
+
+#: functions/admin/it-options.php:1412
+#@ THEME_SLUG
+msgid "Disable Editor Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1413
+#@ THEME_SLUG
+msgid "This will disable the editor ratings from appearing anywhere in the site."
+msgstr ""
+
+#: functions/admin/it-options.php:1415
+#@ THEME_SLUG
+msgid "Do not use editor ratings at all"
+msgstr ""
+
+#: functions/admin/it-options.php:1419
+#@ THEME_SLUG
+msgid "Disable User Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1420
+#@ THEME_SLUG
+msgid "This will disable the user rating from appearing anywhere in the site."
+msgstr ""
+
+#: functions/admin/it-options.php:1422
+#@ THEME_SLUG
+msgid "Do not use user ratings at all"
+msgstr ""
+
+#: functions/admin/it-options.php:1426
+#@ THEME_SLUG
+msgid "Hide Editor Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1427
+#@ THEME_SLUG
+msgid "This should be used if you DO want to use editor ratings but ONLY want them to be visible on the full review page."
+msgstr ""
+
+#: functions/admin/it-options.php:1429
+#@ THEME_SLUG
+msgid "Hides editor rating from image overlays"
+msgstr ""
+
+#: functions/admin/it-options.php:1433
+#@ THEME_SLUG
+msgid "Hide User Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1434
+#@ THEME_SLUG
+msgid "This should be used if you DO want to use user ratings but ONLY want them to be visible on the full review page."
+msgstr ""
+
+#: functions/admin/it-options.php:1436
+#@ THEME_SLUG
+msgid "Hides user rating from image overlays"
+msgstr ""
+
+#: functions/admin/it-options.php:1440
+#@ THEME_SLUG
+msgid "Disable \"Top\" User Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1441
+#@ THEME_SLUG
+msgid "This will disable th ability for users to rate articles at the top of the article and require them to use the comment system to add their comment."
+msgstr ""
+
+#: functions/admin/it-options.php:1443
+#@ THEME_SLUG
+msgid "Only allow user ratings from comments (if enabled)"
+msgstr ""
+
+#: functions/admin/it-options.php:1447
+#@ THEME_SLUG
+msgid "Ratings Header Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1448
+#@ THEME_SLUG
+msgid "This is the main header that displays at the top of the ratings section."
+msgstr ""
+
+#: functions/admin/it-options.php:1454
+#@ THEME_SLUG
+msgid "Editor Rating Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1455
+#@ THEME_SLUG
+msgid "This is the header that displays at the top of the editor ratings column."
+msgstr ""
+
+#: functions/admin/it-options.php:1461
+#@ THEME_SLUG
+msgid "User Rating Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1462
+#@ THEME_SLUG
+msgid "This is the header that displays at the top of the user ratings column."
+msgstr ""
+
+#: functions/admin/it-options.php:1468
+#@ THEME_SLUG
+msgid "Hide Number of User Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1470
+#@ THEME_SLUG
+msgid "Hide number of user ratings next to the total user score label"
+msgstr ""
+
+#: functions/admin/it-options.php:1474
+#@ THEME_SLUG
+msgid "Registration Required"
+msgstr ""
+
+#: functions/admin/it-options.php:1475
+#@ THEME_SLUG
+msgid "If you turn this on the theme will keep track of ratings based on WordPress username, otherwise it will use the IP address of the user."
+msgstr ""
+
+#: functions/admin/it-options.php:1477
+#@ THEME_SLUG
+msgid "Anonymous users will not be able to add ratings."
+msgstr ""
+
+#: functions/admin/it-options.php:1483
+#@ THEME_SLUG
+msgid "These settings apply to the way review articles display."
+msgstr ""
+
+#: functions/admin/it-options.php:1487
+#@ THEME_SLUG
+msgid "Details Position"
+msgstr ""
+
+#: functions/admin/it-options.php:1492
+#: functions/admin/it-options.php:1503
+#@ THEME_SLUG
+msgid "Disable details"
+msgstr ""
+
+#: functions/admin/it-options.php:1498
+#@ THEME_SLUG
+msgid "Ratings Position"
+msgstr ""
+
+#: functions/admin/it-options.php:1509
+#@ THEME_SLUG
+msgid "Positives Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1510
+#@ THEME_SLUG
+msgid "Used as the title for the positives section"
+msgstr ""
+
+#: functions/admin/it-options.php:1516
+#@ THEME_SLUG
+msgid "Negatives Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1517
+#@ THEME_SLUG
+msgid "Used as the title for the negatives section"
+msgstr ""
+
+#: functions/admin/it-options.php:1523
+#@ THEME_SLUG
+msgid "Bottom Line Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1524
+#@ THEME_SLUG
+msgid "Used as the title for the bottom line section"
+msgstr ""
+
+#: functions/admin/it-options.php:1530
+#@ THEME_SLUG
+msgid "Hide Badges"
+msgstr ""
+
+#: functions/admin/it-options.php:1531
+#: functions/admin/it-options.php:1538
+#@ THEME_SLUG
+msgid "If taxonomies, details, and badges are all hidden the entire details box will not be displayed"
+msgstr ""
+
+#: functions/admin/it-options.php:1533
+#@ THEME_SLUG
+msgid "Hide the listing of badges in the details box"
+msgstr ""
+
+#: functions/admin/it-options.php:1537
+#@ THEME_SLUG
+msgid "Hide Details"
+msgstr ""
+
+#: functions/admin/it-options.php:1540
+#@ THEME_SLUG
+msgid "Hide the listing of details in the details box"
+msgstr ""
+
+#: functions/admin/it-options.php:1544
+#@ THEME_SLUG
+msgid "Details Label"
+msgstr ""
+
+#: functions/admin/it-options.php:1545
+#@ THEME_SLUG
+msgid "The title text to display next to the icon in the details section"
+msgstr ""
+
+#: functions/admin/it-options.php:1551
+#@ THEME_SLUG
+msgid "Disable Comment Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:1553
+#@ THEME_SLUG
+msgid "Do not allow users to rate articles in the comments"
+msgstr ""
+
+#: functions/admin/it-options.php:1557
+#@ THEME_SLUG
+msgid "Disable Comment Pros/Cons"
+msgstr ""
+
+#: functions/admin/it-options.php:1559
+#@ THEME_SLUG
+msgid "Do not allow users to enter pros and cons with their comment"
+msgstr ""
+
+#: functions/admin/it-options.php:1563
+#@ THEME_SLUG
+msgid "Allow Blank Comments"
+msgstr ""
+
+#: functions/admin/it-options.php:1564
+#@ THEME_SLUG
+msgid "Use this if you want your users to be able to submit ratings and/or pros/cons without having to additionally enter standard comment text. Only applies if user comment ratings are enabled."
+msgstr ""
+
+#: functions/admin/it-options.php:1566
+#@ THEME_SLUG
+msgid "Allow users to post comments without actual comment text"
+msgstr ""
+
+#: functions/admin/it-options.php:1583
+#@ THEME_SLUG
+msgid "Add attributes to your categories such as icons and colors. First you need to create the category in Posts >> Categories (or while editing posts), then it will become available to select from the drop down lists below so you can add attributes to the category."
+msgstr ""
+
+#: functions/admin/it-options.php:1601
+#@ THEME_SLUG
+msgid "Create Awards and Badges"
+msgstr ""
+
+#: functions/admin/it-options.php:1602
+#@ THEME_SLUG
+msgid "You can create as many awards and badges as you want here and they will be visible to assign to posts on the post edit screen."
+msgstr ""
+
+#: functions/admin/it-options.php:1620
+#@ THEME_SLUG
+msgid "Create the various reactions that your users can interact with for articles"
+msgstr ""
+
+#: functions/admin/it-options.php:1638
+#@ THEME_SLUG
+msgid "Create New Sidebar"
+msgstr ""
+
+#: functions/admin/it-options.php:1639
+#@ THEME_SLUG
+msgid "You can create additional sidebars to use. To display your new sidebar then you will need to select it in the &quot;Custom Sidebar&quot; dropdown when editing a post or page."
+msgstr ""
+
+#: functions/admin/it-options.php:1657
+#@ THEME_SLUG
+msgid "Create New Signoff"
+msgstr ""
+
+#: functions/admin/it-options.php:1658
+#@ THEME_SLUG
+msgid "You can create an unlimited number of signoff text areas and then choose the one you want to use for each post."
+msgstr ""
+
+#: functions/admin/it-options.php:1676
+#@ THEME_SLUG
+msgid "General"
+msgstr ""
+
+#: functions/admin/it-options.php:1677
+#@ THEME_SLUG
+msgid "Ads that appear on every page."
+msgstr ""
+
+#: functions/admin/it-options.php:1681
+#@ THEME_SLUG
+msgid "Header"
+msgstr ""
+
+#: functions/admin/it-options.php:1682
+#@ THEME_SLUG
+msgid "Displays directly under the sticky bar on all pages."
+msgstr ""
+
+#: functions/admin/it-options.php:1689
+#@ THEME_SLUG
+msgid "Displays directly above the footer on all pages."
+msgstr ""
+
+#: functions/admin/it-options.php:1697
+#@ THEME_SLUG
+msgid "Ads that appear between page builder panels."
+msgstr ""
+
+#: functions/admin/it-options.php:1725
+#@ THEME_SLUG
+msgid "Before Horizontal Scroller"
+msgstr ""
+
+#: functions/admin/it-options.php:1731
+#@ THEME_SLUG
+msgid "After Horizontal Scroller"
+msgstr ""
+
+#: functions/admin/it-options.php:1737
+#@ THEME_SLUG
+msgid "Before Headliner"
+msgstr ""
+
+#: functions/admin/it-options.php:1743
+#@ THEME_SLUG
+msgid "After Headliner"
+msgstr ""
+
+#: functions/admin/it-options.php:1749
+#@ THEME_SLUG
+msgid "Before Connect"
+msgstr ""
+
+#: functions/admin/it-options.php:1755
+#@ THEME_SLUG
+msgid "After Connect"
+msgstr ""
+
+#: functions/admin/it-options.php:1761
+#@ THEME_SLUG
+msgid "Before Widgets"
+msgstr ""
+
+#: functions/admin/it-options.php:1767
+#@ THEME_SLUG
+msgid "After Widgets"
+msgstr ""
+
+#: functions/admin/it-options.php:1773
+#@ THEME_SLUG
+msgid "Before Top Ten"
+msgstr ""
+
+#: functions/admin/it-options.php:1779
+#@ THEME_SLUG
+msgid "After Top Ten"
+msgstr ""
+
+#: functions/admin/it-options.php:1785
+#@ THEME_SLUG
+msgid "Before Trending"
+msgstr ""
+
+#: functions/admin/it-options.php:1791
+#@ THEME_SLUG
+msgid "After Trending"
+msgstr ""
+
+#: functions/admin/it-options.php:1797
+#@ THEME_SLUG
+msgid "Before Utility Menu"
+msgstr ""
+
+#: functions/admin/it-options.php:1803
+#@ THEME_SLUG
+msgid "After Utility Menu"
+msgstr ""
+
+#: functions/admin/it-options.php:1809
+#@ THEME_SLUG
+msgid "Before Custom HTML"
+msgstr ""
+
+#: functions/admin/it-options.php:1815
+#@ THEME_SLUG
+msgid "After Custom HTML"
+msgstr ""
+
+#: functions/admin/it-options.php:1822
+#@ THEME_SLUG
+msgid "Single Posts/Pages"
+msgstr ""
+
+#: functions/admin/it-options.php:1823
+#@ THEME_SLUG
+msgid "Ads that appear only on single posts and pages."
+msgstr ""
+
+#: functions/admin/it-options.php:1827
+#@ THEME_SLUG
+msgid "Before Directory"
+msgstr ""
+
+#: functions/admin/it-options.php:1833
+#@ THEME_SLUG
+msgid "After Directory"
+msgstr ""
+
+#: functions/admin/it-options.php:1839
+#@ THEME_SLUG
+msgid "Before Title (Longform)"
+msgstr ""
+
+#: functions/admin/it-options.php:1845
+#@ THEME_SLUG
+msgid "After Title (Longform)"
+msgstr ""
+
+#: functions/admin/it-options.php:1851
+#@ THEME_SLUG
+msgid "Before Title (Billboard)"
+msgstr ""
+
+#: functions/admin/it-options.php:1857
+#@ THEME_SLUG
+msgid "After Title (Billboard)"
+msgstr ""
+
+#: functions/admin/it-options.php:1863
+#@ THEME_SLUG
+msgid "Before Title (Classic)"
+msgstr ""
+
+#: functions/admin/it-options.php:1869
+#@ THEME_SLUG
+msgid "After Title (Classic)"
+msgstr ""
+
+#: functions/admin/it-options.php:1876
+#@ THEME_SLUG
+msgid "Before Meta Bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1877
+#@ THEME_SLUG
+msgid "Displays above the meta bar containing the category and metric counts"
+msgstr ""
+
+#: functions/admin/it-options.php:1883
+#@ THEME_SLUG
+msgid "After Meta Bar"
+msgstr ""
+
+#: functions/admin/it-options.php:1884
+#@ THEME_SLUG
+msgid "Displays below the meta bar containing the category and metric counts"
+msgstr ""
+
+#: functions/admin/it-options.php:1890
+#@ THEME_SLUG
+msgid "Before Featured Video"
+msgstr ""
+
+#: functions/admin/it-options.php:1896
+#@ THEME_SLUG
+msgid "After Featured Video"
+msgstr ""
+
+#: functions/admin/it-options.php:1902
+#@ THEME_SLUG
+msgid "Before Featured Image"
+msgstr ""
+
+#: functions/admin/it-options.php:1908
+#@ THEME_SLUG
+msgid "After Featured Image"
+msgstr ""
+
+#: functions/admin/it-options.php:1914
+#@ THEME_SLUG
+msgid "Before Details"
+msgstr ""
+
+#: functions/admin/it-options.php:1920
+#@ THEME_SLUG
+msgid "After Details"
+msgstr ""
+
+#: functions/admin/it-options.php:1926
+#@ THEME_SLUG
+msgid "Before Rating Criteria"
+msgstr ""
+
+#: functions/admin/it-options.php:1932
+#@ THEME_SLUG
+msgid "After Rating Criteria"
+msgstr ""
+
+#: functions/admin/it-options.php:1938
+#@ THEME_SLUG
+msgid "Before Content"
+msgstr ""
+
+#: functions/admin/it-options.php:1944
+#@ THEME_SLUG
+msgid "After Content"
+msgstr ""
+
+#: functions/admin/it-options.php:1950
+#@ THEME_SLUG
+msgid "Before Author Info"
+msgstr ""
+
+#: functions/admin/it-options.php:1956
+#@ THEME_SLUG
+msgid "After Author Info"
+msgstr ""
+
+#: functions/admin/it-options.php:1962
+#@ THEME_SLUG
+msgid "Before Recommended"
+msgstr ""
+
+#: functions/admin/it-options.php:1968
+#@ THEME_SLUG
+msgid "After Recommended"
+msgstr ""
+
+#: functions/admin/it-options.php:1974
+#@ THEME_SLUG
+msgid "Before Comments"
+msgstr ""
+
+#: functions/admin/it-options.php:1980
+#@ THEME_SLUG
+msgid "After Comments"
+msgstr ""
+
+#: functions/admin/it-options.php:1988
+#@ THEME_SLUG
+msgid "These ads will get injected into your post loops (article listing pages)"
+msgstr ""
+
+#: functions/admin/it-options.php:1992
+#@ THEME_SLUG
+msgid "AJAX Ads"
+msgstr ""
+
+#: functions/admin/it-options.php:1993
+#@ THEME_SLUG
+msgid "You should turn this off if you are using an ad vendor that does not allow ads to display on dynamically-generated pages such as Google Adsense."
+msgstr ""
+
+#: functions/admin/it-options.php:1995
+#@ THEME_SLUG
+msgid "Display ads within AJAX (dynamically-loaded) content."
+msgstr ""
+
+#: functions/admin/it-options.php:1999
+#@ THEME_SLUG
+msgid "Shuffle"
+msgstr ""
+
+#: functions/admin/it-options.php:2001
+#@ THEME_SLUG
+msgid "Shuffle the display of the ads"
+msgstr ""
+
+#: functions/admin/it-options.php:2005
+#@ THEME_SLUG
+msgid "Number of Ads"
+msgstr ""
+
+#: functions/admin/it-options.php:2006
+#@ THEME_SLUG
+msgid "The total number of ads to display in the loop regardless of how many ad slots are filled out below"
+msgstr ""
+
+#: functions/admin/it-options.php:2012
+#@ THEME_SLUG
+msgid "Increment"
+msgstr ""
+
+#: functions/admin/it-options.php:2013
+#@ THEME_SLUG
+msgid "Display an ad every Nth row. For instance, if \"3\" is selected, every 3rd row will be an ad."
+msgstr ""
+
+#: functions/admin/it-options.php:2020
+#@ THEME_SLUG
+msgid "Off-set"
+msgstr ""
+
+#: functions/admin/it-options.php:2021
+#@ THEME_SLUG
+msgid "Number of rows to display before the first ad appears"
+msgstr ""
+
+#: functions/admin/it-options.php:2027
+#: functions/admin/it-options.php:2034
+#: functions/admin/it-options.php:2040
+#: functions/admin/it-options.php:2046
+#: functions/admin/it-options.php:2052
+#: functions/admin/it-options.php:2058
+#: functions/admin/it-options.php:2064
+#: functions/admin/it-options.php:2070
+#: functions/admin/it-options.php:2076
+#: functions/admin/it-options.php:2082
+#@ THEME_SLUG
+msgid "Ad Slot"
+msgstr ""
+
+#: functions/admin/it-options.php:2028
+#@ THEME_SLUG
+msgid "Enter the HTML for the ad here. Shortcodes work here."
+msgstr ""
+
+#: functions/admin/it-options.php:2101
+#@ THEME_SLUG
+msgid "Disable Footer"
+msgstr ""
+
+#: functions/admin/it-options.php:2103
+#@ THEME_SLUG
+msgid "Completely disable the entire footer area"
+msgstr ""
+
+#: functions/admin/it-options.php:2107
+#@ THEME_SLUG
+msgid "Copyright Text"
+msgstr ""
+
+#: functions/admin/it-options.php:2108
+#@ THEME_SLUG
+msgid "This will overwrite the default automatic copyright text in the left of the subfooter."
+msgstr ""
+
+#: functions/admin/it-options.php:2115
+#@ THEME_SLUG
+msgid "Credits Text"
+msgstr ""
+
+#: functions/admin/it-options.php:2116
+#@ THEME_SLUG
+msgid "This will overwrite the default automatic credits text in the right of the subfooter."
+msgstr ""
+
+#: functions/admin/it-options.php:2123
+#@ THEME_SLUG
+msgid "Disable Subfooter"
+msgstr ""
+
+#: functions/admin/it-options.php:2125
+#@ THEME_SLUG
+msgid "Disable the subfooter area which holds the copyright info"
+msgstr ""
+
+#: functions/admin/it-options.php:2142
+#@ THEME_SLUG
+msgid "Feedburner Feed ID"
+msgstr ""
+
+#: functions/admin/it-options.php:2143
+#@ THEME_SLUG
+msgid "Necessary for the newsletter signup form to function properly. This article explains how to find your feedburner feed name: http://netprofitstoday.com/blog/how-to-find-your-feedburner-id/"
+msgstr ""
+
+#: functions/admin/it-options.php:2151
+#@ THEME_SLUG
+msgid "RSS Feed URL"
+msgstr ""
+
+#: functions/admin/it-options.php:2152
+#@ THEME_SLUG
+msgid "Necessary to connect an RSS button to your actual RSS feed URL."
+msgstr ""
+
+#: functions/admin/it-options.php:2160
+#@ THEME_SLUG
+msgid "Twitter Username"
+msgstr ""
+
+#: functions/admin/it-options.php:2161
+#@ THEME_SLUG
+msgid "Not a full URL, just your Twitter username."
+msgstr ""
+
+#: functions/admin/it-options.php:2169
+#@ THEME_SLUG
+msgid "Pinterest User URL"
+msgstr ""
+
+#: functions/admin/it-options.php:2170
+#@ THEME_SLUG
+msgid "The URL for your user profile on Pinterest"
+msgstr ""
+
+#: functions/admin/it-options.php:2178
+#@ THEME_SLUG
+msgid "Google+ Profile URL"
+msgstr ""
+
+#: functions/admin/it-options.php:2179
+#@ THEME_SLUG
+msgid "Your actual Google+ profile URL. This is the link users are taken to when they click on the Google+ social count and it is also used to generate your Google+ follower count."
+msgstr ""
+
+#: functions/admin/it-options.php:2187
+#@ THEME_SLUG
+msgid "Youtube User ID"
+msgstr ""
+
+#: functions/admin/it-options.php:2188
+#@ THEME_SLUG
+msgid "To find your ID, sign in to YouTube and check your Advanced Account Settings page. You will see your ID listed in the Account Information section."
+msgstr ""
+
+#: functions/admin/it-options.php:2196
+#@ THEME_SLUG
+msgid "Youtube URL"
+msgstr ""
+
+#: functions/admin/it-options.php:2197
+#@ THEME_SLUG
+msgid "When users click on the subscriber count in your social counts widget they will be taken to this URL."
+msgstr ""
+
+#: functions/admin/it-options.php:2205
+#@ THEME_SLUG
+msgid "Facebook Widget Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:2206
+#@ THEME_SLUG
+msgid "These settings apply to the Facebook tab in the Social Tabs widget."
+msgstr ""
+
+#: functions/admin/it-options.php:2211
+#@ THEME_SLUG
+msgid "Facebook Page URL"
+msgstr ""
+
+#: functions/admin/it-options.php:2212
+#@ THEME_SLUG
+msgid "The URL of your Facebook page"
+msgstr ""
+
+#: functions/admin/it-options.php:2220
+#@ THEME_SLUG
+msgid "Color Scheme"
+msgstr ""
+
+#: functions/admin/it-options.php:2221
+#@ THEME_SLUG
+msgid "Light is better for light backgrounds, dark is better for dark backgrounds"
+msgstr ""
+
+#: functions/admin/it-options.php:2224
+#@ THEME_SLUG
+msgid "Light"
+msgstr ""
+
+#: functions/admin/it-options.php:2225
+#@ THEME_SLUG
+msgid "Dark"
+msgstr ""
+
+#: functions/admin/it-options.php:2231
+#@ THEME_SLUG
+msgid "Show Faces"
+msgstr ""
+
+#: functions/admin/it-options.php:2233
+#@ THEME_SLUG
+msgid "Show profile photos at the bottom"
+msgstr ""
+
+#: functions/admin/it-options.php:2238
+#@ THEME_SLUG
+msgid "Show Stream"
+msgstr ""
+
+#: functions/admin/it-options.php:2240
+#@ THEME_SLUG
+msgid "Show the profile stream for the public profile"
+msgstr ""
+
+#: functions/admin/it-options.php:2245
+#@ THEME_SLUG
+msgid "Show Header"
+msgstr ""
+
+#: functions/admin/it-options.php:2247
+#@ THEME_SLUG
+msgid "Show the \"Find us on Facebook\" bar at the top"
+msgstr ""
+
+#: functions/admin/it-options.php:2248
+#@ THEME_SLUG
+msgid "Note: this only displays if either the stream or faces are displayed."
+msgstr ""
+
+#: functions/admin/it-options.php:2253
+#@ THEME_SLUG
+msgid "Border Color"
+msgstr ""
+
+#: functions/admin/it-options.php:2254
+#@ THEME_SLUG
+msgid "The color of the borders around the Like Box"
+msgstr ""
+
+#: functions/admin/it-options.php:2260
+#@ THEME_SLUG
+msgid "Twitter Widget Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:2261
+#@ THEME_SLUG
+msgid "These settings apply to the Twitter tab in the Social Tabs widget."
+msgstr ""
+
+#: functions/admin/it-options.php:2265
+#@ THEME_SLUG
+msgid "Twitter Widget Code"
+msgstr ""
+
+#: functions/admin/it-options.php:2266
+#@ THEME_SLUG
+msgid "Go to https://twitter.com/settings/widgets and create a new widget. Then put the generated widget code into this box."
+msgstr ""
+
+#: functions/admin/it-options.php:2273
+#@ THEME_SLUG
+msgid "Flickr Widget Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:2274
+#@ THEME_SLUG
+msgid "These settings apply to the Flickr tab in the Social Tabs widget."
+msgstr ""
+
+#: functions/admin/it-options.php:2279
+#@ THEME_SLUG
+msgid "Flickr Account ID"
+msgstr ""
+
+#: functions/admin/it-options.php:2280
+#@ THEME_SLUG
+msgid "Your Flickr Account ID. Use this service to find it: http://idgettr.com/"
+msgstr ""
+
+#: functions/admin/it-options.php:2288
+#@ THEME_SLUG
+msgid "Number of Photos"
+msgstr ""
+
+#: functions/admin/it-options.php:2289
+#@ THEME_SLUG
+msgid "The number of photos to display in the widget."
+msgstr ""
+
+#: functions/admin/it-options.php:2296
+#: functions/admin/it-options.php:2302
+#: functions/admin/it-options.php:2303
+#@ THEME_SLUG
+msgid "Social Badges"
+msgstr ""
+
+#: functions/admin/it-options.php:2297
+#@ THEME_SLUG
+msgid "These social badges appear in the header of your site next to the logo."
+msgstr ""
+
+#: functions/admin/it-options.php:2321
+#@ THEME_SLUG
+msgid "Custom Admin Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:2322
+#@ THEME_SLUG
+msgid "Upload an image to replace the default theme logo."
+msgstr ""
+
+#: functions/admin/it-options.php:2327
+#@ THEME_SLUG
+msgid "Disable Image Sizes"
+msgstr ""
+
+#: functions/admin/it-options.php:2328
+#@ THEME_SLUG
+msgid "If you are not using an image size anywhere in your theme and you want to block WordPress from creating an additional image for that size, you can selectively turn off creation of these images here."
+msgstr ""
+
+#: functions/admin/it-options.php:2331
+#@ THEME_SLUG
+msgid "Micro - smallest sized thumbnails in widgets (30 x 30)"
+msgstr ""
+
+#: functions/admin/it-options.php:2332
+#@ THEME_SLUG
+msgid "Menu - mega menus and \"new articles\" loops (130 x 75)"
+msgstr ""
+
+#: functions/admin/it-options.php:2334
+#@ THEME_SLUG
+msgid "Grid Wide - wide grid panels (1200 x 334)"
+msgstr ""
+
+#: functions/admin/it-options.php:2335
+#@ THEME_SLUG
+msgid "Scroller - horizontal scroller and recommended posts (200 x 250)"
+msgstr ""
+
+#: functions/admin/it-options.php:2336
+#@ THEME_SLUG
+msgid "Scroller Wide - trending and top ten loops (250 x 150)"
+msgstr ""
+
+#: functions/admin/it-options.php:2337
+#@ THEME_SLUG
+msgid "Headliner - headliner page builder panel (1000 x 60)"
+msgstr ""
+
+#: functions/admin/it-options.php:2338
+#@ THEME_SLUG
+msgid "Small - featured image on single posts (180px width non-cropped)"
+msgstr ""
+
+#: functions/admin/it-options.php:2339
+#@ THEME_SLUG
+msgid "Medium - featured image on single posts (360px width non-cropped)"
+msgstr ""
+
+#: functions/admin/it-options.php:2340
+#@ THEME_SLUG
+msgid "Full - featured image on single posts (1200px width non-cropped)"
+msgstr ""
+
+#: functions/admin/it-options.php:2345
+#@ THEME_SLUG
+msgid "Import Options"
+msgstr ""
+
+#: functions/admin/it-options.php:2346
+#@ THEME_SLUG
+msgid "Copy your export code here to import your theme settings."
+msgstr ""
+
+#: functions/admin/it-options.php:2351
+#@ THEME_SLUG
+msgid "Export Options"
+msgstr ""
+
+#: functions/admin/it-options.php:2352
+#@ THEME_SLUG
+msgid "When moving your site to a new Wordpress installation you can export your theme settings here."
+msgstr ""
+
+#: functions/admin/it-options.php:2365
+#@ THEME_SLUG
+msgid "Disable Unique Views"
+msgstr ""
+
+#: functions/admin/it-options.php:2366
+#@ THEME_SLUG
+msgid "This turns off the ip address check so that every time a page is accessed the view count increments by one."
+msgstr ""
+
+#: functions/admin/it-options.php:2368
+#@ THEME_SLUG
+msgid "Post views will increment on every page view"
+msgstr ""
+
+#: functions/admin/it-options.php:2373
+#@ THEME_SLUG
+msgid "Allow Unlimited User Ratings"
+msgstr ""
+
+#: functions/admin/it-options.php:2374
+#@ THEME_SLUG
+msgid "This is only for development/testing purposes and will continually add user ratings and re-average the total score each time a user rates a criteria."
+msgstr ""
+
+#: functions/admin/it-options.php:2376
+#: functions/admin/it-options.php:2384
+#@ THEME_SLUG
+msgid "TESTING PURPOSES ONLY"
+msgstr ""
+
+#: functions/admin/it-options.php:2381
+#@ THEME_SLUG
+msgid "Allow Unlimited User Reactions"
+msgstr ""
+
+#: functions/admin/it-options.php:2382
+#@ THEME_SLUG
+msgid "This is only for development/testing purposes and will continually stack reactions when users click the reaction buttons instead of \"switching\" their existing reaction."
+msgstr ""
+
+#: functions/admin/it-options.php:2389
+#@ THEME_SLUG
+msgid "Disable Social Click Tracking"
+msgstr ""
+
+#: functions/admin/it-options.php:2391
+#@ THEME_SLUG
+msgid "Disable the click tracking for the social sharing links on pages and posts"
+msgstr ""
+
+#: functions/admin/it-options.php:2410
+#@ THEME_SLUG
+msgid "These settings apply to all WooCommerce related pages."
+msgstr ""
+
+#: functions/admin/it-options.php:2414
+#@ THEME_SLUG
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: functions/admin/it-options.php:2416
+#@ THEME_SLUG
+msgid "Disable the breadcrumb navigation from all woocommerce pages"
+msgstr ""
+
+#: functions/admin/it-options.php:2420
+#@ THEME_SLUG
+msgid "Show Above"
+msgstr ""
+
+#: functions/admin/it-options.php:2421
+#@ THEME_SLUG
+msgid "Select which page builder components you want to display above the main content of all WooCommerce pages."
+msgstr ""
+
+#: functions/admin/it-options.php:2426
+#@ THEME_SLUG
+msgid "Show Below"
+msgstr ""
+
+#: functions/admin/it-options.php:2427
+#@ THEME_SLUG
+msgid "Select which page builder components you want to display below the main content of all WooCommerce pages."
+msgstr ""
+
+#: functions/admin/it-options.php:2434
+#@ THEME_SLUG
+msgid "Do not display a sidebar for woocommerce pages."
+msgstr ""
+
+#: functions/admin/it-options.php:2438
+#@ THEME_SLUG
+msgid "Use \"WooCommerce\" Sidebar"
+msgstr ""
+
+#: functions/admin/it-options.php:2440
+#@ THEME_SLUG
+msgid "Use the \"WooCommerce\" instead of the \"Page\" sidebar"
+msgstr ""
+
+#: functions/admin/it-options.php:2462
+#@ THEME_SLUG
+msgid "These settings apply to all BuddyPress and bbPress related pages unless otherwise noted."
+msgstr ""
+
+#: functions/admin/it-options.php:2473
+#@ THEME_SLUG
+msgid "Do not display a sidebar for buddypress pages."
+msgstr ""
+
+#: functions/admin/it-options.php:2477
+#@ THEME_SLUG
+msgid "Use \"BuddyPress\" Sidebar"
+msgstr ""
+
+#: functions/admin/it-options.php:2479
+#@ THEME_SLUG
+msgid "Use the \"BuddyPress\" instead of the \"Page\" sidebar"
+msgstr ""
+
+#: functions/admin/it-options.php:2483
+#@ THEME_SLUG
+msgid "Use WordPress Registration"
+msgstr ""
+
+#: functions/admin/it-options.php:2485
+#@ THEME_SLUG
+msgid "Turn this on if you want to be able to use the registration form in the sticky bar. Otherwise the register link in the sticky bar will redirect the user to the BuddyPress registration page."
+msgstr ""
+
+#: functions/admin/it-options.php:2486
+#@ THEME_SLUG
+msgid "Enables registration directly from the sticky bar"
+msgstr ""
+
+#: functions/admin/meta-directory.php:3
+#@ THEME_SLUG
+msgid "Directory Options"
+msgstr ""
+
+#: functions/admin/meta-directory.php:11
+#: functions/admin/option-generator.php:1812
+#: functions/shortcodes/headliner.php:14
+#: functions/shortcodes/loops.php:14
+#: functions/shortcodes/loops.php:272
+#: functions/shortcodes/scroller.php:14
+#: functions/shortcodes/topten.php:14
+#: functions/shortcodes/trending.php:14
+#@ THEME_SLUG
+msgid "Included Categories"
+msgstr ""
+
+#: functions/admin/meta-directory.php:12
+#@ THEME_SLUG
+msgid "You can choose certain categories to include in this directory page."
+msgstr ""
+
+#: functions/admin/meta-directory.php:19
+#@ THEME_SLUG
+msgid "List Type"
+msgstr ""
+
+#: functions/admin/meta-directory.php:22
+#@ THEME_SLUG
+msgid "Merged into one list"
+msgstr ""
+
+#: functions/admin/meta-directory.php:23
+#@ THEME_SLUG
+msgid "Separated into multiple lists"
+msgstr ""
+
+#: functions/admin/meta-directory.php:41
+#@ THEME_SLUG
+msgid "Disable Ratings"
+msgstr ""
+
+#: functions/admin/meta-directory.php:42
+#@ THEME_SLUG
+msgid "Only applies to layout A"
+msgstr ""
+
+#: functions/admin/meta-directory.php:63
+#@ THEME_SLUG
+msgid "Default Sorting"
+msgstr ""
+
+#: functions/admin/meta-directory.php:67
+#: functions/shortcodes/loops.php:73
+#: functions/shortcodes/loops.php:331
+#@ THEME_SLUG
+msgid "Alphabetical"
+msgstr ""
+
+#: functions/admin/meta-directory.php:70
+#@ THEME_SLUG
+msgid "Highest User Rated"
+msgstr ""
+
+#: functions/admin/meta-directory.php:71
+#@ THEME_SLUG
+msgid "Highest Editor Reviewed"
+msgstr ""
+
+#: functions/admin/meta-directory.php:79
+#@ THEME_SLUG
+msgid "Reviews Only"
+msgstr ""
+
+#: functions/admin/meta-directory.php:81
+#@ THEME_SLUG
+msgid "Do not include posts without ratings"
+msgstr ""
+
+#: functions/admin/meta-directory.php:85
+#: functions/shortcodes/loops.php:336
+#@ THEME_SLUG
+msgid "Posts Per Page"
+msgstr ""
+
+#: functions/admin/meta-page.php:3
+#: functions/admin/meta-post.php:5
+#@ THEME_SLUG
+msgid "Layout Options"
+msgstr ""
+
+#: functions/admin/meta-page.php:13
+#@ THEME_SLUG
+msgid "Do not display a sidebar for this page."
+msgstr ""
+
+#: functions/admin/meta-page.php:17
+#: functions/admin/meta-post.php:29
+#@ THEME_SLUG
+msgid "Display Sidebar"
+msgstr ""
+
+#: functions/admin/meta-page.php:19
+#@ THEME_SLUG
+msgid "Useful if you have disabled the sidebar site-wide but want one just for this page. Leave blank to use setting from theme options."
+msgstr ""
+
+#: functions/admin/meta-page.php:20
+#@ THEME_SLUG
+msgid "Force display a sidebar for this page"
+msgstr ""
+
+#: functions/admin/meta-page.php:43
+#: functions/admin/meta-post.php:55
+#@ THEME_SLUG
+msgid "You can set the featured image size for this specific page"
+msgstr ""
+
+#: functions/admin/meta-page.php:56
+#@ THEME_SLUG
+msgid "Do not display the main page title for this page."
+msgstr ""
+
+#: functions/admin/meta-page.php:60
+#: functions/admin/meta-post.php:66
+#@ THEME_SLUG
+msgid "Custom Sidebar"
+msgstr ""
+
+#: functions/admin/meta-page.php:61
+#@ THEME_SLUG
+msgid "Select the custom sidebar that you'd like to be displayed on this page. Note: You will need to first create a custom sidebar under the Sidebars tab in your theme's option panel before it will show up here."
+msgstr ""
+
+#: functions/admin/meta-page.php:67
+#: functions/admin/meta-post.php:137
+#@ THEME_SLUG
+msgid "Subtitle"
+msgstr ""
+
+#: functions/admin/meta-page.php:68
+#@ THEME_SLUG
+msgid "You can specify a subtitle for this page which will display in the container bar above the page title and content."
+msgstr ""
+
+#: functions/admin/meta-post.php:3
+#@ THEME_SLUG
+msgid "Show contents menu for this post"
+msgstr ""
+
+#: functions/admin/meta-post.php:3
+#@ THEME_SLUG
+msgid "Hide contents menu for this post"
+msgstr ""
+
+#: functions/admin/meta-post.php:13
+#@ THEME_SLUG
+msgid "Post Layout"
+msgstr ""
+
+#: functions/admin/meta-post.php:25
+#@ THEME_SLUG
+msgid "Do not display a sidebar for this post"
+msgstr ""
+
+#: functions/admin/meta-post.php:31
+#@ THEME_SLUG
+msgid "Useful if you have disabled the sidebar site-wide but want one just for this post. Leave blank to use setting from theme options."
+msgstr ""
+
+#: functions/admin/meta-post.php:32
+#@ THEME_SLUG
+msgid "Force display a sidebar for this post"
+msgstr ""
+
+#: functions/admin/meta-post.php:67
+#@ THEME_SLUG
+msgid "Select the custom sidebar that you'd like to be displayed on this page.<br /><br />Note:  You will need to first create a custom sidebar under the &quot;Sidebar&quot; tab in your theme's option panel before it will show up here."
+msgstr ""
+
+#: functions/admin/meta-post.php:73
+#@ THEME_SLUG
+msgid "Featured Video"
+msgstr ""
+
+#: functions/admin/meta-post.php:74
+#@ THEME_SLUG
+msgid "You can paste a URL of a video here to display within your post. Examples on how to format the links: YouTube - http://www.youtube.com/watch?v=fxs970FMYIo. Vimeo - http://vimeo.com/8736190"
+msgstr ""
+
+#: functions/admin/meta-post.php:138
+#@ THEME_SLUG
+msgid "You can specify a subtitle for this post which will display under the title."
+msgstr ""
+
+#: functions/admin/meta-post.php:143
+#@ THEME_SLUG
+msgid "Contents Menu"
+msgstr ""
+
+#: functions/admin/meta-post.php:155
+#@ THEME_SLUG
+msgid "Affiliate Code"
+msgstr ""
+
+#: functions/admin/meta-post.php:156
+#@ THEME_SLUG
+msgid "Copy and paste in your affiliate code here. Adjust where you want it to display on the page via the Theme Options."
+msgstr ""
+
+#: functions/admin/meta-reactions.php:3
+#: functions/admin/meta-reactions.php:11
+#@ THEME_SLUG
+msgid "Excluded Reactions"
+msgstr ""
+
+#: functions/admin/meta-reset.php:3
+#@ THEME_SLUG
+msgid "Reset Values"
+msgstr ""
+
+#: functions/admin/meta-reset.php:11
+#@ THEME_SLUG
+msgid "Warning: Permanent Deletion"
+msgstr ""
+
+#: functions/admin/meta-reset.php:13
+#@ THEME_SLUG
+msgid "These settings will cause permanent deletion and you will not be able to recover IP Addresses or total counts. For advanced use only."
+msgstr ""
+
+#: functions/admin/meta-reset.php:17
+#@ THEME_SLUG
+msgid "Delete Likes"
+msgstr ""
+
+#: functions/admin/meta-reset.php:19
+#@ THEME_SLUG
+msgid "Delete all IP Addresses and rest like count to 0"
+msgstr ""
+
+#: functions/admin/meta-reset.php:23
+#@ THEME_SLUG
+msgid "Delete Views"
+msgstr ""
+
+#: functions/admin/meta-reset.php:24
+#@ THEME_SLUG
+msgid "Delete all IP Addresses and rest view count to 0"
+msgstr ""
+
+#: functions/admin/meta-reset.php:29
+#@ THEME_SLUG
+msgid "Delete User Ratings"
+msgstr ""
+
+#: functions/admin/meta-reset.php:30
+#@ THEME_SLUG
+msgid "Delete all user ratings for each criteria and total rating (posts only)"
+msgstr ""
+
+#: functions/admin/meta-reset.php:35
+#@ THEME_SLUG
+msgid "Delete User Reactions"
+msgstr ""
+
+#: functions/admin/meta-reset.php:36
+#@ THEME_SLUG
+msgid "Delete all user reactions for this post (posts only)"
+msgstr ""
+
+#: functions/admin/meta-review.php:4
+#@ THEME_SLUG
+msgid "Review Options"
+msgstr ""
+
+#: functions/admin/meta-review.php:12
+#@ THEME_SLUG
+msgid "Post Type"
+msgstr ""
+
+#: functions/admin/meta-review.php:14
+#@ THEME_SLUG
+msgid "Set this to review if you want it to display as a review type post."
+msgstr ""
+
+#: functions/admin/meta-review.php:39
+#@ THEME_SLUG
+msgid "Leave this unselected unless you want to override the default rating metric set in the theme options."
+msgstr ""
+
+#: functions/admin/meta-review.php:69
+#@ THEME_SLUG
+msgid "Leave blank or set to No Rating to exclude this criteria from the ratings for this post."
+msgstr ""
+
+#: functions/admin/meta-review.php:84
+#@ THEME_SLUG
+msgid "Total Score Override"
+msgstr ""
+
+#: functions/admin/meta-review.php:85
+#@ THEME_SLUG
+msgid "Use this setting to manually override the auto-calculated total rating based on the criteria above. Leave it unset to use the auto-calculated value."
+msgstr ""
+
+#: functions/admin/option-generator.php:29
+#@ THEME_SLUG
+msgid "Documentation"
+msgstr ""
+
+#: functions/admin/option-generator.php:30
+#@ THEME_SLUG
+msgid "Support Portal"
+msgstr ""
+
+#: functions/admin/option-generator.php:31
+#@ THEME_SLUG
+msgid "Credits"
+msgstr ""
+
+#: functions/admin/option-generator.php:75
+#@ THEME_SLUG
+msgid "All options and widgets successfully restored to default."
+msgstr ""
+
+#: functions/admin/option-generator.php:78
+#@ THEME_SLUG
+msgid "All demo options, widgets, and menus successfully imported."
+msgstr ""
+
+#: functions/admin/option-generator.php:81
+#@ THEME_SLUG
+msgid "Settings Saved."
+msgstr ""
+
+#: functions/admin/option-generator.php:84
+#@ THEME_SLUG
+msgid "Custom Options Import Successful."
+msgstr ""
+
+#: functions/admin/option-generator.php:87
+#@ THEME_SLUG
+msgid "There was an error importing your options, please try again."
+msgstr ""
+
+#: functions/admin/option-generator.php:295
+#: functions/admin/option-generator.php:360
+#: functions/admin/option-generator.php:2225
+#: functions/admin/option-generator.php:2288
+#: functions/admin/shortcode-generator.php:42
+#: functions/admin/shortcode-generator.php:73
+#@ THEME_SLUG
+msgid "Choose one..."
+msgstr ""
+
+#: functions/admin/option-generator.php:728
+#@ THEME_SLUG
+msgid "Add Sidebar"
+msgstr ""
+
+#: functions/admin/option-generator.php:745
+#: functions/admin/option-generator.php:761
+#@ THEME_SLUG
+msgid "Delete"
+msgstr ""
+
+#: functions/admin/option-generator.php:788
+#@ THEME_SLUG
+msgid "Add New Social Link"
+msgstr ""
+
+#: functions/admin/option-generator.php:821
+#, php-format
+#@ THEME_SLUG
+msgid "Social Link %1$s"
+msgstr ""
+
+#: functions/admin/option-generator.php:823
+#@ THEME_SLUG
+msgid "Edit Social Link"
+msgstr ""
+
+#: functions/admin/option-generator.php:832
+#@ THEME_SLUG
+msgid "Preset Icon"
+msgstr ""
+
+#: functions/admin/option-generator.php:846
+#@ THEME_SLUG
+msgid "Custom Icon"
+msgstr ""
+
+#: functions/admin/option-generator.php:853
+#@ THEME_SLUG
+msgid "Social Link URL"
+msgstr ""
+
+#: functions/admin/option-generator.php:859
+#@ THEME_SLUG
+msgid "Custom Hover Text"
+msgstr ""
+
+#: functions/admin/option-generator.php:866
+#: functions/admin/option-generator.php:957
+#: functions/admin/option-generator.php:1046
+#: functions/admin/option-generator.php:1138
+#: functions/admin/option-generator.php:1302
+#: functions/admin/option-generator.php:1439
+#: functions/admin/option-generator.php:1707
+#: functions/admin/option-generator.php:2017
+#@ THEME_SLUG
+msgid "Remove"
+msgstr ""
+
+#: functions/admin/option-generator.php:867
+#: functions/admin/option-generator.php:958
+#: functions/admin/option-generator.php:1047
+#: functions/admin/option-generator.php:1139
+#: functions/admin/option-generator.php:1303
+#: functions/admin/option-generator.php:1440
+#: functions/admin/option-generator.php:1708
+#: functions/admin/option-generator.php:2018
+#@ THEME_SLUG
+msgid "Cancel"
+msgstr ""
+
+#: functions/admin/option-generator.php:905
+#@ THEME_SLUG
+msgid "Add New Signoff"
+msgstr ""
+
+#: functions/admin/option-generator.php:933
+#@ THEME_SLUG
+msgid "New Signoff"
+msgstr ""
+
+#: functions/admin/option-generator.php:935
+#@ THEME_SLUG
+msgid "Edit Signoff"
+msgstr ""
+
+#: functions/admin/option-generator.php:994
+#@ THEME_SLUG
+msgid "Add New Detail"
+msgstr ""
+
+#: functions/admin/option-generator.php:1022
+#@ THEME_SLUG
+msgid "New Detail"
+msgstr ""
+
+#: functions/admin/option-generator.php:1024
+#@ THEME_SLUG
+msgid "Edit Detail"
+msgstr ""
+
+#: functions/admin/option-generator.php:1040
+#@ THEME_SLUG
+msgid "The name of the detail field. This is a way of further describing the article."
+msgstr ""
+
+#: functions/admin/option-generator.php:1083
+#@ THEME_SLUG
+msgid "Add New Criteria"
+msgstr ""
+
+#: functions/admin/option-generator.php:1108
+#@ THEME_SLUG
+msgid "New Criteria"
+msgstr ""
+
+#: functions/admin/option-generator.php:1110
+#@ THEME_SLUG
+msgid "Edit Criteria"
+msgstr ""
+
+#: functions/admin/option-generator.php:1126
+#@ THEME_SLUG
+msgid "Weight"
+msgstr ""
+
+#: functions/admin/option-generator.php:1132
+#@ THEME_SLUG
+msgid "You can assign weight to your rating criteria to make them more important during the averaging of the total score. You can use any scale you want, such as assigning 1 to regular criteria and 2 to more important criteria, or 100 to regular criteria and 80 to less important criteria. The values can be anything you want because they are relative only to each other. You can leave this field blank to keep all the weights the same."
+msgstr ""
+
+#: functions/admin/option-generator.php:1175
+#@ THEME_SLUG
+msgid "Add New Award"
+msgstr ""
+
+#: functions/admin/option-generator.php:1208
+#@ THEME_SLUG
+msgid "New Award"
+msgstr ""
+
+#: functions/admin/option-generator.php:1210
+#@ THEME_SLUG
+msgid "Edit Award/Badge"
+msgstr ""
+
+#: functions/admin/option-generator.php:1226
+#: functions/admin/option-generator.php:1387
+#@ THEME_SLUG
+msgid "Slug"
+msgstr ""
+
+#: functions/admin/option-generator.php:1232
+#@ THEME_SLUG
+msgid "Leave this blank unless you need to specifically manually enter a slug, such as if you want to use non-UTF-8 characters in the name of the award. For detailed information please reference the theme documentation. The slug will be created automatically based on the name of the award if you leave this field blank (recommended). Slugs must only contain lower-case letters and underscores, and cannot contain any other types of characters or spaces. WARNING: if you change the slug after you create the award you will have to re-assign the award to your posts."
+msgstr ""
+
+#: functions/admin/option-generator.php:1238
+#: functions/admin/option-generator.php:1546
+#@ THEME_SLUG
+msgid "Icon (16px)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1245
+#: functions/admin/option-generator.php:1420
+#@ THEME_SLUG
+msgid "Image size should be 16px by 16px square."
+msgstr ""
+
+#: functions/admin/option-generator.php:1251
+#: functions/admin/option-generator.php:1553
+#@ THEME_SLUG
+msgid "HD Icon (32px)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1258
+#: functions/admin/option-generator.php:1433
+#@ THEME_SLUG
+msgid "Choose a separate image for use in HD (hiDPI/retina) displays. Image should be 32px by 32px square."
+msgstr ""
+
+#: functions/admin/option-generator.php:1264
+#: functions/admin/option-generator.php:1560
+#@ THEME_SLUG
+msgid "Optional White Icon (16px)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1271
+#@ THEME_SLUG
+msgid "Optional white version of the 16px icon for use in places with a dark background such as the featured slider. If you leave this blank the icon above will be used"
+msgstr ""
+
+#: functions/admin/option-generator.php:1277
+#: functions/admin/option-generator.php:1567
+#@ THEME_SLUG
+msgid "Optional White HD Icon (32px)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1284
+#@ THEME_SLUG
+msgid "Optional white version of the 32px icon for use in places with a dark background cush as the featured slider. If you leave this blank the icon above will be used."
+msgstr ""
+
+#: functions/admin/option-generator.php:1292
+#@ THEME_SLUG
+msgid "This is a Badge"
+msgstr ""
+
+#: functions/admin/option-generator.php:1296
+#@ THEME_SLUG
+msgid "Treat this item as a badge instead of an award. Badges appear as a simple icon in the badges section with the badge name in the tooltip (hover text). By contrast, Awards display in the awards section with the name of the award visible."
+msgstr ""
+
+#: functions/admin/option-generator.php:1339
+#@ THEME_SLUG
+msgid "Add New Reaction"
+msgstr ""
+
+#: functions/admin/option-generator.php:1369
+#@ THEME_SLUG
+msgid "New Reaction"
+msgstr ""
+
+#: functions/admin/option-generator.php:1371
+#@ THEME_SLUG
+msgid "Edit Reaction/Badge"
+msgstr ""
+
+#: functions/admin/option-generator.php:1393
+#@ THEME_SLUG
+msgid "Leave this blank unless you need to specifically manually enter a slug, such as if you want to use non-UTF-8 characters in the name of the reaction. For detailed information please reference the theme documentation. The slug will be created automatically based on the name of the reaction if you leave this field blank (recommended). Slugs must only contain lower-case letters and underscores, and cannot contain any other types of characters or spaces. WARNING: if you change the slug after you create the reaction you will have to re-adjust excluded reactions in all of your posts (if any are excluded)."
+msgstr ""
+
+#: functions/admin/option-generator.php:1398
+#@ THEME_SLUG
+msgid "Preset Image"
+msgstr ""
+
+#: functions/admin/option-generator.php:1413
+#@ THEME_SLUG
+msgid "Custom Icon (16px)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1426
+#@ THEME_SLUG
+msgid "Custom HD Icon (32px)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1476
+#@ THEME_SLUG
+msgid "Manage A Category"
+msgstr ""
+
+#: functions/admin/option-generator.php:1528
+#@ THEME_SLUG
+msgid "Edit Category"
+msgstr ""
+
+#: functions/admin/option-generator.php:1537
+#@ THEME_SLUG
+msgid "Choose An Existing Category"
+msgstr ""
+
+#: functions/admin/option-generator.php:1574
+#@ THEME_SLUG
+msgid "Category Color"
+msgstr ""
+
+#: functions/admin/option-generator.php:1589
+#@ THEME_SLUG
+msgid "Logo Width (Optional)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1596
+#@ THEME_SLUG
+msgid "Logo Height (Optional)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1644
+#@ THEME_SLUG
+msgid "Hide the Site Tagline from the sticky bar"
+msgstr ""
+
+#: functions/admin/option-generator.php:2431
+#@ THEME_SLUG
+msgid "Every row"
+msgstr ""
+
+#: functions/admin/option-generator.php:2433
+#@ THEME_SLUG
+msgid "Every"
+msgstr ""
+
+#: functions/admin/option-generator.php:2433
+#@ THEME_SLUG
+msgid "rows"
+msgstr ""
+
+#: functions/admin/option-generator.php:2437
+#: functions/admin/option-generator.php:2444
+#: functions/admin/option-generator.php:2451
+#: functions/admin/option-generator.php:2459
+#@ THEME_SLUG
+msgid "No Rating"
+msgstr ""
+
+#: functions/admin/option-generator.php:2438
+#: functions/admin/option-generator.php:2445
+#: functions/admin/option-generator.php:2452
+#: functions/admin/option-generator.php:2460
+#@ THEME_SLUG
+msgid "Users can rate (no editor rating)"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/admin/option-generator.php:2514
+#: functions/widgets/widget-top-reviewed.php:167
+#: functions/widgets/widget-top-ten.php:219
+#: functions/widgets/widget-trending.php:162
+#@ THEME_SLUG
+msgid "This Week"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/admin/option-generator.php:2514
+#: functions/shortcodes/topten.php:109
+#: functions/shortcodes/trending.php:116
+#: functions/widgets/widget-top-reviewed.php:168
+#: functions/widgets/widget-top-ten.php:220
+#: functions/widgets/widget-trending.php:163
+#@ THEME_SLUG
+msgid "This Month"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/admin/option-generator.php:2514
+#: functions/widgets/widget-top-reviewed.php:169
+#: functions/widgets/widget-top-ten.php:221
+#: functions/widgets/widget-trending.php:164
+#@ THEME_SLUG
+msgid "This Year"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/widgets/widget-top-reviewed.php:170
+#: functions/widgets/widget-top-ten.php:222
+#: functions/widgets/widget-trending.php:165
+#@ THEME_SLUG
+msgid "Within Past Week"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/widgets/widget-top-reviewed.php:171
+#: functions/widgets/widget-top-ten.php:223
+#: functions/widgets/widget-trending.php:166
+#@ THEME_SLUG
+msgid "Within Past Month"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/widgets/widget-top-reviewed.php:172
+#: functions/widgets/widget-top-ten.php:224
+#: functions/widgets/widget-trending.php:167
+#@ THEME_SLUG
+msgid "Within Past 2 Months"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/widgets/widget-top-reviewed.php:173
+#: functions/widgets/widget-top-ten.php:225
+#: functions/widgets/widget-trending.php:168
+#@ THEME_SLUG
+msgid "Within Past 3 Months"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/widgets/widget-top-reviewed.php:174
+#: functions/widgets/widget-top-ten.php:226
+#: functions/widgets/widget-trending.php:169
+#@ THEME_SLUG
+msgid "Within Past 6 Months"
+msgstr ""
+
+#: functions/admin/option-generator.php:2508
+#: functions/widgets/widget-top-reviewed.php:175
+#: functions/widgets/widget-top-ten.php:227
+#: functions/widgets/widget-trending.php:170
+#@ THEME_SLUG
+msgid "Within Past Year"
+msgstr ""
+
+#: functions/admin/option-generator.php:2514
+#@ THEME_SLUG
+msgid "Today"
+msgstr ""
+
+#: functions/admin/option-generator.php:2514
+#@ THEME_SLUG
+msgid "Total Articles"
+msgstr ""
+
+#: functions/admin/option-generator.php:2520
+#@ THEME_SLUG
+msgid "All Roles"
+msgstr ""
+
+#: functions/admin/option-generator.php:2520
+#@ THEME_SLUG
+msgid "All Roles Above Subscriber"
+msgstr ""
+
+#: functions/admin/option-generator.php:2520
+#@ THEME_SLUG
+msgid "Subscribers"
+msgstr ""
+
+#: functions/admin/option-generator.php:2520
+#@ THEME_SLUG
+msgid "Contributors"
+msgstr ""
+
+#: functions/admin/option-generator.php:2520
+#@ THEME_SLUG
+msgid "Authors"
+msgstr ""
+
+#: functions/admin/option-generator.php:2520
+#@ THEME_SLUG
+msgid "Editors"
+msgstr ""
+
+#: functions/admin/option-generator.php:2520
+#@ THEME_SLUG
+msgid "Admins"
+msgstr ""
+
+#: functions/admin/option-generator.php:2526
+#@ THEME_SLUG
+msgid "Nice Name"
+msgstr ""
+
+#: functions/admin/option-generator.php:2526
+#@ THEME_SLUG
+msgid "URL"
+msgstr ""
+
+#: functions/admin/option-generator.php:2526
+#@ THEME_SLUG
+msgid "Registered"
+msgstr ""
+
+#: functions/admin/option-generator.php:2526
+#@ THEME_SLUG
+msgid "Display Name"
+msgstr ""
+
+#: functions/admin/option-generator.php:2526
+#@ THEME_SLUG
+msgid "Post Count"
+msgstr ""
+
+#: functions/admin/option-generator.php:2532
+#@ THEME_SLUG
+msgid "Page/Post Content"
+msgstr ""
+
+#: functions/admin/scripts.php:31
+#@ THEME_SLUG
+msgid "This will restore all theme options to defaults, and it will ALSO restore all widget options and nav menus to defaults. Are you sure?"
+msgstr ""
+
+#: functions/admin/scripts.php:32
+#@ THEME_SLUG
+msgid "This will replace all theme options with the demo settings, and it will ALSO replace all widget options and nav menus with the demo settings. Are you sure?"
+msgstr ""
+
+#: functions/admin/scripts.php:33
+#@ THEME_SLUG
+msgid "Please enter a name for your sidebar."
+msgstr ""
+
+#: functions/admin/scripts.php:34
+#@ THEME_SLUG
+msgid "Are you sure you want to delete this sidebar?"
+msgstr ""
+
+#: functions/admin/scripts.php:35
+#, php-format
+#@ THEME_SLUG
+msgid "%1$s has invalid extension. Only %2$s are allowed."
+msgstr ""
+
+#: functions/admin/shortcode-generator.php:26
+#@ THEME_SLUG
+msgid "Shortcode Generator"
+msgstr ""
+
+#: functions/admin/shortcode-generator.php:38
+#@ THEME_SLUG
+msgid "Shortcode"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:18
+#@ THEME_SLUG
+msgid "Alert Html"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:19
+#@ THEME_SLUG
+msgid "Type out the content of your alert box.  You can use HTML tags here if you want."
+msgstr ""
+
+#: functions/shortcodes/alerts.php:25
+#: functions/shortcodes/buttons.php:58
+#: functions/shortcodes/labels.php:24
+#: functions/shortcodes/progress.php:26
+#@ THEME_SLUG
+msgid "Style Variations"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:26
+#: functions/shortcodes/signoffs.php:18
+#@ THEME_SLUG
+msgid "Choose one of the predefined alert box styles to use."
+msgstr ""
+
+#: functions/shortcodes/alerts.php:31
+#@ THEME_SLUG
+msgid "Error"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:32
+#: functions/shortcodes/buttons.php:66
+#: functions/shortcodes/labels.php:31
+#: functions/shortcodes/modal.php:80
+#: functions/shortcodes/progress.php:32
+#@ THEME_SLUG
+msgid "Success"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:33
+#: functions/shortcodes/buttons.php:65
+#: functions/shortcodes/labels.php:32
+#: functions/shortcodes/modal.php:79
+#: functions/shortcodes/progress.php:31
+#: functions/shortcodes/video.php:92
+#@ THEME_SLUG
+msgid "Info"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:39
+#@ THEME_SLUG
+msgid "Dismiss Button"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:41
+#@ THEME_SLUG
+msgid "Display the alert box dismissal button"
+msgstr ""
+
+#: functions/shortcodes/alerts.php:74
+#@ THEME_SLUG
+msgid "Alert Boxes"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:13
+#: functions/shortcodes/buttons.php:31
+#@ THEME_SLUG
+msgid "Button"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:18
+#@ THEME_SLUG
+msgid "Button Text"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:19
+#@ THEME_SLUG
+msgid "This is the text that will appear on your button."
+msgstr ""
+
+#: functions/shortcodes/buttons.php:25
+#@ THEME_SLUG
+msgid "Button Type"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:26
+#@ THEME_SLUG
+msgid "Use button as the type if you don't want it to take the user to an external page (i.e. if you want to use the button in conjunction with a modal dialog box or a popover for instance)."
+msgstr ""
+
+#: functions/shortcodes/buttons.php:37
+#@ THEME_SLUG
+msgid "Link Url"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:38
+#@ THEME_SLUG
+msgid "Paste a URL here to use as a link for the button (only applies to button type of Link)."
+msgstr ""
+
+#: functions/shortcodes/buttons.php:44
+#: functions/shortcodes/icons.php:31
+#: functions/shortcodes/miscellaneous.php:18
+#@ THEME_SLUG
+msgid "Size"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:45
+#@ THEME_SLUG
+msgid "You can choose between four sizes for your button."
+msgstr ""
+
+#: functions/shortcodes/buttons.php:49
+#: functions/shortcodes/modal.php:63
+#@ THEME_SLUG
+msgid "Extra Small"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:50
+#: functions/shortcodes/modal.php:64
+#@ THEME_SLUG
+msgid "Small"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:51
+#: functions/shortcodes/modal.php:65
+#@ THEME_SLUG
+msgid "Medium"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:52
+#: functions/shortcodes/modal.php:66
+#@ THEME_SLUG
+msgid "Large"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:59
+#@ THEME_SLUG
+msgid "Choose one of the predefined button styles to use."
+msgstr ""
+
+#: functions/shortcodes/buttons.php:63
+#: functions/shortcodes/labels.php:29
+#: functions/shortcodes/modal.php:77
+#@ THEME_SLUG
+msgid "Default"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:64
+#: functions/shortcodes/labels.php:30
+#: functions/shortcodes/modal.php:78
+#@ THEME_SLUG
+msgid "Primary"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:67
+#: functions/shortcodes/labels.php:33
+#: functions/shortcodes/modal.php:81
+#: functions/shortcodes/progress.php:33
+#@ THEME_SLUG
+msgid "Warning"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:68
+#: functions/shortcodes/labels.php:34
+#: functions/shortcodes/modal.php:82
+#: functions/shortcodes/progress.php:34
+#@ THEME_SLUG
+msgid "Danger"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:74
+#@ THEME_SLUG
+msgid "Block"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:76
+#@ THEME_SLUG
+msgid "Button should be block-level (wide)"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:81
+#@ THEME_SLUG
+msgid "Opens the link in a new tab when the reader clicks on the button (only applies to button type of Link)."
+msgstr ""
+
+#: functions/shortcodes/buttons.php:83
+#@ THEME_SLUG
+msgid "Blank"
+msgstr ""
+
+#: functions/shortcodes/buttons.php:128
+#@ THEME_SLUG
+msgid "Buttons"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:15
+#: functions/shortcodes/carousel.php:173
+#@ THEME_SLUG
+msgid "Carousel"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:19
+#@ THEME_SLUG
+msgid "Display Nav Arrows"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:21
+#@ THEME_SLUG
+msgid "Display the navigation arrows"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:26
+#@ THEME_SLUG
+msgid "Display Nav Buttons"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:28
+#@ THEME_SLUG
+msgid "Display the navigation buttons in the top right corner"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:33
+#@ THEME_SLUG
+msgid "Display Caption"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:35
+#@ THEME_SLUG
+msgid "Display the caption overlay"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:40
+#@ THEME_SLUG
+msgid "Interval"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:41
+#@ THEME_SLUG
+msgid "The number of seconds to pause between auto-scrolling the carousel."
+msgstr ""
+
+#: functions/shortcodes/carousel.php:48
+#@ THEME_SLUG
+msgid "Number of Panels"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:49
+#@ THEME_SLUG
+msgid "Select the number of panels you want in this carousel. Each one will represent a unique panel to rotate through in the carousel."
+msgstr ""
+
+#: functions/shortcodes/carousel.php:58
+#@ THEME_SLUG
+msgid "Panel 1 Title"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:59
+#@ THEME_SLUG
+msgid "The text to use for the title in the carousel caption."
+msgstr ""
+
+#: functions/shortcodes/carousel.php:66
+#@ THEME_SLUG
+msgid "Panel 1 Description"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:67
+#@ THEME_SLUG
+msgid "The text to use for the description under the title in the carousel caption."
+msgstr ""
+
+#: functions/shortcodes/carousel.php:74
+#@ THEME_SLUG
+msgid "Panel 1 Content"
+msgstr ""
+
+#: functions/shortcodes/carousel.php:75
+#@ THEME_SLUG
+msgid "The content to use for the carousel panel."
+msgstr ""
+
+#: functions/shortcodes/icons.php:18
+#@ THEME_SLUG
+msgid "Choose which icon you want to insert into the content."
+msgstr ""
+
+#: functions/shortcodes/icons.php:25
+#@ THEME_SLUG
+msgid "Color"
+msgstr ""
+
+#: functions/shortcodes/icons.php:26
+#@ THEME_SLUG
+msgid "The color of the icon image."
+msgstr ""
+
+#: functions/shortcodes/icons.php:32
+#@ THEME_SLUG
+msgid "The height of the icon in pixels."
+msgstr ""
+
+#: functions/shortcodes/jumbotron.php:13
+#: functions/shortcodes/jumbotron.php:73
+#@ THEME_SLUG
+msgid "Jumbotron"
+msgstr ""
+
+#: functions/shortcodes/jumbotron.php:18
+#: functions/shortcodes/modal.php:18
+#@ THEME_SLUG
+msgid "Heading"
+msgstr ""
+
+#: functions/shortcodes/jumbotron.php:19
+#@ THEME_SLUG
+msgid "This is the main heading of the jumbotron"
+msgstr ""
+
+#: functions/shortcodes/jumbotron.php:25
+#@ THEME_SLUG
+msgid "Tagline"
+msgstr ""
+
+#: functions/shortcodes/jumbotron.php:26
+#@ THEME_SLUG
+msgid "This is the tagline of the jumbotron"
+msgstr ""
+
+#: functions/shortcodes/jumbotron.php:33
+#@ THEME_SLUG
+msgid "Any additional content such as a call to action button that needs to display under the header and tagline."
+msgstr ""
+
+#: functions/shortcodes/labels.php:17
+#@ THEME_SLUG
+msgid "Label Text"
+msgstr ""
+
+#: functions/shortcodes/labels.php:18
+#@ THEME_SLUG
+msgid "Type out the text that you wish to display in the label."
+msgstr ""
+
+#: functions/shortcodes/labels.php:25
+#@ THEME_SLUG
+msgid "Choose one of the predefined label styles to use."
+msgstr ""
+
+#: functions/shortcodes/labels.php:62
+#@ THEME_SLUG
+msgid "Badge"
+msgstr ""
+
+#: functions/shortcodes/labels.php:66
+#@ THEME_SLUG
+msgid "Badge Text"
+msgstr ""
+
+#: functions/shortcodes/labels.php:67
+#@ THEME_SLUG
+msgid "Type out the text that you wish to display in the badge."
+msgstr ""
+
+#: functions/shortcodes/labels.php:102
+#@ THEME_SLUG
+msgid "Labels &amp; Badges"
+msgstr ""
+
+#: functions/shortcodes/labels.php:103
+#@ THEME_SLUG
+msgid "Choose which type of style you want to use."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:13
+#@ THEME_SLUG
+msgid "Two Column Layout"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:17
+#: functions/shortcodes/layouts.php:25
+#: functions/shortcodes/layouts.php:50
+#: functions/shortcodes/layouts.php:58
+#: functions/shortcodes/layouts.php:66
+#: functions/shortcodes/layouts.php:91
+#: functions/shortcodes/layouts.php:99
+#: functions/shortcodes/layouts.php:107
+#: functions/shortcodes/layouts.php:115
+#: functions/shortcodes/layouts.php:140
+#: functions/shortcodes/layouts.php:148
+#: functions/shortcodes/layouts.php:156
+#: functions/shortcodes/layouts.php:164
+#: functions/shortcodes/layouts.php:172
+#: functions/shortcodes/layouts.php:197
+#: functions/shortcodes/layouts.php:205
+#: functions/shortcodes/layouts.php:213
+#: functions/shortcodes/layouts.php:221
+#: functions/shortcodes/layouts.php:229
+#: functions/shortcodes/layouts.php:237
+#: functions/shortcodes/layouts.php:262
+#: functions/shortcodes/layouts.php:270
+#: functions/shortcodes/layouts.php:295
+#: functions/shortcodes/layouts.php:303
+#: functions/shortcodes/layouts.php:328
+#: functions/shortcodes/layouts.php:336
+#: functions/shortcodes/layouts.php:361
+#: functions/shortcodes/layouts.php:369
+#: functions/shortcodes/layouts.php:394
+#: functions/shortcodes/layouts.php:402
+#: functions/shortcodes/layouts.php:410
+#: functions/shortcodes/layouts.php:435
+#: functions/shortcodes/layouts.php:443
+#: functions/shortcodes/layouts.php:451
+#: functions/shortcodes/layouts.php:476
+#: functions/shortcodes/layouts.php:484
+#: functions/shortcodes/layouts.php:492
+#: functions/shortcodes/layouts.php:517
+#: functions/shortcodes/layouts.php:525
+#: functions/shortcodes/layouts.php:550
+#: functions/shortcodes/layouts.php:558
+#: functions/shortcodes/layouts.php:583
+#: functions/shortcodes/layouts.php:591
+#: functions/shortcodes/layouts.php:616
+#: functions/shortcodes/layouts.php:624
+#: functions/shortcodes/layouts.php:649
+#: functions/shortcodes/layouts.php:657
+#: functions/shortcodes/layouts.php:682
+#: functions/shortcodes/layouts.php:690
+#: functions/shortcodes/layouts.php:698
+#: functions/shortcodes/layouts.php:706
+#@ THEME_SLUG
+msgid "Column Content"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:18
+#: functions/shortcodes/layouts.php:51
+#: functions/shortcodes/layouts.php:92
+#: functions/shortcodes/layouts.php:141
+#: functions/shortcodes/layouts.php:198
+#: functions/shortcodes/layouts.php:263
+#: functions/shortcodes/layouts.php:296
+#: functions/shortcodes/layouts.php:329
+#: functions/shortcodes/layouts.php:362
+#: functions/shortcodes/layouts.php:395
+#: functions/shortcodes/layouts.php:436
+#: functions/shortcodes/layouts.php:477
+#: functions/shortcodes/layouts.php:518
+#: functions/shortcodes/layouts.php:551
+#: functions/shortcodes/layouts.php:584
+#: functions/shortcodes/layouts.php:617
+#: functions/shortcodes/layouts.php:650
+#: functions/shortcodes/layouts.php:683
+#@ THEME_SLUG
+msgid "Type out the content for your first column.  Shortcodes are accepted here."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:26
+#: functions/shortcodes/layouts.php:59
+#: functions/shortcodes/layouts.php:100
+#: functions/shortcodes/layouts.php:149
+#: functions/shortcodes/layouts.php:206
+#: functions/shortcodes/layouts.php:271
+#: functions/shortcodes/layouts.php:304
+#: functions/shortcodes/layouts.php:337
+#: functions/shortcodes/layouts.php:370
+#: functions/shortcodes/layouts.php:403
+#: functions/shortcodes/layouts.php:485
+#: functions/shortcodes/layouts.php:526
+#: functions/shortcodes/layouts.php:559
+#: functions/shortcodes/layouts.php:592
+#: functions/shortcodes/layouts.php:625
+#: functions/shortcodes/layouts.php:658
+#: functions/shortcodes/layouts.php:691
+#@ THEME_SLUG
+msgid "Type out the content for your second column.  Shortcodes are accepted here."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:46
+#@ THEME_SLUG
+msgid "Three Column Layout"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:67
+#: functions/shortcodes/layouts.php:108
+#: functions/shortcodes/layouts.php:157
+#: functions/shortcodes/layouts.php:214
+#: functions/shortcodes/layouts.php:411
+#: functions/shortcodes/layouts.php:452
+#: functions/shortcodes/layouts.php:493
+#: functions/shortcodes/layouts.php:699
+#@ THEME_SLUG
+msgid "Type out the content for your third column.  Shortcodes are accepted here."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:87
+#@ THEME_SLUG
+msgid "Four Column Layout"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:116
+#: functions/shortcodes/layouts.php:165
+#: functions/shortcodes/layouts.php:222
+#: functions/shortcodes/layouts.php:707
+#@ THEME_SLUG
+msgid "Type out the content for your fourth column.  Shortcodes are accepted here."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:136
+#@ THEME_SLUG
+msgid "Five Column Layout"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:173
+#: functions/shortcodes/layouts.php:230
+#@ THEME_SLUG
+msgid "Type out the content for your fifth column.  Shortcodes are accepted here."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:193
+#@ THEME_SLUG
+msgid "Six Column Layout"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:238
+#@ THEME_SLUG
+msgid "Type out the content for your sixth column.  Shortcodes are accepted here."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:258
+#@ THEME_SLUG
+msgid "One Third - Two Third"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:291
+#@ THEME_SLUG
+msgid "Two Third - One Third"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:324
+#@ THEME_SLUG
+msgid "One Fourth - Three Fourth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:357
+#@ THEME_SLUG
+msgid "Three Fourth - One Fourth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:390
+#@ THEME_SLUG
+msgid "One Fourth - One Fourth - One Half"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:431
+#@ THEME_SLUG
+msgid "One Fourth - One Half - One Fourth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:444
+#@ THEME_SLUG
+msgid "Type out the content for your  second column.  Shortcodes are accepted here."
+msgstr ""
+
+#: functions/shortcodes/layouts.php:472
+#@ THEME_SLUG
+msgid "One Half - One Fourth - One Fourth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:513
+#@ THEME_SLUG
+msgid "Four Fifth - One Fifth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:546
+#@ THEME_SLUG
+msgid "One Fifth - Four Fifth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:579
+#@ THEME_SLUG
+msgid "Two Fifth - Three Fifth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:612
+#@ THEME_SLUG
+msgid "One Sixth - Five Sixth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:645
+#@ THEME_SLUG
+msgid "Five Sixth - One Sixth"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:678
+#@ THEME_SLUG
+msgid "One Sixth - One Sixth - One Sixth - One Half"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:735
+#@ THEME_SLUG
+msgid "Column Layouts"
+msgstr ""
+
+#: functions/shortcodes/layouts.php:736
+#@ THEME_SLUG
+msgid "Choose which type of layout you would like to use."
+msgstr ""
+
+#: functions/admin/option-generator.php:1802
+#: functions/shortcodes/lists.php:17
+#@ THEME_SLUG
+msgid "Type"
+msgstr ""
+
+#: functions/shortcodes/lists.php:18
+#@ THEME_SLUG
+msgid "Choose the style of list that you wish to use.  Each one has a different icon."
+msgstr ""
+
+#: functions/shortcodes/lists.php:22
+#@ THEME_SLUG
+msgid "Plus List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:23
+#@ THEME_SLUG
+msgid "Heart List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:24
+#@ THEME_SLUG
+msgid "Star List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:25
+#@ THEME_SLUG
+msgid "Check List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:26
+#@ THEME_SLUG
+msgid "Arrow Thin List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:27
+#@ THEME_SLUG
+msgid "Arrow Thick List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:28
+#@ THEME_SLUG
+msgid "Arrow Open List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:29
+#@ THEME_SLUG
+msgid "X List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:30
+#@ THEME_SLUG
+msgid "Tag List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:31
+#@ THEME_SLUG
+msgid "Question List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:32
+#@ THEME_SLUG
+msgid "Info List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:33
+#@ THEME_SLUG
+msgid "Attention List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:34
+#@ THEME_SLUG
+msgid "Minus List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:35
+#@ THEME_SLUG
+msgid "Pencil List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:36
+#@ THEME_SLUG
+msgid "Thumbs-Up List"
+msgstr ""
+
+#: functions/shortcodes/lists.php:42
+#@ THEME_SLUG
+msgid "Icon Color"
+msgstr ""
+
+#: functions/shortcodes/lists.php:43
+#@ THEME_SLUG
+msgid "The color of the icon image used in the list."
+msgstr ""
+
+#: functions/shortcodes/lists.php:48
+#@ THEME_SLUG
+msgid "List Html"
+msgstr ""
+
+#: functions/shortcodes/lists.php:49
+#@ THEME_SLUG
+msgid "Type out the content of your list.  You need to use the &#60;ul&#62; and &#60;li&#62; elements when typing out your list content."
+msgstr ""
+
+#: functions/shortcodes/lists.php:91
+#@ THEME_SLUG
+msgid "Lists"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:14
+#@ THEME_SLUG
+msgid "Styled Amp"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:19
+#@ THEME_SLUG
+msgid "The font size of the ampersand."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:48
+#@ THEME_SLUG
+msgid "Divider"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:65
+#@ THEME_SLUG
+msgid "Divider Top"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:72
+#: inc/sticky.php:216
+#@ THEME_SLUG
+msgid "Top"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:82
+#@ THEME_SLUG
+msgid "Content Clearer"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:97
+#@ THEME_SLUG
+msgid "Div"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:101
+#: functions/shortcodes/miscellaneous.php:145
+#@ THEME_SLUG
+msgid "Class"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:102
+#@ THEME_SLUG
+msgid "Type in the name of the class you wish to assign to this div."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:109
+#@ THEME_SLUG
+msgid "You can set a custom style here for your div."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:116
+#@ THEME_SLUG
+msgid "Type in the content that you wish to display inside this div."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:141
+#@ THEME_SLUG
+msgid "Span"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:146
+#@ THEME_SLUG
+msgid "Type in the name of the class you wish to assign to this span."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:153
+#@ THEME_SLUG
+msgid "You can set a custom style here for yourspan."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:160
+#@ THEME_SLUG
+msgid "Type in the content that you wish to display inside this span."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:192
+#@ THEME_SLUG
+msgid "Any content entered into this area will be included in the code but hidden from view."
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:221
+#@ THEME_SLUG
+msgid "Miscellaneous"
+msgstr ""
+
+#: functions/shortcodes/miscellaneous.php:222
+#@ THEME_SLUG
+msgid "Select which Miscellaneous shortcode you wish to use."
+msgstr ""
+
+#: functions/shortcodes/modal.php:13
+#: functions/shortcodes/modal.php:133
+#@ THEME_SLUG
+msgid "Modal Dialog Box"
+msgstr ""
+
+#: functions/shortcodes/modal.php:19
+#@ THEME_SLUG
+msgid "The header for the modal"
+msgstr ""
+
+#: functions/shortcodes/modal.php:25
+#@ THEME_SLUG
+msgid "Body"
+msgstr ""
+
+#: functions/shortcodes/modal.php:26
+#@ THEME_SLUG
+msgid "The body content for the modal"
+msgstr ""
+
+#: functions/shortcodes/modal.php:33
+#@ THEME_SLUG
+msgid "The footer content for the modal"
+msgstr ""
+
+#: functions/shortcodes/modal.php:39
+#@ THEME_SLUG
+msgid "Heading Dismiss Button"
+msgstr ""
+
+#: functions/shortcodes/modal.php:41
+#@ THEME_SLUG
+msgid "Display the dismiss button in the heading"
+msgstr ""
+
+#: functions/shortcodes/modal.php:45
+#@ THEME_SLUG
+msgid "Footer Dismiss Button"
+msgstr ""
+
+#: functions/shortcodes/modal.php:47
+#@ THEME_SLUG
+msgid "Display the dismiss button in the footer"
+msgstr ""
+
+#: functions/shortcodes/modal.php:51
+#@ THEME_SLUG
+msgid "Trigger Button Text"
+msgstr ""
+
+#: functions/shortcodes/modal.php:52
+#@ THEME_SLUG
+msgid "This is the text that will appear in the button that triggers the modal to display."
+msgstr ""
+
+#: functions/shortcodes/modal.php:58
+#@ THEME_SLUG
+msgid "Trigger Button Size"
+msgstr ""
+
+#: functions/shortcodes/modal.php:59
+#@ THEME_SLUG
+msgid "Size of the button that triggers the modal to display"
+msgstr ""
+
+#: functions/shortcodes/modal.php:72
+#@ THEME_SLUG
+msgid "Trigger Button Style"
+msgstr ""
+
+#: functions/shortcodes/modal.php:73
+#@ THEME_SLUG
+msgid "Style of the button that triggers the modal to display."
+msgstr ""
+
+#: functions/shortcodes/modal.php:109
+#@ THEME_SLUG
+msgid "Close"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:13
+#@ THEME_SLUG
+msgid "Popover"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:18
+#@ THEME_SLUG
+msgid "Popover-Enabled Content"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:19
+#@ THEME_SLUG
+msgid "Put text or HTML in here and it will trigger the popover when clicked"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:25
+#@ THEME_SLUG
+msgid "Popover Title"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:26
+#@ THEME_SLUG
+msgid "The title of the popover box"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:32
+#@ THEME_SLUG
+msgid "Popover Body"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:33
+#@ THEME_SLUG
+msgid "The body content of the popover box"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:39
+#: functions/shortcodes/tooltips.php:32
+#@ THEME_SLUG
+msgid "Placement"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:40
+#@ THEME_SLUG
+msgid "The direction the popover should fly out"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:44
+#: functions/shortcodes/tooltips.php:37
+#@ THEME_SLUG
+msgid "top"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:45
+#: functions/shortcodes/tooltips.php:38
+#@ THEME_SLUG
+msgid "bottom"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:46
+#: functions/shortcodes/tooltips.php:39
+#@ THEME_SLUG
+msgid "left"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:47
+#: functions/shortcodes/tooltips.php:40
+#@ THEME_SLUG
+msgid "right"
+msgstr ""
+
+#: functions/shortcodes/popovers.php:83
+#@ THEME_SLUG
+msgid "Popovers"
+msgstr ""
+
+#: functions/shortcodes/progress.php:13
+#@ THEME_SLUG
+msgid "Progress Bar"
+msgstr ""
+
+#: functions/shortcodes/progress.php:18
+#@ THEME_SLUG
+msgid "Progress Percentage"
+msgstr ""
+
+#: functions/shortcodes/progress.php:19
+#@ THEME_SLUG
+msgid "What position should this progress bar be in?"
+msgstr ""
+
+#: functions/shortcodes/progress.php:27
+#@ THEME_SLUG
+msgid "Choose one of the predefined progress bar styles to use."
+msgstr ""
+
+#: functions/shortcodes/progress.php:40
+#: functions/shortcodes/table.php:30
+#@ THEME_SLUG
+msgid "Striped"
+msgstr ""
+
+#: functions/shortcodes/progress.php:42
+#@ THEME_SLUG
+msgid "Add subtle stripe style to this progress bar"
+msgstr ""
+
+#: functions/shortcodes/progress.php:46
+#@ THEME_SLUG
+msgid "Animated"
+msgstr ""
+
+#: functions/shortcodes/progress.php:48
+#@ THEME_SLUG
+msgid "Add an animation effect to this progress bar"
+msgstr ""
+
+#: functions/shortcodes/progress.php:81
+#@ THEME_SLUG
+msgid "Progress Bars"
+msgstr ""
+
+#: functions/shortcodes/quotes.php:12
+#@ THEME_SLUG
+msgid "Blockquotes"
+msgstr ""
+
+#: functions/shortcodes/quotes.php:16
+#@ THEME_SLUG
+msgid "Blockquote Content"
+msgstr ""
+
+#: functions/shortcodes/quotes.php:17
+#@ THEME_SLUG
+msgid "Type out the text that you wish to display with your quote."
+msgstr ""
+
+#: functions/shortcodes/quotes.php:23
+#@ THEME_SLUG
+msgid "Align Right"
+msgstr ""
+
+#: functions/shortcodes/quotes.php:25
+#@ THEME_SLUG
+msgid "Blockquote should be right-aligned."
+msgstr ""
+
+#: functions/shortcodes/quotes.php:29
+#@ THEME_SLUG
+msgid "Cite"
+msgstr ""
+
+#: functions/shortcodes/quotes.php:30
+#@ THEME_SLUG
+msgid "The cite for this blockquote, if any."
+msgstr ""
+
+#: functions/shortcodes/quotes.php:70
+#@ THEME_SLUG
+msgid "Blockquote"
+msgstr ""
+
+#: functions/shortcodes/section.php:13
+#: functions/shortcodes/section.php:61
+#@ THEME_SLUG
+msgid "Content Section"
+msgstr ""
+
+#: functions/shortcodes/section.php:19
+#@ THEME_SLUG
+msgid "Text that appears in the content menu"
+msgstr ""
+
+#: functions/shortcodes/signoffs.php:17
+#@ THEME_SLUG
+msgid "Predefined Content"
+msgstr ""
+
+#: functions/admin/option-generator.php:1880
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/html.php:10
+#: functions/shortcodes/html.php:68
+#: functions/shortcodes/signoffs.php:25
+#@ THEME_SLUG
+msgid "Custom Content"
+msgstr ""
+
+#: functions/shortcodes/signoffs.php:26
+#@ THEME_SLUG
+msgid "Type out the content of signoff text.  You can use HTML tags here if you want."
+msgstr ""
+
+#: functions/shortcodes/signoffs.php:33
+#@ THEME_SLUG
+msgid "Choose an icon image to use to the left of the box."
+msgstr ""
+
+#: functions/shortcodes/table.php:13
+#: functions/shortcodes/table.php:67
+#@ THEME_SLUG
+msgid "Table"
+msgstr ""
+
+#: functions/shortcodes/table.php:17
+#@ THEME_SLUG
+msgid "Table Html"
+msgstr ""
+
+#: functions/shortcodes/table.php:18
+#@ THEME_SLUG
+msgid "Type out the content of your table.  You need to use the HTML table tags when typing out your content."
+msgstr ""
+
+#: functions/shortcodes/table.php:25
+#@ THEME_SLUG
+msgid "Choose the style of table you want to use."
+msgstr ""
+
+#: functions/shortcodes/table.php:29
+#@ THEME_SLUG
+msgid "Default Style"
+msgstr ""
+
+#: functions/shortcodes/table.php:31
+#@ THEME_SLUG
+msgid "Bordered"
+msgstr ""
+
+#: functions/shortcodes/table.php:32
+#@ THEME_SLUG
+msgid "Hover Rows"
+msgstr ""
+
+#: functions/shortcodes/table.php:33
+#@ THEME_SLUG
+msgid "Condensed"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:15
+#: functions/shortcodes/tabs.php:24
+#: functions/shortcodes/tabs.php:125
+#@ THEME_SLUG
+msgid "Tabs"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:20
+#@ THEME_SLUG
+msgid "The style of the tab navigation"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:25
+#@ THEME_SLUG
+msgid "Pills"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:32
+#@ THEME_SLUG
+msgid "Number of tabs"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:33
+#@ THEME_SLUG
+msgid "Select the number of tabs you wish to display.  The tabs are the selectable areas which change the content."
+msgstr ""
+
+#: functions/shortcodes/tabs.php:42
+#@ THEME_SLUG
+msgid "Tab 1 Title"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:43
+#@ THEME_SLUG
+msgid "The text to use for the tab navigation"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:50
+#@ THEME_SLUG
+msgid "Tab 1 Content"
+msgstr ""
+
+#: functions/shortcodes/tabs.php:51
+#@ THEME_SLUG
+msgid "The content of the tab. Shortcodes are accepted."
+msgstr ""
+
+#: functions/shortcodes/toggles.php:15
+#: functions/shortcodes/toggles.php:24
+#@ THEME_SLUG
+msgid "Toggle"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:19
+#@ THEME_SLUG
+msgid "Behavior"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:20
+#@ THEME_SLUG
+msgid "Should the toggles be individual or grouped together as an accordion style."
+msgstr ""
+
+#: functions/shortcodes/toggles.php:25
+#@ THEME_SLUG
+msgid "Accordion"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:32
+#@ THEME_SLUG
+msgid "Number of toggles"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:33
+#@ THEME_SLUG
+msgid "Select the number of toggles you wish to display."
+msgstr ""
+
+#: functions/shortcodes/toggles.php:42
+#@ THEME_SLUG
+msgid "Toggle 1 Title"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:43
+#@ THEME_SLUG
+msgid "The text to use for the toggle selector"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:50
+#@ THEME_SLUG
+msgid "Toggle 1 Content"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:51
+#@ THEME_SLUG
+msgid "The content of the toggle container. Shortcodes are accepted."
+msgstr ""
+
+#: functions/shortcodes/toggles.php:58
+#@ THEME_SLUG
+msgid "Toggle 1 Default State"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:59
+#@ THEME_SLUG
+msgid "Should this toggle be expanded or collapsed by default."
+msgstr ""
+
+#: functions/shortcodes/toggles.php:63
+#@ THEME_SLUG
+msgid "Collapsed"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:64
+#@ THEME_SLUG
+msgid "Expanded"
+msgstr ""
+
+#: functions/shortcodes/toggles.php:161
+#@ THEME_SLUG
+msgid "Toggles & Accordions"
+msgstr ""
+
+#: functions/shortcodes/tooltips.php:13
+#: functions/shortcodes/tooltips.php:25
+#@ THEME_SLUG
+msgid "Tooltip"
+msgstr ""
+
+#: functions/shortcodes/tooltips.php:18
+#@ THEME_SLUG
+msgid "Tooltip-Enabled Text"
+msgstr ""
+
+#: functions/shortcodes/tooltips.php:19
+#@ THEME_SLUG
+msgid "The text that you want to be tooltip-enebled"
+msgstr ""
+
+#: functions/shortcodes/tooltips.php:26
+#@ THEME_SLUG
+msgid "That text that displays when you hover over the tooltip-enabled text"
+msgstr ""
+
+#: functions/shortcodes/tooltips.php:33
+#@ THEME_SLUG
+msgid "The direction the tooltip should fly out"
+msgstr ""
+
+#: functions/shortcodes/tooltips.php:75
+#@ THEME_SLUG
+msgid "Tooltips"
+msgstr ""
+
+#: functions/shortcodes/video.php:26
+#@ THEME_SLUG
+msgid "YouTube Video URL"
+msgstr ""
+
+#: functions/shortcodes/video.php:27
+#@ THEME_SLUG
+msgid "When viewing your youtube video in your web browser copy the URL and paste it here.  Here is an example of what it might look like,<br /><br />http://www.youtube.com/watch?v=SX728EemOPOIw&feature=related"
+msgstr ""
+
+#: functions/shortcodes/video.php:33
+#@ THEME_SLUG
+msgid "Autohide"
+msgstr ""
+
+#: functions/shortcodes/video.php:36
+#@ THEME_SLUG
+msgid "Visible"
+msgstr ""
+
+#: functions/shortcodes/video.php:37
+#@ THEME_SLUG
+msgid "Hide all"
+msgstr ""
+
+#: functions/shortcodes/video.php:38
+#@ THEME_SLUG
+msgid "Hide video progress bar"
+msgstr ""
+
+#: functions/shortcodes/video.php:44
+#: functions/shortcodes/video.php:184
+#@ THEME_SLUG
+msgid "Autoplay"
+msgstr ""
+
+#: functions/shortcodes/video.php:46
+#@ THEME_SLUG
+msgid "Video will autoplay when the player loads"
+msgstr ""
+
+#: functions/shortcodes/video.php:50
+#@ THEME_SLUG
+msgid "Controls"
+msgstr ""
+
+#: functions/shortcodes/video.php:52
+#@ THEME_SLUG
+msgid "Disable video player controls"
+msgstr ""
+
+#: functions/shortcodes/video.php:56
+#@ THEME_SLUG
+msgid "Disable KB"
+msgstr ""
+
+#: functions/shortcodes/video.php:57
+#@ THEME_SLUG
+msgid "Disable the player keyboard controls"
+msgstr ""
+
+#: functions/shortcodes/video.php:62
+#@ THEME_SLUG
+msgid "Fullscreen"
+msgstr ""
+
+#: functions/shortcodes/video.php:63
+#@ THEME_SLUG
+msgid "Enables the fullscreen button in the video player"
+msgstr ""
+
+#: functions/shortcodes/video.php:68
+#@ THEME_SLUG
+msgid "HD"
+msgstr ""
+
+#: functions/shortcodes/video.php:69
+#@ THEME_SLUG
+msgid "Enables HD video playback by default"
+msgstr ""
+
+#: functions/shortcodes/video.php:75
+#@ THEME_SLUG
+msgid "Play the initial video again as soon as it ends"
+msgstr ""
+
+#: functions/shortcodes/video.php:80
+#@ THEME_SLUG
+msgid "Related Videos"
+msgstr ""
+
+#: functions/shortcodes/video.php:81
+#@ THEME_SLUG
+msgid "Disable related videos once playback of the initial video starts"
+msgstr ""
+
+#: functions/shortcodes/video.php:87
+#@ THEME_SLUG
+msgid "Disable the search box from displaying when the video is minimized"
+msgstr ""
+
+#: functions/shortcodes/video.php:93
+#@ THEME_SLUG
+msgid "Disable display information"
+msgstr ""
+
+#: functions/shortcodes/video.php:122
+#@ THEME_SLUG
+msgid "Please enter the url to a YouTube video."
+msgstr ""
+
+#: functions/shortcodes/video.php:131
+#@ THEME_SLUG
+msgid "There was an error retrieving the YouTube video ID for the url you entered, please verify that the url is correct."
+msgstr ""
+
+#: functions/shortcodes/video.php:159
+#@ THEME_SLUG
+msgid "Vimeo Video URL"
+msgstr ""
+
+#: functions/shortcodes/video.php:160
+#@ THEME_SLUG
+msgid "When viewing your vimeo video in your web browser copy the URL and paste it here.  Here is an example of what it might look like,<br /><br />http://vimeo.com/12345678"
+msgstr ""
+
+#: functions/shortcodes/video.php:167
+#@ THEME_SLUG
+msgid "Show the title on the video"
+msgstr ""
+
+#: functions/shortcodes/video.php:172
+#@ THEME_SLUG
+msgid "Byline"
+msgstr ""
+
+#: functions/shortcodes/video.php:173
+#@ THEME_SLUG
+msgid "Show the byline on the video"
+msgstr ""
+
+#: functions/shortcodes/video.php:178
+#@ THEME_SLUG
+msgid "Portrait"
+msgstr ""
+
+#: functions/shortcodes/video.php:179
+#@ THEME_SLUG
+msgid "Show user's portrait on the video"
+msgstr ""
+
+#: functions/shortcodes/video.php:185
+#@ THEME_SLUG
+msgid "Play the video automatically on load"
+msgstr ""
+
+#: functions/shortcodes/video.php:191
+#@ THEME_SLUG
+msgid "Play the video again when it reaches the end"
+msgstr ""
+
+#: functions/shortcodes/video.php:216
+#@ THEME_SLUG
+msgid "Please enter the url to a Vimeo video."
+msgstr ""
+
+#: functions/shortcodes/video.php:225
+#@ THEME_SLUG
+msgid "There was an error retrieving the Vimeo video ID for the url you entered, please verify that the url is correct."
+msgstr ""
+
+#: functions/shortcodes/video.php:256
+#@ THEME_SLUG
+msgid "Choose which type of video you wish to use."
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:5
+#@ THEME_SLUG
+msgid "Displays latest articles and can be limited to a specific category and/or tag."
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:125
+#: functions/widgets/widget-list-paged.php:138
+#: functions/widgets/widget-reviews.php:105
+#: functions/widgets/widget-sections.php:152
+#: functions/widgets/widget-top-reviewed.php:134
+#: functions/widgets/widget-top-ten.php:168
+#: functions/widgets/widget-trending.php:123
+#@ THEME_SLUG
+msgid "Title:"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:130
+#: functions/widgets/widget-list-paged.php:143
+#: functions/widgets/widget-reviews.php:110
+#: functions/widgets/widget-top-reviewed.php:139
+#: functions/widgets/widget-top-ten.php:174
+#: functions/widgets/widget-trending.php:128
+#@ THEME_SLUG
+msgid "Category:"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:132
+#: functions/widgets/widget-list-paged.php:145
+#: functions/widgets/widget-reviews.php:112
+#: functions/widgets/widget-top-reviewed.php:141
+#: functions/widgets/widget-top-ten.php:176
+#: functions/widgets/widget-trending.php:130
+#@ THEME_SLUG
+msgid "All Categories"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:143
+#: functions/widgets/widget-list-paged.php:156
+#: functions/widgets/widget-reviews.php:123
+#: functions/widgets/widget-top-reviewed.php:152
+#: functions/widgets/widget-top-ten.php:187
+#: functions/widgets/widget-trending.php:141
+#@ THEME_SLUG
+msgid "Tag:"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:145
+#: functions/widgets/widget-list-paged.php:158
+#: functions/widgets/widget-reviews.php:125
+#: functions/widgets/widget-top-reviewed.php:154
+#: functions/widgets/widget-top-ten.php:189
+#: functions/widgets/widget-trending.php:143
+#@ THEME_SLUG
+msgid "All Tags"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:156
+#: functions/widgets/widget-list-paged.php:174
+#: functions/widgets/widget-reviews.php:136
+#: functions/widgets/widget-sections.php:157
+#: functions/widgets/widget-top-reviewed.php:192
+#: functions/widgets/widget-trending.php:154
+#@ THEME_SLUG
+msgid "Display"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:158
+#: functions/widgets/widget-reviews.php:138
+#: functions/widgets/widget-trending.php:156
+#@ THEME_SLUG
+msgid "articles"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:163
+#@ THEME_SLUG
+msgid "Display \"View All\" link after posts"
+msgstr ""
+
+#: functions/widgets/widget-latest-articles.php:166
+#: functions/widgets/widget-list-paged.php:179
+#: functions/widgets/widget-reviews.php:141
+#: functions/widgets/widget-sections.php:184
+#: functions/widgets/widget-top-reviewed.php:197
+#@ THEME_SLUG
+msgid "Layout:"
+msgstr ""
+
+#: functions/widgets/widget-list-paged.php:5
+#@ THEME_SLUG
+msgid "Displays paginated articles with several available filtering options."
+msgstr ""
+
+#: functions/widgets/widget-list-paged.php:170
+#@ THEME_SLUG
+msgid "\"Sticky Post\" Aware"
+msgstr ""
+
+#: functions/widgets/widget-list-paged.php:176
+#@ THEME_SLUG
+msgid "articles per page"
+msgstr ""
+
+#: functions/widgets/widget-reviews.php:5
+#@ THEME_SLUG
+msgid "Displays latest reviews."
+msgstr ""
+
+#: functions/widgets/widget-sections.php:5
+#@ THEME_SLUG
+msgid "Displays selected categories represented by their corresponding icons in a tabbed format."
+msgstr ""
+
+#: functions/widgets/widget-sections.php:97
+#@ THEME_SLUG
+msgid "You need to choose at least one section to display in this widget"
+msgstr ""
+
+#: functions/widgets/widget-sections.php:159
+#@ THEME_SLUG
+msgid "articles in each tab"
+msgstr ""
+
+#: functions/widgets/widget-social-counts.php:5
+#@ THEME_SLUG
+msgid "Displays social counts for the most popular social networks."
+msgstr ""
+
+#: functions/widgets/widget-social-counts.php:58
+#@ THEME_SLUG
+msgid "Display Twitter follower count"
+msgstr ""
+
+#: functions/widgets/widget-social-counts.php:63
+#@ THEME_SLUG
+msgid "Display Facebook fan count"
+msgstr ""
+
+#: functions/widgets/widget-social-counts.php:68
+#@ THEME_SLUG
+msgid "Display Google +1 count"
+msgstr ""
+
+#: functions/widgets/widget-social-counts.php:73
+#@ THEME_SLUG
+msgid "Display Youtube subscriber count"
+msgstr ""
+
+#: functions/widgets/widget-social-counts.php:78
+#@ THEME_SLUG
+msgid "Display Pinterest follower count"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:5
+#@ THEME_SLUG
+msgid "Displays Latest Tweets, Facebook Like Box, Flickr Photos, and Recent Comments"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:42
+#@ THEME_SLUG
+msgid "Recent Comments"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:85
+#@ THEME_SLUG
+msgid "View more photos"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:145
+#@ THEME_SLUG
+msgid "Show Latest Tweets"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:149
+#@ THEME_SLUG
+msgid "Show Facebook Likebox"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:153
+#@ THEME_SLUG
+msgid "Show Pinterest Profile"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:157
+#: functions/widgets/widget-social-tabs.php:161
+#@ THEME_SLUG
+msgid "Show "
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:157
+#@ THEME_SLUG
+msgid "Flickr Photos"
+msgstr ""
+
+#: functions/widgets/widget-social-tabs.php:161
+#@ THEME_SLUG
+msgid " Recent Comments"
+msgstr ""
+
+#: functions/widgets/widget-top-reviewed.php:5
+#@ THEME_SLUG
+msgid "Displays top reviewed articles from a designated recent time period."
+msgstr ""
+
+#: functions/widgets/widget-top-reviewed.php:165
+#: functions/widgets/widget-top-ten.php:217
+#: functions/widgets/widget-trending.php:160
+#@ THEME_SLUG
+msgid "Time Period:"
+msgstr ""
+
+#: functions/widgets/widget-top-reviewed.php:181
+#@ THEME_SLUG
+msgid "Rank By:"
+msgstr ""
+
+#: functions/widgets/widget-top-reviewed.php:186
+#@ THEME_SLUG
+msgid "Editor Rating"
+msgstr ""
+
+#: functions/widgets/widget-top-reviewed.php:194
+#@ THEME_SLUG
+msgid "reviews"
+msgstr ""
+
+#: functions/widgets/widget-top-ten.php:5
+#@ THEME_SLUG
+msgid "Widget version of the Top 10 builder panel."
+msgstr ""
+
+#: functions/widgets/widget-top-ten.php:28
+#@ THEME_SLUG
+msgid "Top 10"
+msgstr ""
+
+#: functions/widgets/widget-top-ten.php:170
+#@ THEME_SLUG
+msgid "Automatically generated if left blank"
+msgstr ""
+
+#: functions/widgets/widget-top-ten.php:199
+#@ THEME_SLUG
+msgid "Disable Filters:"
+msgstr ""
+
+#: functions/shortcodes/loops.php:70
+#: functions/shortcodes/loops.php:328
+#: functions/widgets/widget-top-ten.php:211
+#@ THEME_SLUG
+msgid "Rated"
+msgstr ""
+
+#: functions/widgets/widget-trending.php:5
+#@ THEME_SLUG
+msgid "Displays sortable trending articles in bar graph style with metric counts."
+msgstr ""
+
+#: inc/directory.php:8
+#@ THEME_SLUG
+msgid "Latest"
+msgstr ""
+
+#: functions/shortcodes/loops.php:243
+#: functions/shortcodes/loops.php:480
+#@ THEME_SLUG
+msgid "End of the line!"
+msgstr ""
+
+#: inc/nav.php:63
+#@ THEME_SLUG
+msgid "Our Sections"
+msgstr ""
+
+#: inc/nav.php:67
+#@ THEME_SLUG
+msgid "Navigation"
+msgstr ""
+
+#: inc/nav.php:69
+#@ THEME_SLUG
+msgid "Get In Touch"
+msgstr ""
+
+#: inc/nav.php:90
+#@ THEME_SLUG
+msgid "new"
+msgstr ""
+
+#: inc/nav.php:106
+#: inc/sticky.php:126
+#@ THEME_SLUG
+msgid "Type and hit Enter"
+msgstr ""
+
+#: inc/nav.php:111
+#: inc/sticky.php:131
+#@ THEME_SLUG
+msgid "search"
+msgstr ""
+
+#: inc/page-content.php:56
+#@ THEME_SLUG
+msgid "404 Error - Page Not Found"
+msgstr ""
+
+#: inc/page-content.php:57
+#@ THEME_SLUG
+msgid "We could not find the page you were looking for. Try searching for it:"
+msgstr ""
+
+#: inc/page-content.php:306
+#@ THEME_SLUG
+msgid "keyword(s)"
+msgstr ""
+
+#: inc/sticky.php:142
+#@ THEME_SLUG
+msgid "Account"
+msgstr ""
+
+#: inc/sticky.php:168
+#@ THEME_SLUG
+msgid "ACCOUNT"
+msgstr ""
+
+#: inc/sticky.php:170
+#@ THEME_SLUG
+msgid "LOGOUT"
+msgstr ""
+
+#: inc/sticky.php:182
+#@ THEME_SLUG
+msgid "click to dismiss"
+msgstr ""
+
+#: inc/sticky.php:186
+#@ THEME_SLUG
+msgid "Check your email for your password."
+msgstr ""
+
+#: inc/sticky.php:200
+#@ THEME_SLUG
+msgid "Find Us!"
+msgstr ""
+
+#: inc/sticky.php:204
+#@ THEME_SLUG
+msgid "FIND US!"
+msgstr ""
+
+#: functions/admin/it-options.php:72
+#@ THEME_SLUG
+msgid "Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:94
+#@ THEME_SLUG
+msgid "HD Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:100
+#: functions/admin/option-generator.php:1610
+#@ THEME_SLUG
+msgid "Mobile Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:101
+#@ THEME_SLUG
+msgid "You can optionally specify a mobile logo to be used when the browser window is less than 440px wide."
+msgstr ""
+
+#: functions/admin/it-options.php:106
+#@ THEME_SLUG
+msgid "Mobile Logo Width (optional)"
+msgstr ""
+
+#: functions/admin/it-options.php:122
+#: functions/admin/option-generator.php:1631
+#@ THEME_SLUG
+msgid "Mobile HD Logo"
+msgstr ""
+
+#: functions/admin/it-options.php:575
+#@ THEME_SLUG
+msgid "Hover Opacity"
+msgstr ""
+
+#: functions/admin/it-options.php:576
+#@ THEME_SLUG
+msgid "When hovering over post panels the category or accent color displays. This is how you set the level of opacity (or \"darkness\") of the color overlay. Higher number means more opaque (less transparent). Default is 80."
+msgstr ""
+
+#: functions/admin/it-options.php:612
+#@ THEME_SLUG
+msgid "Wide Loop Titles"
+msgstr ""
+
+#: functions/admin/it-options.php:613
+#@ THEME_SLUG
+msgid "Post titles for all blog loop layouts and the wide posts within grid layouts"
+msgstr ""
+
+#: functions/admin/it-options.php:619
+#@ THEME_SLUG
+msgid "Normal Loop Titles"
+msgstr ""
+
+#: functions/admin/it-options.php:620
+#@ THEME_SLUG
+msgid "Post titles for normal (non-wide) posts within grid layouts"
+msgstr ""
+
+#: functions/admin/it-options.php:810
+#@ THEME_SLUG
+msgid "Post Loop Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:811
+#@ THEME_SLUG
+msgid "Common settings for blog and grid post loop layouts used throughout the theme."
+msgstr ""
+
+#: functions/admin/it-options.php:837
+#@ THEME_SLUG
+msgid "Disable Category Icon"
+msgstr ""
+
+#: functions/admin/it-options.php:839
+#@ THEME_SLUG
+msgid "The category icon will not display within the loop"
+msgstr ""
+
+#: functions/admin/it-options.php:883
+#@ THEME_SLUG
+msgid "Leave blank for default excerpt lengths. Or, specify your desired excerpt length in characters (not words). For reference, the default is 1500 characters. Applies only to blog layout loops."
+msgstr ""
+
+#: functions/admin/it-options.php:924
+#@ THEME_SLUG
+msgid "\"Connect\" Settings"
+msgstr ""
+
+#: functions/admin/it-options.php:1701
+#@ THEME_SLUG
+msgid "Before Grid"
+msgstr ""
+
+#: functions/admin/it-options.php:1707
+#@ THEME_SLUG
+msgid "After Grid"
+msgstr ""
+
+#: functions/admin/it-options.php:1713
+#@ THEME_SLUG
+msgid "Before Blog"
+msgstr ""
+
+#: functions/admin/it-options.php:1719
+#@ THEME_SLUG
+msgid "After Blog"
+msgstr ""
+
+#: functions/admin/it-options.php:2333
+#@ THEME_SLUG
+msgid "Grid - most grid and overlay loops (400 x 288)"
+msgstr ""
+
+#: functions/admin/meta-page.php:26
+#@ THEME_SLUG
+msgid "Do not display the view count at the top of this page."
+msgstr ""
+
+#: functions/admin/meta-page.php:30
+#: functions/admin/meta-post.php:42
+#@ THEME_SLUG
+msgid "Disable Like Count"
+msgstr ""
+
+#: functions/admin/meta-page.php:32
+#@ THEME_SLUG
+msgid "Do not display the like button/count at the top of this page."
+msgstr ""
+
+#: functions/admin/meta-page.php:38
+#@ THEME_SLUG
+msgid "Do not display the sharing controls for this page."
+msgstr ""
+
+#: functions/admin/meta-page.php:73
+#@ THEME_SLUG
+msgid "Category Front Page"
+msgstr ""
+
+#: functions/admin/meta-page.php:74
+#@ THEME_SLUG
+msgid "Use this page as the layout for archives within the selected category."
+msgstr ""
+
+#: functions/admin/meta-post.php:38
+#@ THEME_SLUG
+msgid "Do not display the view count at the top of this post."
+msgstr ""
+
+#: functions/admin/meta-post.php:44
+#@ THEME_SLUG
+msgid "Do not display the like button/count at the top of this post."
+msgstr ""
+
+#: functions/admin/meta-post.php:50
+#@ THEME_SLUG
+msgid "Do not display the sharing controls for this post."
+msgstr ""
+
+#: functions/admin/meta-post.php:161
+#@ THEME_SLUG
+msgid "Primary Category"
+msgstr ""
+
+#: functions/admin/meta-post.php:162
+#@ THEME_SLUG
+msgid "The category that will be displayed if this post is assigned multiple categories. Leave this blank to display first alphabetical category."
+msgstr ""
+
+#: functions/admin/option-generator.php:46
+#@ THEME_SLUG
+msgid "Reset"
+msgstr ""
+
+#: functions/admin/option-generator.php:47
+#@ THEME_SLUG
+msgid "Load Demo Settings"
+msgstr ""
+
+#: functions/admin/option-generator.php:125
+#@ THEME_SLUG
+msgid "Save"
+msgstr ""
+
+#: functions/admin/option-generator.php:569
+#: functions/admin/option-generator.php:1240
+#: functions/admin/option-generator.php:1253
+#: functions/admin/option-generator.php:1266
+#: functions/admin/option-generator.php:1279
+#: functions/admin/option-generator.php:1415
+#: functions/admin/option-generator.php:1428
+#: functions/admin/option-generator.php:2048
+#@ THEME_SLUG
+msgid "Choose"
+msgstr ""
+
+#: functions/admin/option-generator.php:848
+#@ THEME_SLUG
+msgid "Upload"
+msgstr ""
+
+#: functions/admin/option-generator.php:1617
+#@ THEME_SLUG
+msgid "Mobile Logo Width (Optional)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1624
+#@ THEME_SLUG
+msgid "Mobile Logo Height (Optional)"
+msgstr ""
+
+#: functions/admin/option-generator.php:1742
+#@ THEME_SLUG
+msgid "Add Panel"
+msgstr ""
+
+#: functions/admin/option-generator.php:1791
+#@ THEME_SLUG
+msgid "Builder Panel"
+msgstr ""
+
+#: functions/admin/option-generator.php:1793
+#@ THEME_SLUG
+msgid "Edit Panel"
+msgstr ""
+
+#: functions/admin/option-generator.php:1822
+#: functions/shortcodes/headliner.php:20
+#: functions/shortcodes/loops.php:20
+#: functions/shortcodes/loops.php:278
+#: functions/shortcodes/scroller.php:20
+#: functions/shortcodes/topten.php:20
+#: functions/shortcodes/trending.php:20
+#@ THEME_SLUG
+msgid "Included Tags"
+msgstr ""
+
+#: functions/admin/option-generator.php:1832
+#: functions/shortcodes/headliner.php:26
+#: functions/shortcodes/loops.php:26
+#: functions/shortcodes/loops.php:284
+#: functions/shortcodes/scroller.php:26
+#: functions/shortcodes/topten.php:26
+#: functions/shortcodes/trending.php:26
+#@ THEME_SLUG
+msgid "Excluded Categories"
+msgstr ""
+
+#: functions/admin/option-generator.php:1842
+#: functions/shortcodes/headliner.php:32
+#: functions/shortcodes/loops.php:32
+#: functions/shortcodes/loops.php:290
+#: functions/shortcodes/scroller.php:32
+#: functions/shortcodes/topten.php:32
+#: functions/shortcodes/trending.php:32
+#@ THEME_SLUG
+msgid "Excluded Tags"
+msgstr ""
+
+#: functions/admin/option-generator.php:1881
+#@ THEME_SLUG
+msgid "Put any custom content you want here and it will display above this builder panel. Shortcode and HTML/CSS/Javascript enabled. For the Custom Content builder panel use this field to insert your content."
+msgstr ""
+
+#: functions/admin/option-generator.php:1909
+#: functions/shortcodes/loops.php:38
+#: functions/shortcodes/loops.php:296
+#@ THEME_SLUG
+msgid "Post Loading"
+msgstr ""
+
+#: functions/admin/option-generator.php:1914
+#: functions/shortcodes/loops.php:43
+#: functions/shortcodes/loops.php:301
+#@ THEME_SLUG
+msgid "Paged"
+msgstr ""
+
+#: functions/admin/option-generator.php:1915
+#: functions/shortcodes/loops.php:44
+#: functions/shortcodes/loops.php:302
+#@ THEME_SLUG
+msgid "Infinite"
+msgstr ""
+
+#: functions/admin/option-generator.php:1916
+#: functions/shortcodes/loops.php:45
+#: functions/shortcodes/loops.php:303
+#@ THEME_SLUG
+msgid "None"
+msgstr ""
+
+#: functions/admin/option-generator.php:1923
+#@ THEME_SLUG
+msgid "Rows/Posts Per Page"
+msgstr ""
+
+#: functions/admin/option-generator.php:1924
+#@ THEME_SLUG
+msgid "For Grid, this setting determines how many total rows of posts are displayed (not necessarily how many total posts are displayed). For Blog, this setting determines how many total posts are displayed."
+msgstr ""
+
+#: functions/admin/option-generator.php:1960
+#: functions/shortcodes/loops.php:102
+#: functions/shortcodes/loops.php:345
+#@ THEME_SLUG
+msgid "Do not display ads within this loop"
+msgstr ""
+
+#: functions/admin/option-generator.php:1973
+#: functions/shortcodes/loops.php:351
+#@ THEME_SLUG
+msgid "Do not display post excerpts within this loop"
+msgstr ""
+
+#: functions/admin/option-generator.php:1986
+#: functions/shortcodes/loops.php:357
+#@ THEME_SLUG
+msgid "Do not display authorship within this loop"
+msgstr ""
+
+#: functions/admin/option-generator.php:1999
+#: functions/shortcodes/headliner.php:53
+#: functions/shortcodes/scroller.php:60
+#: functions/shortcodes/topten.php:80
+#: functions/shortcodes/trending.php:87
+#@ THEME_SLUG
+msgid "Aware of currently displayed category section"
+msgstr ""
+
+#: functions/admin/option-generator.php:2532
+#: functions/shortcodes/loops.php:268
+#@ THEME_SLUG
+msgid "Blog"
+msgstr ""
+
+#: functions/admin/shortcode-generator.php:153
+#@ THEME_SLUG
+msgid "Send Shortcode to Editor &raquo;"
+msgstr ""
+
+#: functions/shortcodes/connect.php:15
+#@ THEME_SLUG
+msgid "Displays to the left of the connect bar."
+msgstr ""
+
+#: functions/shortcodes/connect.php:21
+#: functions/shortcodes/headliner.php:45
+#: functions/shortcodes/loops.php:57
+#: functions/shortcodes/loops.php:315
+#: functions/shortcodes/menu.php:21
+#: functions/shortcodes/scroller.php:45
+#: functions/shortcodes/topten.php:45
+#: functions/shortcodes/trending.php:45
+#@ THEME_SLUG
+msgid "Displays to the left of the title"
+msgstr ""
+
+#: functions/shortcodes/headliner.php:39
+#: functions/shortcodes/loops.php:51
+#: functions/shortcodes/loops.php:309
+#: functions/shortcodes/scroller.php:39
+#: functions/shortcodes/topten.php:39
+#: functions/shortcodes/trending.php:39
+#@ THEME_SLUG
+msgid "Displays to the left of the sort controls."
+msgstr ""
+
+#: functions/shortcodes/html.php:15
+#@ THEME_SLUG
+msgid "This is shortcode and HTML/CSS/Javascript syntax enabled"
+msgstr ""
+
+#: functions/shortcodes/loops.php:39
+#: functions/shortcodes/loops.php:297
+#@ THEME_SLUG
+msgid "How should subsequent pages of posts load"
+msgstr ""
+
+#: functions/shortcodes/loops.php:337
+#@ THEME_SLUG
+msgid "The number of total posts to display before pagination or the load more button is displayed. This is also the number of rows that will load when the load more button is clicked."
+msgstr ""
+
+#: functions/shortcodes/loops.php:516
+#@ THEME_SLUG
+msgid "Loops"
+msgstr ""
+
+#: functions/shortcodes/loops.php:517
+#@ THEME_SLUG
+msgid "Choose which type of post loop you wish to use."
+msgstr ""
+
+#: functions/shortcodes/menu.php:15
+#@ THEME_SLUG
+msgid "Displays to the left of the menu."
+msgstr ""
+
+#: functions/shortcodes/scroller.php:52
+#: functions/shortcodes/trending.php:71
+#@ THEME_SLUG
+msgid "The total number of posts to display within the slider before it loops back around to the first post"
+msgstr ""
+
+#: functions/shortcodes/section.php:25
+#@ THEME_SLUG
+msgid "Anchor Text"
+msgstr ""
+
+#: functions/shortcodes/section.php:26
+#@ THEME_SLUG
+msgid "This is used by the href of the anchor link and is useful if you are using Cyrillic characters in the Label since Cyrillics do not play well with anchor hrefs."
+msgstr ""
+
+#: functions/shortcodes/topten.php:52
+#: functions/shortcodes/trending.php:52
+#@ THEME_SLUG
+msgid "Displays the time period selected by default."
+msgstr ""
+
+#: functions/shortcodes/topten.php:65
+#: functions/shortcodes/trending.php:65
+#@ THEME_SLUG
+msgid "Commented On"
+msgstr ""
+
+#: functions/shortcodes/topten.php:71
+#: functions/shortcodes/trending.php:78
+#@ THEME_SLUG
+msgid "Limit published date of posts to this time period."
+msgstr ""
+
