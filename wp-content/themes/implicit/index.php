@@ -1,6 +1,8 @@
 <?php get_header(); # show header ?>
 
 <?php 
+
+#sample text
 #loop through builder panels
 $builders = it_get_setting('front_builder');
 if(!empty($builders) && count($builders) > 2) {
