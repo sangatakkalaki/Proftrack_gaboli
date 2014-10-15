@@ -97,7 +97,7 @@ sticky bar
 #sticky-bar .subtitle{color:#E6EBF1;font-weight:400;font-family:'Playfair Display',sans-serif;font-style:italic;letter-spacing:-1px;float:left;font-size:20px;margin:6px 0 0 10px}
 /*sticky controls*/
 #sticky-controls{height:43px;padding-right:0px;position:absolute;right:35px}
-.sticky-button-wrapper{position:relative;z-index:212;float:left;}
+.sticky-button-wrapper{position:relative;z-index:212;float:right;}
 .sticky-button{display:block;height:43px;cursor:pointer;font-size:16px;color:#CBD2D9;padding:10px 8px}
 .sticky-button:hover,.sticky-button.active{color:#000}
 .sticky-button#back-to-top{display:none;font-size:22px;position:absolute;right:-35px;top:0px;padding:6px 5px;color:#000}
@@ -2005,7 +2005,7 @@ padding-left:630px !important;
 {
     height: 63px;
 	width:62px;
-    margin-left: 748px;
+    margin-left: 65%;
     margin-top: 0;
     position: relative;
     top: -62px;

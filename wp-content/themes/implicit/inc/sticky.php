@@ -87,8 +87,7 @@ if(it_get_setting('sticky_force_wp_login')) {
                 <div class="col-md-12"> 
                     
                     <div id="sticky-inner">
-                    
-                    	<?php if(!$nav_disable) { ?>
+                         <?php if(!$nav_disable) { ?>
                         
                         	<div class="nav-toggle add-active"><span class="theme-icon-list"></span></div>
                         
@@ -97,15 +96,14 @@ if(it_get_setting('sticky_force_wp_login')) {
 						<?php if(!$logo_disable) { ?>
                         
                             <div class="logo">
-        
-                                <?php if(it_get_setting('display_logo') && $logo_url!='') { ?>
+                                    <?php if(it_get_setting('display_logo') && $logo_url!='') { ?>
                                     <a href="<?php echo home_url(); ?>/" title="<?php _e('Home',IT_TEXTDOMAIN); ?>">
                                         <img id="site-logo" alt="<?php bloginfo('name'); ?>" src="<?php echo $logo_url; ?>"<?php echo $dimensions; ?> />   
                                         <img id="site-logo-hd" alt="<?php bloginfo('name'); ?>" src="<?php echo $logo_url_hd; ?>"<?php echo $dimensions; ?> />  
                                         <img id="site-logo-mobile" alt="<?php bloginfo('name'); ?>" src="<?php echo $logo_url_mobile; ?>"<?php echo $dimensions_mobile; ?> />   
                                         <img id="site-logo-hd-mobile" alt="<?php bloginfo('name'); ?>" src="<?php echo $logo_url_hd_mobile; ?>"<?php echo $dimensions_mobile; ?> /> 
                                     </a>
-                                <?php } else { ?>     
+                                <?php } else { ?>  							
                                     <h1><a href="<?php echo home_url(); ?>/" title="<?php _e('Home',IT_TEXTDOMAIN); ?>"><?php bloginfo('name'); ?></a></h1>
                                 <?php } ?>
                                 
@@ -119,7 +117,9 @@ if(it_get_setting('sticky_force_wp_login')) {
                             
                         <?php } ?>
                     
-                        <!--To disable the search box in the sticky bar.--!>
+                        <div id="sticky-controls">
+						
+						<!--To disable the search box in the sticky bar.--!>
                         
                         	<?php// if(!it_get_setting('search_disable')) { ?>
                     
