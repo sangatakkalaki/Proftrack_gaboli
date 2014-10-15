@@ -225,7 +225,7 @@ class itLoops {
                                 
                                    $out .= ' <form method="get" id="searchformtop"> ';                           
                                    $out .= '<input type="text" placeholder="What do you want to learn?" name="s" id="s" />';
-								   $out .= '<button class="BtnSearch" action="'. home_url() .'">';
+								   $out .= '<button class="BtnSearch" id="btnsearch" action="'. home_url() .'">';
 								   $out .= '<img src="wp-content/themes/implicit/images/BtnSearch.png" />';
 								   $out .= '</button>';
 								   $out .= ' </form></div>';
