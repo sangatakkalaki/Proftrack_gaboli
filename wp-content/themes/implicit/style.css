@@ -2004,9 +2004,26 @@ padding-left:630px !important;
 #btnsearch
 {
     height: 63px;
+	width:62px;
     margin-left: 748px;
     margin-top: 0;
     position: relative;
     top: -62px;
     z-index: 999;
+}
+#icon-list2
+{
+margin-right:-100px;
+}
+#s
+{
+width: 61% !important;
+}
+#searchformtop
+{
+width:100%;
+}
+#menu-search
+{
+width:100%;
 }
