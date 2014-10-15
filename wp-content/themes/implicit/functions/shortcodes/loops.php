@@ -216,7 +216,7 @@ class itLoops {
 		
 		//Home page search box region.
 		
-		$out .= '<div id ="search_area" style = "width:100% ; height:780px ; background-color:#fec222">';
+		$out .= '<div id ="search_area" style = "width:100% ; height:780px ; background-color:white">';
 		
 		//To call search box in new region.
 		 if(!it_get_setting('search_disable')) { 
@@ -240,15 +240,15 @@ class itLoops {
 							
 							$out .= '<div id = "icons-div2" style="float:right;margin-top:350px">';
 								   $out .= '<ul id = "icon-list2" style="list-style-type:none">';
-								   $out .= '<li style = "margin:10px"><div style = "border:1px solid white;
+								   $out .= '<li style = "margin:10px"><div style = "border:1px solid gray;
 								   width:45px;height:45px;border-radius:22px;text-align:center;padding-top:11px;">';
-								   $out .= '<a src = "#" style = "color:white;">1200</a></div></li>';
-								   $out .= '<li style = "margin:10px"><div style = "border:1px solid white;
+								   $out .= '<a src = "#" style = "color:gray;">1200</a></div></li>';
+								   $out .= '<li style = "margin:10px"><div style = "border:1px solid gray;
 								   width:45px;height:45px;border-radius:22px;text-align:center;padding-top:11px;">';
-								   $out .= '<a src = "#" style = "color:white;">50</a></div></li>';
-								   $out .= '<li style = "margin:10px"><div style = "border:1px solid white;
+								   $out .= '<a src = "#" style = "color:gray;">50</a></div></li>';
+								   $out .= '<li style = "margin:10px"><div style = "border:1px solid gray;
 								   width:45px;height:45px;border-radius:22px;text-align:center;padding-top:11px;">';
-								   $out .= '<a src = "#" style = "color:white;">500</a></div></li>';
+								   $out .= '<a src = "#" style = "color:gray;">500</a></div></li>';
 								   $out .= '</ul>';
 							$out .= '</div>';
                                 
