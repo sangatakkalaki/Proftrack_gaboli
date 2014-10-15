@@ -1923,7 +1923,7 @@ div.scrollingHotSpotLeft,div.scrollingHotSpotRight{display:none}
 .post-blog .longform-wrapper .wide .overlay-info-wrapper{height:150px}
 .post-blog .longform-wrapper .review-label{position:relative;top:8px}
 #nav-search{display:block}
-#menu-search{display:none}
+/*#menu-search{display:none}*/
 .post-blog .longform{margin:20px 4% 25px 4%}
 .post-blog .longform-excerpt{font-size:14px;padding:15px 0 6px 0}
 .post-blog .longform-excerpt p{margin-bottom:18px}
