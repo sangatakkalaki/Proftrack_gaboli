@@ -223,11 +223,11 @@ class itLoops {
                                 
                                    $out .= '<div id="menu-search" class="info-bottom" style="float:left"><span class="theme-icon-search"></span>';
                                 
-                                   $out .= ' <form method="get" id="searchformtop"> ';                           
+                                   $out .= ' <form method="get" id="searchformtop" action="'.home_url().'"> ';                           
                                    $out .= '<input type="text" placeholder="What do you want to learn?" name="s" id="s" />';
-								   $out .= '<button class="BtnSearch" id="btnsearch" action="'. home_url() .'">';
-								   $out .= '<img src="wp-content/themes/implicit/images/BtnSearch.png" />';
-								   $out .= '</button>';
+								   //$out .= '<button class="BtnSearch" id="btnsearch" action="'. home_url() .'">';
+								   //$out .= '<img src="wp-content/themes/implicit/images/BtnSearch.png" />';
+								   //$out .= '</button>';
 								   $out .= ' </form></div>';
 								   
 							/*$out .='<div id = "icons-div" style="float:right">';
