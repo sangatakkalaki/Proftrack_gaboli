@@ -213,10 +213,55 @@ class itLoops {
     
 		$out .= $before;
 		
+		
+		//Home page search box region.
+		
+		$out .= '<div id ="search_area" style = "width:100% ; height:780px ; background-color:#fec222">';
+		
+		//To call search box in new region.
+		 if(!it_get_setting('search_disable')) { 
+                                
+                                   $out .= '<div id="menu-search" class="info-bottom" style="float:left"><span class="theme-icon-search"></span>';
+                                
+                                   $out .= ' <form method="get" id="searchformtop"> ';                           
+                                   $out .= '<input type="text" placeholder="What do you want to learn?" name="s" id="s" />';
+								   $out .= '<button class="BtnSearch" action="'. home_url() .'">';
+								   $out .= '<img src="wp-content/themes/implicit/images/BtnSearch.png" />';
+								   $out .= '</button>';
+								   $out .= ' </form></div>';
+								   
+							$out .='<div id = "icons-div" style="float:right">';
+								$out .= '<ul id = "icon-list" style="list-style-type:none">';
+								   $out .= '<li style ="margin-right:110px;margin-top:120px"><a id ="icon1"><img src="wp-content/themes/implicit/images/blue.png"/></a></li>';
+								   $out .= '<li style ="margin-right:110px;margin-top:7px"><a id ="icon1"><img src="wp-content/themes/implicit/images/orange.png"/></a></li>';
+								   $out .= '<li style ="margin-right:110px;margin-top:7px"><a id ="icon1"><img src="wp-content/themes/implicit/images/grey.png" /></a></li>';
+								$out .='</ul>';
+							$out .= '</div>';
+							
+							$out .= '<div id = "icons-div2" style="float:right;margin-top:350px">';
+								   $out .= '<ul id = "icon-list2" style="list-style-type:none">';
+								   $out .= '<li style = "margin:10px"><div style = "border:1px solid white;
+								   width:45px;height:45px;border-radius:22px;text-align:center;padding-top:11px;">';
+								   $out .= '<a src = "#" style = "color:white;">1200</a></div></li>';
+								   $out .= '<li style = "margin:10px"><div style = "border:1px solid white;
+								   width:45px;height:45px;border-radius:22px;text-align:center;padding-top:11px;">';
+								   $out .= '<a src = "#" style = "color:white;">50</a></div></li>';
+								   $out .= '<li style = "margin:10px"><div style = "border:1px solid white;
+								   width:45px;height:45px;border-radius:22px;text-align:center;padding-top:11px;">';
+								   $out .= '<a src = "#" style = "color:white;">500</a></div></li>';
+								   $out .= '</ul>';
+							$out .= '</div>';
+                                
+                             } 
+		$out .= '</div>';
+		//Home page search box region ended.
+		
+		
 		if(!empty($content)) $out .= '<div class="html-content clearfix">' . do_shortcode(stripslashes($content)) . '</div>'; 
             
         $out .= "<div class='articles post-container post-grid' data-currentquery='" . $current_query_encoded . "'>";
             
+
             $out .= it_archive_title();
         
             $out .= it_get_sortbar($sortbarargs);

@@ -119,21 +119,23 @@ if(it_get_setting('sticky_force_wp_login')) {
                             
                         <?php } ?>
                     
-                        <div id="sticky-controls">
+                        <!--To disable the search box in the sticky bar.--!>
                         
-                        	<?php if(!it_get_setting('search_disable')) { ?>
+                        	<?php// if(!it_get_setting('search_disable')) { ?>
                     
-                                <div id="menu-search" class="info-bottom" title="<?php _e('Type and hit Enter',IT_TEXTDOMAIN); ?>">
+                              <!--  <div id="menu-search" class="info-bottom" title="<?php// _e('Type and hit Enter',IT_TEXTDOMAIN); ?>">
                                 
                                     <span class="theme-icon-search"></span>
                                 
-                                    <form method="get" id="searchformtop" action="<?php echo home_url(); ?>/">                             
-                                        <input type="text" placeholder="<?php _e( 'search', IT_TEXTDOMAIN ); ?>" name="s" id="s" />          
+                                    <form method="get" id="searchformtop" action="<?php //echo home_url(); ?>/">                             
+                                        <input type="text" placeholder="<?php //_e( 'search', IT_TEXTDOMAIN ); ?>" name="s" id="s" />          
                                     </form>
                                     
-                                </div>
+                                </div>-->
                                 
-                            <?php } ?>
+                            <?php //} ?>
+							
+							<!--Ended-->
                             
                             <?php if(!it_get_setting('sticky_account_disable')) { ?> 
                             
