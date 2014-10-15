@@ -216,7 +216,7 @@ class itLoops {
 		
 		//Home page search box region.
 		
-		$out .= '<div id ="search_area" style = "width:100% ; height:780px ; background-color:white">';
+		$out .= '<div id ="search_area" style = "width:99% ; height:780px ; background-color:white">';
 		
 		//To call search box in new region.
 		 if(!it_get_setting('search_disable')) { 
