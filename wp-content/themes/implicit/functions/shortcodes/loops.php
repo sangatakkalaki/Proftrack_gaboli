@@ -230,7 +230,7 @@ class itLoops {
 								   $out .= '</button>';
 								   $out .= ' </form></div>';
 								   
-							$out .='<div id = "icons-div" style="float:right">';
+							/*$out .='<div id = "icons-div" style="float:right">';
 								$out .= '<ul id = "icon-list" style="list-style-type:none">';
 								   $out .= '<li style ="margin-right:110px;margin-top:120px"><a id ="icon1"><img src="wp-content/themes/implicit/images/blue.png"/></a></li>';
 								   $out .= '<li style ="margin-right:110px;margin-top:7px"><a id ="icon1"><img src="wp-content/themes/implicit/images/orange.png"/></a></li>';
@@ -250,7 +250,7 @@ class itLoops {
 								   width:45px;height:45px;border-radius:22px;text-align:center;padding-top:11px;">';
 								   $out .= '<a src = "#" style = "color:gray;">500</a></div></li>';
 								   $out .= '</ul>';
-							$out .= '</div>';
+							$out .= '</div>';*/
                                 
                              } 
 		$out .= '</div>';
