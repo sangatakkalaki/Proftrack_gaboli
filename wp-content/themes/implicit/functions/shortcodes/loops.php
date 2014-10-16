@@ -1,3 +1,4 @@
+
 <?php
 /**
  *
@@ -224,7 +225,7 @@ class itLoops {
                                    $out .= '<div id="menu-search" class="info-bottom" style="float:left"><span class="theme-icon-search"></span>';
                                 
                                    $out .= ' <form method="get" id="searchformtop" > '; 
-								   $out .= '<div id="search" onclick="'. home_url() .'"></div>';
+								   //$out .= '<div id="search" onClick="resultpage();"></div>';
                                    $out .= '<input type="text" placeholder="What do you want to learn?" name="s" id="s" />';
 								   
 								   //$out .= '<button class="BtnSearch" id="btnsearch" action="'. home_url() .'">';
