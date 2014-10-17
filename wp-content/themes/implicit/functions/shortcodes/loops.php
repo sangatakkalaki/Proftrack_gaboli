@@ -1,4 +1,3 @@
-
 <?php
 /**
  *
@@ -217,7 +216,9 @@ class itLoops {
 		
 		//Home page search box region.
 		
-		$out .= '<div id ="search_area" style = "width:99% ; height:780px ; background-color:white">';
+		if(is_home()){
+		
+		$out .= '<div id ="search_area" style = "width:99% ; height:200px ;">';
 		
 		//To call search box in new region.
 		 if(!it_get_setting('search_disable')) { 
@@ -225,12 +226,12 @@ class itLoops {
                                    $out .= '<div id="menu-search" class="info-bottom" style="float:left"><span class="theme-icon-search"></span>';
                                 
                                    $out .= ' <form method="get" id="searchformtop" > '; 
-								   //$out .= '<div id="search" onClick="resultpage();"></div>';
+								  // $out .= '<div id="search" onclick="'. home_url() .'"></div>';
                                    $out .= '<input type="text" placeholder="What do you want to learn?" name="s" id="s" />';
 								   
-								   //$out .= '<button class="BtnSearch" id="btnsearch" action="'. home_url() .'">';
-								   //$out .= '<img src="wp-content/themes/implicit/images/BtnSearch.png" />';
-								   //$out .= '</button>';
+								   $out .= '<button class="BtnSearch" id="btnsearch" action="'. home_url() .'">';
+								  $out .= '<img src="wp-content/themes/implicit/images/BtnSearch.png" />';
+								   $out .= '</button>';
 								   $out .= ' </form></div>';
 								   
 							/*$out .='<div id = "icons-div" style="float:right">';
@@ -257,6 +258,7 @@ class itLoops {
                                 
                              } 
 		$out .= '</div>';
+		}
 		//Home page search box region ended.
 		
 		
@@ -572,5 +574,4 @@ class itLoops {
 	}
 
 }
-
 ?>
