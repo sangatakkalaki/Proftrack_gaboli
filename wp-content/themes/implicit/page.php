@@ -11,5 +11,8 @@ if(!empty($builders) && count($builders) > 2) {
 } else {
 	it_get_template_part('page-content');
 } 
-
+if(is_page(969)){
+echo "hello";
+echo do_shortcode('[ajax_register]'); 
+}
 get_footer(); # show footer ?>
