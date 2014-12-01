@@ -99,10 +99,66 @@ $class = 'widgets';
     </div> <!--/container-fluid-->
 
 </div> <!--/after-header-->
+<script>
+jQuery('#city').on('change', function() {
+  jQuery('.filter .loading').css({'display':'block'});
+});
+jQuery('#eventdp').on('change', function() {
+  jQuery('.filter .loading').css({'display':'block'});
+});
+jQuery('#price').on('change', function() {
+  jQuery('.filter .loading').css({'display':'block'});
+});
+jQuery('#duration').on('change', function() {
+  jQuery('.filter .loading').css({'display':'block'});
+  //jQuery('.filter .loading').show();
+});
 
+</script>
+
+<script>
+/*
+var comVlue;
+jQuery("#custsubmit").click(function()
+{
+var comVlue=jQuery("textarea#comment").val();
+alert (comVlue);
+jQuery('#comm').val(comVlue);
+
+});
+
+jQuery("#lwa_wp-submit,#wp-submit").click(function()
+{
+alert("hello");
+jQuery('#final').click();
+	
+
+
+});
+jQuery(document).ready(function() {
+var lav=jQuery('#comm').val();
+jQuery("textarea#comment").val(lav);
+//jQuery("#submit").click();
+});
+*/
+
+</script>
+
+<script>
+/*jQuery(document).ready(function() {
+	jQuery('#wp-submit').on("click",function(){
+    setTimeout(function(){
+   window.location.reload();
+}, 5000);
+});
+});*/
+</script> 
+	
 <?php do_action('it_body_end'); ?>
 <?php wp_footer(); ?>
-
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 </body>
 
 </html>
