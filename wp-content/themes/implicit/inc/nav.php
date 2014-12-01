@@ -150,8 +150,23 @@ $disable_nav_widgets_label = it_get_setting('nav_widgets_label_disable');
                 } 
                  
                 #Secondary Menu (if after Section menu)
+if(!is_search()){
                 if($secondary_menu_position=='after') echo $secondary_menu;
-                ?>
+               }
+?>
+
+<?php
+if(is_search()){
+echo '</br>';
+//echo do_shortcode('[ULWPQSF id=846]'); 	$getUrl=$_SERVER['REQUEST_URI'];global $a;$a = explode("?",$getUrl);?><form method="Post" action="" id="MyLink" name="myform"><br/><div class="selectdiv">	<select name="other-dropdown" onchange="highlight_options(this)" id="city"> 	 <option value=""><?php echo esc_attr(__(strtoupper ('City'))); ?></option> 	 <?php 	  $categories = get_categories('child_of=68'); 	  foreach ($categories as $category) {		$option = '<option id="'.$category->cat_ID.'" value="'.$category->cat_ID.'">';		$option .= strtoupper ($category->cat_name);		$option .= '</option>';		echo $option;	  }	 ?>	</select>	<br/>	<select name="event-dropdown" id="eventdp"> 	 <option id="tp" value=""><?php echo esc_attr(__(strtoupper ('Type'))); ?></option> 	 <?php 	  $categoriestype = get_categories('child_of=65'); 	  foreach ($categoriestype as $categorytype) {		$option = '<option id="'.$category->cat_ID.'" value="'.$categorytype->cat_ID.'">';		$option .= strtoupper ($categorytype->cat_name);		$option .= '</option>';		echo $option;	  }	 ?>	</select>	<br/>	<select name="price-dropdown" id="price"> 	<option id="pr" value=""><?php echo esc_attr(__(strtoupper ('Price'))); ?></option> 	 <?php 	   $priceTerms =  get_terms("price",array('orderby'    => 'ID'));	  foreach ($priceTerms as $priceTerm) {	  		$option = '<option id="'.$priceTerm->id.'" value="'.$priceTerm->name.'">';		$option .= strtoupper ($priceTerm->name);		$option .= '</option>';		echo $option;	  }	 ?>	</select>	<br/>	<select name="duration-dropdown" id="duration"> 	<option id="du" value=""><?php echo esc_attr(__(strtoupper ('Duration'))); ?></option> 	 <?php 	   $durationTerms =  get_terms("duration",array('orderby'    => 'ID'));	  foreach ($durationTerms as $durationTerm) {	  		$option = '<option id="'.$durationTerm->id.'" value="'.$durationTerm->name.'">';		$option .= strtoupper ($durationTerm->name);		$option .= '</option>';		echo $option;	  }	 ?>	</select></div><div class="submitdiv"><!--<input type="Submit" value="Filter" id="submitval" />--></div></form>
+<?php } ?>
+<?php
+if(is_page('search-2'))
+{
+echo do_shortcode('[ULWPQSF id=846]');
+}
+?>
+
             
             </div>
             

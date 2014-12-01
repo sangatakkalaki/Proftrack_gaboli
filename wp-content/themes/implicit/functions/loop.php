@@ -215,8 +215,7 @@ if(!function_exists('it_loop')) {
 								
 							$out.='</div>';		
 							
-						$out.='</div>';						
-						 
+						$out.='</div>';	
 					$out.='</div>';
 				
 				break;
@@ -385,6 +384,65 @@ if(!function_exists('it_loop')) {
 					$title .= '<span class="title-text">' . it_title($len_title) . '</span>';
 					$title .= '</div></h2>';
 					
+					#added for subtitles
+					$dates = get_post_meta(get_the_ID(), "_dates", $single = true);								
+					$price = get_post_meta(get_the_ID(), "_price_front_page", $single = true);	
+								$learningpro=get_post_meta(get_the_ID(), "_learning_provider_front_page", $single = true);	
+							
+								$city=get_city(get_the_ID());
+								
+								$type=get_type(get_the_ID());
+									
+								$city = trim($city);
+								$dates = trim($dates);
+								$type = trim($type);
+								//$city = !empty($city)?$city.' | ':'';
+								//$type = !empty($type)?$type.' | ':'';
+								$dates = !empty($dates)?$dates.' | ':'';
+								
+								
+								$rseventUp= rs_event_post_return();	
+								$rsevent = strip_tags($rseventUp, '<div class="rseventpost">');
+								//$rsevent=!empty($rsevent)?$rsevent.' | ':'';
+								
+							
+							foreach((get_the_category($post->ID)) as $childcat) {
+									if (cat_is_ancestor_of(68, $childcat)) {
+										//echo '<a href="'.get_category_link($childcat->cat_ID).'">';
+		 								//echo $childcat->cat_name . '</a>';
+										$city=$childcat->cat_name ;
+									}
+									
+								}
+								foreach((get_the_category($post->ID)) as $childcat) {
+									if (cat_is_ancestor_of(65, $childcat)) {
+										//echo '<a href="'.get_category_link($childcat->cat_ID).'">';
+		 								//echo $childcat->cat_name . '</a>';
+										$type=$childcat->cat_name ;
+									}
+									
+								}
+									
+								
+								$city = !empty($city)?$city.' | ':'';
+								//$type = !empty($type)?$type.' | ':'';
+								if($rsevent!=""){
+								$rsevent1= $rsevent.' | ';
+								}
+								if($price!=""){
+								$price=$price.' | ';
+								}
+								//$rsevent1 = !empty($rsevent)?$rsevent.' | ':'';
+
+							
+								
+								$title.='<div class="tit_out" style="width: 295px;">';						
+								//$title.='<span class="tit_in">'.$city.$type.$dates.$price.' </span>';
+							
+								$title.='<span class="tit_in">'.$city.$type.$rsevent1.$price.' </span>';
+								$title.='<div class="lear_p">'.$learningpro.'</div>';
+								$title.='</div>';
+					
 					#get review identifier
 					$reviewlabel = it_has_rating(get_the_ID(),'user') || it_has_rating(get_the_ID(),'editor') ? '<div class="review-label">' . __('REVIEW',IT_TEXTDOMAIN) . '<span class="theme-icon-star"></span></div>' : '';
 					
@@ -434,8 +492,9 @@ if(!function_exists('it_loop')) {
 									
 									$out .= $reviewlabel;
 									
-								$out.='</div>';	
+								$out.='</div>';							
 								
+																							
 							$out.='</div>';	
 							
 							$out.='<div class="share-panel">';
@@ -691,7 +750,7 @@ if(!function_exists('it_loop')) {
 			$i++; endwhile; 
 			else:
 				
-				$out.='<div class="filter-error">'.__('Try a different filter', IT_TEXTDOMAIN).'</div>';
+				$out.='<div class="filter-error">'.__('Try a different search term or help us add the missing course or learning resource by clicking on: <a href="http://bit.ly/proftrackaddcourse" target="_blank">Add a Course</a>', IT_TEXTDOMAIN).'</div>';
 				$updatepagination=0;
 			
 			endif;
@@ -700,7 +759,94 @@ if(!function_exists('it_loop')) {
 		$posts = $posts_shown;
 		wp_reset_postdata();
 		
-		return array('content' => $out, 'pages' => $pages, 'updatepagination' => $updatepagination, 'posts' => $posts);
-	} 
+		return array('content' => $out, 'pages' => $pages, 'updatepagination' => $updatepagination, 'posts' => $posts);						
+	} 							
+	
+	function get_city($id)
+	{	
+	$cid=$id .'..';
+	//$cat_p='61';
+	$sub_name='';
+	global $wpdb;
+	 
+		 $results = $wpdb->get_results ("SELECT $wpdb->term_relationships.term_taxonomy_id FROM $wpdb->term_relationships WHERE $wpdb->term_relationships.object_id = '$cid'");
+		//echo 'after first query';
+		foreach ( $results as $result )
+			{
+			$cit = $result->term_taxonomy_id.'</br>';
+			$result1 = $wpdb->get_results ("SELECT $wpdb->term_taxonomy.term_id FROM $wpdb->term_taxonomy WHERE $wpdb->term_taxonomy.term_taxonomy_id = '$cit'");
+
+				foreach ( $result1 as $res )
+				{
+					$t_id = $res->term_id.'</br>';
+					//echo $t_id;
+					if($t_id == 69)
+					{
+						$cit_fin = 'Berlin';
+						break;
+					}
+					else if($t_id == 70)
+					{
+						$cit_fin = 'London';
+						break;
+					}
+				}
+	
+			}	
+	  
+	  return $cit_fin;
+}
+	
+	
+	
+	
+	function get_type($id)
+	{	
+	$cid=$id .'..';
+	//$cat_p='61';
+	$sub_name='';
+	global $wpdb;
+	 
+		 $results = $wpdb->get_results ("SELECT $wpdb->term_relationships.term_taxonomy_id FROM $wpdb->term_relationships WHERE $wpdb->term_relationships.object_id = '$cid'");
+		//echo 'after first query';
+		foreach ( $results as $result )
+			{
+			$cit = $result->term_taxonomy_id.'</br>';
+			$result1 = $wpdb->get_results ("SELECT $wpdb->term_taxonomy.term_id FROM $wpdb->term_taxonomy WHERE $wpdb->term_taxonomy.term_taxonomy_id = '$cit'");
+
+				foreach ( $result1 as $res )
+				{
+					$t_id = $res->term_id.'</br>';
+					
+					if($t_id == 66) //58 and 66 both for clssroom
+						{
+							$type_fin = 'Classroom';
+							break;
+						}
+					else if($t_id == 63)
+						{
+							$type_fin = 'Online';
+							break;
+						}
+				else if($t_id == 189)
+						{
+							$type_fin = 'Blended';
+							break;
+						}
+					else if($type == 67)
+						{
+							$type_fin = 'Meetups';
+							break;
+						}
+					
+					
+					
+				}
+	
+			}	
+	  
+	  return $type_fin;
+}
+	
 }
 ?>
