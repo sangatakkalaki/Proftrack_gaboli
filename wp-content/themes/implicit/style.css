@@ -2070,7 +2070,7 @@ width:1140px;
 /*display:none;*/
 }
 /*****custom css for search filter******/
-#eventdp,#city,#price,#duration{
+#eventdp,#city,#price,#duration,#location{
 	/*float:right!important;*/
 	margin-bottom:10px!important;
 	border:0 !important;
@@ -2099,6 +2099,7 @@ width:1140px;
 .submitdiv{
 	float: right;
 	width: 98px;
+	display:none;
 }
 select option.selected {
 	font-weight: bold;

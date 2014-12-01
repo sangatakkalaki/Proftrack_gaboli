@@ -190,3 +190,302 @@ if (isset($_POST['submit'])) {
 								</div>
 								
 								<?php } ?>
+								<?php if((is_category()) || (is_tag()) || (is_search()))
+								{
+								
+/*MULTI FILTER*/
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+if(is_search())
+{
+$exp_before_cat = explode("?",$actual_link);
+//print_r($exp_before_cat);
+$and_split = explode("&",$exp_before_cat[1]);
+//print_r($and_split);
+
+$final_type = explode("=",$and_split[0]);
+$final_type = $final_type[1];
+//print_r($final_type);
+
+$final_loc = explode("=",$and_split[1]);
+$final_loc = $final_loc[1];
+$final_price = explode("=",$and_split[2]);
+$final_price = $final_price[1];
+$final_duration = explode("=",$and_split[3]);
+$final_duration = $final_duration[1];
+}
+
+else if(((is_category()) || (is_tag())))
+{
+
+$exp_before_cat = explode("?",$actual_link);
+$and_split = explode("&",$exp_before_cat[1]);
+//$final_type = explode("=",$and_split[0]);
+//print_r($exp_before_cat);
+
+$pos = strpos($exp_before_cat[1],'cat=');
+
+if($pos === false) {
+$final_type="";
+}
+else
+{
+	$final_type = explode("=",$and_split[0]);
+	
+	}
+
+
+if(empty($final_type))
+{
+//echo'type empty';
+$final_type="";
+$final_loc = explode("=",$and_split[0]);
+//print_r($final_loc);
+$final_loc = $final_loc[1];
+//print_r($final_type);
+$final_price = explode("=",$and_split[1]);
+$final_price = $final_price[1];
+$final_duration = explode("=",$and_split[2]);
+$final_duration = $final_duration[1];
+}
+else
+{
+//echo 'type not empty';
+$final_type = explode("=",$and_split[0]);
+$final_type = $final_type[1];
+//print_r($final_type);
+
+$final_loc = explode("=",$and_split[1]);
+$final_loc = $final_loc[1];
+$final_price = explode("=",$and_split[2]);
+$final_price = $final_price[1];
+$final_duration = explode("=",$and_split[3]);
+$final_duration = $final_duration[1];
+}
+
+}
+/*ENDED*/ 
+?>
+<script>
+
+ jQuery('#eventdp').on('change', function () {
+  
+	  var  landingUrl= jQuery('#city').val();
+	  var priceUrl = jQuery('#price').val();
+	  var  durationUrl= jQuery('#duration').val();
+	  
+	  if (landingUrl==null)
+	  {
+	  landingUrl="";
+	  }
+	  else if (priceUrl==null)
+	  {
+	  priceUrl="";
+	  }
+	  else if (durationUrl==null)
+	  {
+	  durationUrl="";
+	  }
+	  if(jQuery(this).val() == 0) 
+	  {
+	  queryUrl = "";
+	  }
+	  else
+	  {
+	  queryUrl = jQuery(this).val();
+	  }  
+	  var typeurl = MakeUrl(queryUrl,landingUrl,durationUrl,priceUrl,'type');
+	  jQuery(location).attr('href', typeurl);
+	  return false;
+	  });
+	 
+	   jQuery('#location').on('change', function () {
+	
+	   var  queryUrl= jQuery('#eventdp').val();
+	   var priceUrl = jQuery('#price').val();
+	   var  durationUrl= jQuery('#duration').val();
+	   
+
+	   if (queryUrl==null)
+	   {
+	   queryUrl="";
+	   }
+	   else if (priceUrl==null)
+	   {
+	   priceUrl="";
+	   }
+	   else if (durationUrl==null)
+	   {
+	   durationUrl="";
+	   }
+	   
+	   if(jQuery(this).val() == 0) 
+	   {
+	   landingUrl = "";
+	   }
+	   else
+	   {
+	   landingUrl = jQuery(this).val();
+	   }
+	   
+	   var locationurl = MakeUrl(queryUrl,landingUrl,durationUrl,priceUrl,'location');
+	   
+		 jQuery(location).attr('href', locationurl);
+		  return false;
+	  });
+	  
+	   jQuery('#price').on('change', function () {
+	   var  queryUrl= jQuery('#eventdp').val();
+	   var  landingUrl= jQuery('#city').val();
+	   var  durationUrl= jQuery('#duration').val();
+	  
+	  if (queryUrl==null)
+	  {
+	  queryUrl="";
+	  }
+	  else if (landingUrl==null)
+	  {
+	  landingUrl="";
+	  }
+	  else if (durationUrl==null)
+	  {
+	  durationUrl="";
+	  }
+	  if(jQuery(this).val() == 0)
+	  {
+	  priceUrl = "";
+	  }
+	  else
+	  {
+		priceUrl = jQuery(this).val();
+	  }
+		 var priceurl = MakeUrl(queryUrl,landingUrl,durationUrl,priceUrl,'price');
+		  
+		  jQuery(location).attr('href', priceurl);
+		  return false;
+	  });
+	   jQuery('#duration').on('change', function () {
+	   
+	   
+	   var  queryUrl= jQuery('#eventdp').val();
+	   var priceUrl = jQuery('#price').val();
+	   var  landingUrl= jQuery('#location').val();
+	  
+	  if (queryUrl==null)
+	  {
+	  queryUrl="";
+	  }
+	  else if (priceUrl==null)
+	  {
+	  priceUrl="";
+	  }
+	  else if (landingUrl==null)
+	  {
+	  durationUrl="";
+	  }
+		  if(jQuery(this).val() == 0) {
+			 durationUrl = "";
+		  } else {
+			 durationUrl = jQuery(this).val();
+		  }
+		 var dururl = MakeUrl(queryUrl,landingUrl,durationUrl,priceUrl,'duration');
+		 
+		 jQuery(location).attr('href', dururl);
+		 return false;
+		 
+	  });
+</script>
+<script>
+
+	
+	//var SourceUrl = "<?php echo $_SERVER["REQUEST_URI"] ;?>";
+	
+
+	function MakeUrl(queryUrl,landingUrl,durationUrl,priceUrl,event) {
+	
+		var SourceUrl = "<?php echo $_SERVER["REQUEST_URI"] ;?>";
+		var cat = "?cat=";
+		
+	
+		if(SourceUrl.indexOf('?') != -1)
+		{ 
+			var price = <?php echo json_encode($final_price); ?>;
+			var durf = <?php echo json_encode($final_duration); ?>;
+			var afterc = <?php echo json_encode($final_loc); ?>;
+			var typeb = <?php echo json_encode($final_type); ?>;
+		
+		if(queryUrl != typeb)
+		{		
+			if(event != 'type')
+			queryUrl = typeb;			
+		}
+		
+		if(landingUrl != afterc){
+			
+			if(event != 'location')
+			landingUrl = afterc;	
+		}
+		
+		
+		if(durationUrl != durf)
+		{
+		if(event != 'duration')
+		durationUrl = durf;
+		}
+		if(priceUrl != price)
+		{
+		if(event != 'price')
+			priceUrl = price;
+		
+		}
+		
+			var t= '?cat'+'='+ queryUrl + '&location='+ landingUrl+ '&price='+ priceUrl + '&duration='+durationUrl;
+			var home = <?php echo json_encode($exp_before_cat[0]); ?>;
+			var finalurLs=home+t;
+			
+			return(finalurLs);
+			//return t;
+		}
+		else
+		{
+		var price = <?php echo json_encode($final_price); ?>;
+			var durf = <?php echo json_encode($final_duration); ?>;
+			var afterc = <?php echo json_encode($final_loc); ?>;
+			var typeb = <?php echo json_encode($final_type); ?>;
+				var finalUrL = cat + queryUrl + '&location='+ landingUrl+ '&price='+ priceUrl + '&duration='+durationUrl;
+			    var currUrl=document.URL;
+				var finalurLs=currUrl+finalUrL;
+				
+				return finalurLs;
+				
+		}
+		
+	
+	   
+	}
+	
+function highlight_options(field){
+  var i,c;
+  for(i in field.options){
+    (c=field.options[i]).className=c.selected?'selected':'';
+  }
+}
+
+jQuery( document ).ready( setvalue );
+
+function setvalue(){
+			var price = <?php echo json_encode($final_price); ?>;
+			var durf = <?php echo json_encode($final_duration); ?>;
+			var afterc = <?php echo json_encode($final_loc); ?>;
+			var typeb = <?php echo json_encode($final_type); ?>;
+						
+							jQuery("#location").val(afterc);
+							jQuery("#eventdp").val(typeb);
+							jQuery("#price").val(price);
+							jQuery("#duration").val(durf);
+			}
+	
+</script>
+<?php 
+}
+?>

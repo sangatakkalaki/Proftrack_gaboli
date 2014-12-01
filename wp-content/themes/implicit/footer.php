@@ -100,17 +100,17 @@ $class = 'widgets';
 
 </div> <!--/after-header-->
 <script>
-jQuery('#city').on('change', function() {
-  jQuery('.filter .loading').css({'display':'block'});
+jQuery('#location').on('change', function() {
+  jQuery('.loading').css({'display':'block'});
 });
 jQuery('#eventdp').on('change', function() {
-  jQuery('.filter .loading').css({'display':'block'});
+  jQuery('.loading').css({'display':'block'});
 });
 jQuery('#price').on('change', function() {
-  jQuery('.filter .loading').css({'display':'block'});
+  jQuery('.loading').css({'display':'block'});
 });
 jQuery('#duration').on('change', function() {
-  jQuery('.filter .loading').css({'display':'block'});
+  jQuery('.loading').css({'display':'block'});
   //jQuery('.filter .loading').show();
 });
 
