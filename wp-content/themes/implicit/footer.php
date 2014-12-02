@@ -113,7 +113,6 @@ jQuery('#duration').on('change', function() {
   jQuery('.loading').css({'display':'block'});
   //jQuery('.filter .loading').show();
 });
-
 </script>
 
 <script>

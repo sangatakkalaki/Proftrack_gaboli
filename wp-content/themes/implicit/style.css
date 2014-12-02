@@ -2192,6 +2192,7 @@ margin-top:22px !important;
 #after input[type="submit"], #after input[type="text"], #after input[type="password"] {
     height: 25px !important;
     width: 200px !important;
+	 border: 1px solid #ccc !important;
 }
 #lwa_wp-submit, #pie_regiser_form .piereg_submit_button input[type="submit"] {
     background: none repeat scroll 0 0 #2a53c1;
@@ -2248,6 +2249,7 @@ display:none;
 	}
 	#reg_form .lwa-register-form input {
     width: 200px;
+	 border: 1px solid #ccc !important;
 	}
 	.log #wp-social-login-connect-options
 	{
@@ -2280,7 +2282,7 @@ display:none;
 	}
 	.lwa-status,.lwa-status-confirm,.lwa-status-invalid
 	{
-	margin-left: 168px !important;
+	margin-left: 31px !important;
     width: 200px;
 	}
 	.form-control
@@ -2334,5 +2336,156 @@ a.lwa-links-register.lwa-links-modal {
     #reg_form{
     	margin-left:140px;
     }
+.subTitle li {
+display: inline;
+/*border-right: 2px solid #5F5F60;*/
+}
+.subTitle .last{
+border-right: 0px !important;
+}
+.subTitle {
+margin-left: -40px !important;
+}
+.subTitle span{
+	font-size: 12px;
+}
+@media (min-width: 990px) and (max-width: 1100px) 
+{#search-2 #searchsubmit
+{
+position:relative;
+left:-184px;
+top:8px;
+background-size:40px 40px;
+}}
+@media (min-width: 992px) and (max-width: 1005px) 
+{#search-2 #searchsubmit
+{position:relative;left:-164px;background-size:22px 27px;top:15px;
+}}
+@media (min-width: 1001px) and (max-width: 1010px) 
+{#search-2 #searchsubmit
+{position:relative;left:-182px;background-size:22px 27px;top:15px;}}
 
-@media (min-width: 990px) and (max-width: 1100px) {#search-2 #searchsubmit{position:relative;left:-184px;top:8px;background-size:40px 40px;}@media (min-width: 992px) and (max-width: 1005px) {#search-2 #searchsubmit{position:relative;left:-180px;background-size:22px 27px;top:15px;}@media (min-width: 1001px) and (max-width: 1010px) {#search-2 #searchsubmit{position:relative;left:-182px;background-size:22px 27px;top:15px;}@media (min-width: 1101px) and (max-width: 1500px) {#search-2 #searchsubmit{position:relative;left:-208px;top:15px;background-size:22px 27px;}
+@media (min-width: 1101px) and (max-width: 1500px) 
+{#search-2 #searchsubmit{position:relative;left:-265px;top:5px;background-size:39px 44px;}}
+#regg
+{
+margin-top:0px;
+}
+@media (min-width: 400px) and (max-width: 450px)
+{
+#after input[type="submit"], #after input[type="text"], #after input[type="password"] 
+{
+width:170px! important;
+}
+}
+@media (min-width: 320px) and (max-width: 399px)
+{
+#after input[type="submit"], #after input[type="text"], #after input[type="password"] 
+{
+width:125px! important;
+}
+}
+@media (min-width: 280px) and (max-width: 319px)
+{
+#after input[type="submit"], #after input[type="text"], #after input[type="password"] 
+{
+width:82px! important;
+}
+}
+.lwa-submit-button #lwa_wp-submit:hover
+{
+background:#000000;
+}
+#social #wp-social-login-connect-with
+{
+display:none;
+}
+
+@media (min-width: 350px) and (max-width: 399px)
+{
+#reg
+{
+width:337px !important;
+padding-right:11px !important;
+}
+.lwa-modal
+{
+margin-left:-167px !important;
+}
+#reg_form .lwa-register-form input {
+    width: 144px;
+	font-size:12px;
+}
+.lwa-username,.lwa-email,#pass1-p,#pass2-p
+{
+height:33px !important;
+}
+
+#social
+{
+width:112px;
+}
+#regg #wp-submit
+{
+margin-top:28px;
+}
+#after input
+{
+font-size:12px;
+}
+#sign_up
+{
+font-size:11px;
+}
+}
+
+
+@media (min-width: 400px) and (max-width: 454px)
+{
+#reg
+{
+width:371px !important;
+}
+.lwa-modal
+{
+margin-left:-206px !important;
+}
+#reg_form .lwa-register-form input {
+    width: 116px;
+	font-size:12px;
+}
+}
+
+@media (min-width: 455px) and (max-width: 500px)
+{
+#reg
+{
+width:434px !important;
+}
+.lwa-modal
+{
+margin-left:-221px !important;
+}
+#reg_form .lwa-register-form input {
+    width: 154px;
+	font-size:12px;
+}
+}
+@media (min-width: 501px) and (max-width: 540px)
+{
+#reg
+{
+width:470px !important;
+}
+.lwa-modal
+{
+margin-left:-232px !important;
+}
+#reg_form .lwa-register-form input {
+    width: 154px;
+}
+}
+#pass1,#pass2
+{
+padding-left:3px !important;
+}

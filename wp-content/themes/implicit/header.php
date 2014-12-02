@@ -32,16 +32,18 @@
 	
 	
 	<script>
+	document.getElementById("pass1").setAttribute('placeholder',"PASSWORD");
+	document.getElementById("pass2").setAttribute('placeholder',"CONFIRM PASSWORD");
+		
 	jQuery(document).ready(function(){
+	
 	// jQuery(".lwa-username-input input").attr("placeholder", "Username");
 		// jQuery(".lwa-password-input password").attr("placeholder", "Password");
 		jQuery("#search-2 #searchsubmit").prop('value', '');
 		jQuery("#searchsubmit").click(function () {
 				var get=jQuery("#s").val();
 		});
- // jQuery("#location_load" ).click(function() {
- // jQuery(".lwa-modal,.lwa-modal-bg").addClass('hide');
- // });
+		
     });
 
 jQuery( document ).ajaxComplete(function() {
@@ -58,6 +60,7 @@ jQuery(".lwa-modal,.lwa-modal-bg").addClass('hide');
 });*/
 function checkOpener(){
 	if(window.opener){
+	
 		<?php
 		$http_referer = $_SERVER["HTTP_REFERER"];
 		$http_referer = explode('?', $http_referer);
