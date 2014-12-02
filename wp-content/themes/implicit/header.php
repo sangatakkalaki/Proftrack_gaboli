@@ -3,7 +3,6 @@
 <?php $searcharea = __('Search area',IT_TEXTDOMAIN);?>
 <html <?php language_attributes(); ?>>
 
-
 <head>
 
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />    
