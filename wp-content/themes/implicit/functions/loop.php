@@ -6,6 +6,7 @@ if(!function_exists('it_loop')) {
 		extract($format);
 		if(empty($location)) $location = $loop; #a specified location overrides the loop parameter
 		
+		
 		#don't care about pagename if we're displaying a post loop on a content page
 		$args['pagename'] = '';
 		
