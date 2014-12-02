@@ -398,12 +398,12 @@ if(!function_exists('it_loop')) {
 								$type = trim($type);
 								//$city = !empty($city)?$city.' | ':'';
 								//$type = !empty($type)?$type.' | ':'';
-								$dates = !empty($dates)?$dates.' | ':'';
+								//$dates = !empty($dates)?$dates.' | ':'';
 								
 								
 								$rseventUp= rs_event_post_return();	
 								$rsevent = strip_tags($rseventUp, '<div class="rseventpost">');
-								//$rsevent=!empty($rsevent)?$rsevent.' | ':'';
+							
 								
 							
 							foreach((get_the_category($post->ID)) as $childcat) {
@@ -424,22 +424,46 @@ if(!function_exists('it_loop')) {
 								}
 									
 								
-								$city = !empty($city)?$city.' | ':'';
-								//$type = !empty($type)?$type.' | ':'';
-								if($rsevent!=""){
-								$rsevent1= $rsevent.' | ';
-								}
-								if($price!=""){
-								$price=$price.' | ';
-								}
-								//$rsevent1 = !empty($rsevent)?$rsevent.' | ':'';
-
-							
+								$city = !empty($city)?$city:'';
+								$type = !empty($type)?$type:'';
 								
+								if($price!=""){
+								$price=$price.'';
+								}
+								
+
 								$title.='<div class="tit_out" style="width: 295px;">';						
 								//$title.='<span class="tit_in">'.$city.$type.$dates.$price.' </span>';
+								
+								
+								$title.='<ul class="subTitle">';
+								if(($city!="") && (($type!="") || ($rsevent!="") || ($price!=""))){
+								$title.='<li><span>'.$city.' |<span></li>';
+								}
+								else{
+								$title.='<li><span>'.$city.' <span></li>';
+								}
+								
+								if(($type!="") && (($rsevent!="") || ($price!=""))){
+								$title.='<li><span> '.$type.' |</span></li>';
+								}
+								else{
+								$title.='<li><span> '.$type.' </span></li>';
+								}
+								
+								if(($rsevent!="") && ($price!="")){
+								$title.='<li><span> '.$rsevent.' |</span></li>';
+								}
+								else{
+								$title.='<li><span> '.$rsevent.' </span></li>';
+								}
+								
+								if($price!=""){
+								$title.='<li><span> '.$price.' </span></li>';
+								}
+								$title.='</ul>';
 							
-								$title.='<span class="tit_in">'.$city.$type.$rsevent1.$price.' </span>';
+								//$title.='<span class="tit_in">'.$city.$type.$rsevent1.$price.' </span>';
 								$title.='<div class="lear_p">'.$learningpro.'</div>';
 								$title.='</div>';
 					
